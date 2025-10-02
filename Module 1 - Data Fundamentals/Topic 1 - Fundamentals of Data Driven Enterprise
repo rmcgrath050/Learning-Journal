@@ -28,3 +28,51 @@ volume, variety, velocity, veracity, and value
 
 Velocity: Refers to the speed at which data is generated, collected, and processed.
 Veracity: Refers to the reliability and accuracy of the data.
+
+
+Byte > KiloByte > MegaByte > Gigabyte > petabyte > exabyte 
+
+
+
+##Fundamentals of data
+
+###Qualitative - text data
+Binomial - yes/no, true/false
+Nominal - colours, countries etc.
+Ordinal - order data , such as size, (poor,good,average) 
+
+
+###Quantitative
+Discrete - number of things, people per household etc (Fixed data) 
+Continuous - measured, (weight, height, temperature, time spent on task) 
+
+
+
+##Sources of Open and Public Data
+- Google's Dataset Search -datasetsearch.research.google.com
+- Google Scholar - scholar.google.com
+- Kaggle -www.kaggle.com
+
+
+
+##Data Types
+XML is a markup language for structuring and exchanging data between systems, promoting interoperability.
+JSON is a lightweight, human-readable format for transmitting data between servers and web applications, enhancing user experiences and performance. 
+CSV is a widely used format for storing tabular data, facilitating efficient financial management and reporting processes.
+
+
+##Cloud computing standards
+two prominent cloud computing standards: 
+
+AWS:
+Description: This framework provides for best practices in designing secure, high-performing cloud-based applications, ensuring operational excellence.
+Impact: Many web applications, including social media platforms and e-commerce websites, rely on JSON for seamless communication.
+
+Azure:
+Description: This framework provides guidance for building reliable, secure, and cost-efficient cloud solutions on Microsoft Azure, focusing on security, performance, operational excellence, and cost optimisation.
+Impact: Financial institutions often use CSV files for data integration and analysis.
+
+##Regulatory requirements
+
+General Data Protection Regulations (GDPR) - GDPR is an EU regulation governing data privacy and consent,
+ISO 27001 - ensuring the confidentiality, integrity, and availability of data and information assets.
