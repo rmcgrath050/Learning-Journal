@@ -1,3 +1,7 @@
+Ideas for this mod:
+- which data formats do lloyds deal with and show example here of how this is handled? eg CSV files , though stored procedure 
+- 
+
 
 ##What role do data engineers play in ensuring data quality?
 Accuracy
@@ -111,6 +115,49 @@ To mitigate character encoding issues in XML documents, several measures can be 
 Schema validation
 Non-compliance with the schema can lead to data inconsistency, interoperability issues, and errors during data processing. 
 Adhering to a defined schema helps maintain data consistency and ensures compatibility with other systems or applications that rely on the XML data.
+
+#Lession 4 - Navigating quality issues in CSV data formats
+
+ CSV serve as a standard format for exchanging data between different systems and platforms
+
+Pros - Human readable, Simple Structure
+Cons - Lack of standardisation, Limited data types + Fragility: They are susceptible to errors due to inconsistent use of delimiters and line terminators
+
+
+Quality issue 1: Inconsistent formats
+Delimiters, encapsulators, and line terminators are essential components in CSV files. 
+Delimiters separate fields, encapsulators enclose fields with special characters, and line terminators indicate the end of a record.
+Solution : To mitigate this challenge and data quality issue you can standardise the use of delimiters, encapsulators, and line terminators across all CSV files.
+
+Quality issue 2 : Data type mismatch
+The absence of explicit data types in CSV files can result in misinterpretation of data, leading to incorrect analysis. 
+Solution : To mitigate this challenge and data quality issue you can provide metadata or schema information alongside CSV files to specify data types. 
+You can also perform data validation and type casting during parsing to ensure consistency. 
+
+Quality issue 3 : Header misalignment
+Missing or misaligned headers in CSV files can lead to errors in data mapping and processing
+Solution :  To mitigate this challenge and data quality issue its important to ensure that all CSV files have consistent headers and alignment. 
+Implement error handling mechanisms to detect and rectify header misalignment issues.  
+
+
+#Lesson 5 - Navigating quality issues in JSON data formats
+JavaScript Object Notation (JSON), is a lightweight data interchange format that offers simplicity and efficiency.
+We'll also address challenges like nesting complexity, key-value pair integrity, and efficient management of large JSON datasets.
+
+JSON has become the preferred data format for web applications and Application Programming Interfaces (APIs) due to its simplicity, flexibility, 
+and compatibility with JavaScript.
+It is widely used for transmitting data between a server and a web application, making it an integral part of modern web development. 
+
+An API is a set of protocols, routines, and tools that specify how software components should interact and communicate with each other. 
+
+Pros - Human readable, lightweight (lighter file size) , and native JavaScript support
+Cons:
+1. Unlike XML, JSON does not have a built-in mechanism for defining a schema, which can lead to issues with data validation and consistency
+2. Limited data types: JSON supports only a limited set of data types which may not be sufficient for all use cases
+3. Nesting complexity: Complex nested structures in JSON can complicate parsing and processing, leading to performance issues
+
+
+
 
 
 
