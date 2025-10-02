@@ -97,13 +97,20 @@ Cons include:
 2. Parsing overhead: Processing XML documents requires parsing, which can be computationally intensive
 3. Lack of schema enforcement: XML does not enforce strict data validation rules by default, leading to potential issues with data quality and integrity
 
-
+###Soultions:
 Parsing errors:
 To mitigate these issues, it's essential to validate XML documents against predefined schemas, use robust XML parsers, 
 implement error handling mechanisms, sanitise data before parsing, and conduct regular testing and validation. 
 
+Character encoding issues:
+To mitigate character encoding issues in XML documents, several measures can be taken, including:
+1. Standardise character encoding: Use a consistent character encoding scheme throughout XML documents, such as UTF-8 or UTF-16,
+2. Encode special characters: Properly encode special characters
+3. Validate encoding: Validate XML documents to ensure that character encoding declarations match the actual encoding used within the document.
 
-
+Schema validation
+Non-compliance with the schema can lead to data inconsistency, interoperability issues, and errors during data processing. 
+Adhering to a defined schema helps maintain data consistency and ensures compatibility with other systems or applications that rely on the XML data.
 
 
 
