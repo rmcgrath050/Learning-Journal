@@ -1,7 +1,12 @@
 Ideas for this mod:
 - which data formats do lloyds deal with and show example here of how this is handled? eg CSV files , though stored procedure 
-- 
+- Talk to Robbie about how data policies - Data access groups how these are set up within server , how different types of access works in business , what is process here
+- Also raising a change in business (speak to Robbie ) might fall into different cat
 
+
+Off the job learning:
+-built archeiving table to receive data - but then i didnt built the arhieving procedure so not sure this counts? 
+- does otf learning need to be brand new learning or something in day to day role ive done before? 
 
 ##What role do data engineers play in ensuring data quality?
 Accuracy
@@ -23,6 +28,7 @@ Example of open standards include:
 Industry-specific standards (e.g., HL7 in healthcare)
 Cross-industry standards (e.g., Unicode, HTTP, TCP/IP)
 Open data standards (e.g., OData, OpenAPI)
+
 
 
 Banks, Financial, and Professional Services:
@@ -141,6 +147,7 @@ Implement error handling mechanisms to detect and rectify header misalignment is
 
 
 #Lesson 5 - Navigating quality issues in JSON data formats
+
 JavaScript Object Notation (JSON), is a lightweight data interchange format that offers simplicity and efficiency.
 We'll also address challenges like nesting complexity, key-value pair integrity, and efficient management of large JSON datasets.
 
@@ -155,6 +162,55 @@ Cons:
 1. Unlike XML, JSON does not have a built-in mechanism for defining a schema, which can lead to issues with data validation and consistency
 2. Limited data types: JSON supports only a limited set of data types which may not be sufficient for all use cases
 3. Nesting complexity: Complex nested structures in JSON can complicate parsing and processing, leading to performance issues
+
+
+Issue 1: Nesting complexity
+JSON allows for deeply nested structures, where objects can contain other objects or arrays of objects. 
+While this flexibility is beneficial for representing complex data, it can also complicate parsing and increase processing time, especially for large datasets. 
+
+issue 2: Key-value pair integrity
+The key serves as an identifier for the associated value, allowing for easy retrieval and manipulation of data. 
+Consistent key naming is essential in JSON to ensure the integrity and usability of the data.
+must establish naming conventions and validation rules to maintain key-value pair integrity across JSON documents!
+
+issue 3: Data volume
+Data engineers must consider the scalability and performance implications of working with large JSON datasets and implement appropriate solutions to address these challenges.
+Strategies for efficient processing include data streaming, pagination, compression, and distributed processing.
+
+
+#Lesson 6 - A brief guide to responsible data handling
+
+##Data policies
+Data policies are formalised guidelines and procedures that govern how data is collected, managed, used, and protected within an organisation. 
+Their primary purpose is to ensure that data is handled responsibly, ethically, and in compliance with relevant laws and industry standards.
+
+Manged via:
+Data access and usage policies
+To safeguard data privacy and security, prevent unauthorised access or misuse, and ensure that data is used appropriately for legitimate business purposes
+
+
+###Data retention and archiving policies 
+where it should be stored, and when it should be securely disposed of or archived
+Purpose: To manage storage resources efficiently, comply with legal and regulatory requirements, and minimise the risks associated with retaining unnecessary data
+
+###Data sharing policies
+These policies govern the sharing of data with external parties, such as partners, vendors, or regulatory authorities.
+To establish guidelines for data exchange agreements, ensure compliance with data protection regulations, and protect intellectual property and sensitive information
+
+A data sharing policy must consider consent, data subject rights, and data minimisation principles outlined in the General Data Protection Regulations (GDPR).
+
+##Key Principles of GDPR
+- Lawfulness, fairness and transparency 
+- Purpose Limitation
+- Data Minimisation
+- Accuracy
+- Accountability and Transparency 
+- Storage limitation
+- Integrity and confidentiality 
+
+
+
+
 
 
 
