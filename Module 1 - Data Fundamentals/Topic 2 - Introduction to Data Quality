@@ -209,13 +209,31 @@ A data sharing policy must consider consent, data subject rights, and data minim
 - Integrity and confidentiality 
 
 
+They must integrate consent management features into systems to enable easy withdrawal of consent and maintain compliant record-keeping practices.
+
+#Leason 7 - Common strategies for ensuring data quality
+
+##Examples of automated validation tools: 
+
+Daily quality management Platforms 
+Platforms like Informatica Data Quality, Talend Data Quality, and IBM InfoSphere Information Analyser offer comprehensive data quality management solutions
+These platforms provide functionalities such as data profiling, cleansing, standardisation, and enrichment, 
+enabling organisations to ensure the accuracy and consistency of their data.
+
+Data Profiling Software
+Tools like SAS Data Quality and Oracle Data Profiling enable organisations to analyse the structure, content, and quality characteristics of their data. 
+These tools identify data anomalies, such as missing values, duplicate entries, and formatting errors, helping organisations
+understand the overall quality of their data and prioritise areas for improvement.
 
 
+Data Validation Frameworks
+Frameworks like Apache Griffin and Great Expectations provide open-source solutions for validating and monitoring data quality. 
+These frameworks offer customisable rules and metrics for assessing data quality, enabling organisations to define and enforce data quality standards according to their specific requirements.
 
 
-
-
-
-
+##Benefits of Continuous Data Montioring 
+Real-time anomaly detection - Continuous monitoring spots data anomalies instantly, averting data degradation and ensuring data reliability 
+Proactive quality assurance - Monitoring data quality metrics in real-time lets organisations proactively address issues/failures before they disrupt live operations, maintaining data integrity 
+Timely corrections - again minising disruption
 
 
