@@ -1,1 +1,50 @@
 
+##What role do data engineers play in ensuring data quality?
+Accuracy
+Integrity
+Consistency 
+Timeliness
+
+
+##Introducing open standards
+
+They are like the rules of a game, designed so everyone plays by the same rules
+Compatibility: They help different systems and tools talk to each other smoothly
+Flexibility: You're not locked into using products from just one company
+Innovation: Encourages new ideas and improvements by allowing more people to contribute
+Cost-effective: Often free to use, which can save money on technology costs
+
+
+Example of open standards include:
+Industry-specific standards (e.g., HL7 in healthcare)
+Cross-industry standards (e.g., Unicode, HTTP, TCP/IP)
+Open data standards (e.g., OData, OpenAPI)
+
+
+Banks, Financial, and Professional Services:
+ISO 20022 for electronic data interchange in finance
+FIX (Financial Information eXchange) protocol for real-time electronic exchange of securities transactions
+XBRL (eXtensible Business Reporting Language) for financial reporting
+ACORD (Association for Cooperative Operations Research and Development) standards for insurance industry
+
+
+##The FAIR data standard:
+Findable e.g assigning unique identifiers, creating a metadata catalogue
+Accessible eg accessed by users and systems
+Interoperable e.g integrated with other datasets and systems,
+Reusability
+
+
+##Data and Metadata Standards
+
+Example incudes:
+###Open Banking Standards -
+Define technical specifications and APIs for securely sharing banking data between banks and
+third-party service providers, promoting competition and innovation in financial services 
+
+
+
+
+
+
+
