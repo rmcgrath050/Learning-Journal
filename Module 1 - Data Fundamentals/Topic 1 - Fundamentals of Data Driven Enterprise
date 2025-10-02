@@ -78,6 +78,11 @@ In class Sam also mentioned OpenAPI.
 General Data Protection Regulations (GDPR) - GDPR is an EU regulation governing data privacy and consent,
 ISO 27001 - ensuring the confidentiality, integrity, and availability of data and information assets.
 
+
+Important technological standards for data engineering include data formats like JSON, CSV, XML, 
+API standards like REST and OpenAPI Specification, and cloud computing standards like AWS Well-Architected Framework
+
+
 ##Data stewardship principles
 Data quality - Ensuring accuracy and reliability for informed decision-making
 Data governance - Establishing policies for managing data assets throughout their lifecycle
@@ -93,3 +98,5 @@ Data documentation - Understanding Data systems/data
 
 
 Pandas (styled as pandas) is a software library written for the Python programming language for data manipulation and analysis. 
+
+
