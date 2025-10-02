@@ -1,1 +1,30 @@
+##Building a Data driven Dashboard
 
+Can you think of any metrics that could be tracked to provide valuable data-driven insights in your organisation
+(these can be HR-related or something else)?
+
+###Investigate Business principles againset elearning! 
+
+1. Customer acquisition and retention rates
+2. Sales productivity and revenue metrics
+3. Compliance and risk management indicators
+4. Employee certification and licensing data
+5. Branch/office performance and efficiency metrics
+
+ Additionally, it's crucial to consider industry best practices and benchmarks when selecting and analysing these metrics.
+
+
+##The transition from small to big data
+1. Overwhelming data: Simple tools and databases that once sufficed for data storage and analysis become inadequate.
+2. Performance bottlenecks: Existing systems may struggle to process data efficiently, leading to delays and reduced productivity.
+3. Missed opportunities: The inability to leverage data for predictive insights or to identify trends and patterns, which are crucial for strategic planning.
+
+
+##The Characteristics of Data
+--had some of my own notes to add from lecture here 
+
+The 5 Vs of data offer a simple framework to grasp these fundamental attributes: 
+volume, variety, velocity, veracity, and value
+
+Velocity: Refers to the speed at which data is generated, collected, and processed.
+Veracity: Refers to the reliability and accuracy of the data.
