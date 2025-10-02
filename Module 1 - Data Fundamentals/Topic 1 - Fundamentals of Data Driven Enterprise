@@ -72,7 +72,24 @@ Azure:
 Description: This framework provides guidance for building reliable, secure, and cost-efficient cloud solutions on Microsoft Azure, focusing on security, performance, operational excellence, and cost optimisation.
 Impact: Financial institutions often use CSV files for data integration and analysis.
 
-##Regulatory requirements
+In class Sam also mentioned OpenAPI. 
 
+##Regulatory requirements
 General Data Protection Regulations (GDPR) - GDPR is an EU regulation governing data privacy and consent,
 ISO 27001 - ensuring the confidentiality, integrity, and availability of data and information assets.
+
+##Data stewardship principles
+Data quality - Ensuring accuracy and reliability for informed decision-making
+Data governance - Establishing policies for managing data assets throughout their lifecycle
+Data ethics - Adhering to ethical guidelines for responsible data usage
+
+
+##Engineering best practices
+Always think the worse case scenario for continuous improvement! 
+Scability - Growing data
+Reliability - Implementing redundancy and disaster recovery mechanisms
+Secuirty - Encryption 
+Data documentation - Understanding Data systems/data
+
+
+Pandas (styled as pandas) is a software library written for the Python programming language for data manipulation and analysis. 
