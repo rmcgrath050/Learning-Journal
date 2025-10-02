@@ -42,6 +42,65 @@ Example incudes:
 Define technical specifications and APIs for securely sharing banking data between banks and
 third-party service providers, promoting competition and innovation in financial services 
 
+###UK Data Service - The UK Data Service is a repository of socioeconomic research data, 
+promoting data standards such as sharing best practices across teams and data management frameworks
+
+
+##DCMI
+The Dublin Core Metadata Initiative (DCMI) offers a set of metadata standards used to describe resources in various domains. 
+Its core elements provide a basic framework for describing digital resources such as documents, images, videos, and web pages. 
+
+
+##Challenges of unstandardised data
+Data silos: Without standardised formats and structures, data often becomes siloed within different departments or systems, hindering collaboration and intergrated analysis.
+Inconsistencies: Lack of standards leads to inconsistencies in data representation, making it difficult to integrate and analyse data across different sources
+Integration issues: Integrating data from disparate sources becomes challenging due to differences in formats, schemas, and semantics
+
+These challenges are overcome though: 
+- Facilitating data sharing eg though frameworks etc
+- Promoting collaboration eg Standardised data formats and protocols enable seamless collaboration
+- Enhancing interoperability eg allowing diverse systems to communicate and work together
+
+
+#Lesson 3 : Navigating quality issues in XML data formats
+
+##Structured and unstructured data
+Structured - Data with a defined data type, format, and structure.
+Semi Structured - Textual data files with a discernable pattern that allows them to be parsed easily. Examples include XMLs and JSONs. 
+Unstructured - Data that has no inherent structure and is usually stored as different types of files such as text documents, PDFs, images, and video. 
+
+Key factors to consider when choosing a data format: 
+- Evaluate the intended purpose of the data and how it will be processed and analysed. 
+- Consider the availability of tools and libraries that support the chosen data format
+- Assess the performance characteristics of the data format, including efficiency in data storage (file size) , transmission, and processing. 
+- Evaluate the interoperability of the data format across different systems, platforms, and programming languages. 
+- Consider the data integrity and security features offered by the data format, such as built-in error detection and correction mechanisms, 
+  encryption support, and access control mechanisms. 
+
+
+ ##XML data format
+XML is a more general-purpose language used for describing and structuring data in a wide range of applications, 
+including web services, document management, and data exchange. Mastery of XML enables engineers to parse, transform, and 
+integrate data seamlessly across diverse systems and platforms. 
+
+1. Human and machine readable
+2. Tagging - It uses tags to define elements within a document
+3. Hierarchical structure - XML documents have a hierarchical structure with nested elements, similar to HTML but with more flexibility and extensibility
+
+Pros include:
+1. Human readable
+2. Flexibility in representing diverse types of data
+3. Interoperability: XML serves as a universal format for data exchange
+
+Cons include:
+1. Verbose syntax: XML documents can become overly complex and repetitive
+2. Parsing overhead: Processing XML documents requires parsing, which can be computationally intensive
+3. Lack of schema enforcement: XML does not enforce strict data validation rules by default, leading to potential issues with data quality and integrity
+
+
+Parsing errors:
+To mitigate these issues, it's essential to validate XML documents against predefined schemas, use robust XML parsers, 
+implement error handling mechanisms, sanitise data before parsing, and conduct regular testing and validation. 
 
 
 
