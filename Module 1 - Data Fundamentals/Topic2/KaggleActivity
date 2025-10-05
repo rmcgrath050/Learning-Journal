@@ -1,1 +1,41 @@
 
+
+
+What is the usability score of this dataset and is it “good” or “bad”? Good, 8.8
+How is this usability score calculated? 
+
+Completeness · 100%
+Subtitle
+Tag
+Description
+Cover Image
+Credibility · 33%
+Source/Provenance
+Public Notebook
+Update Frequency
+Compatibility · 100%
+License
+File Format
+File Description
+Column Description
+
+What are the two credibility issues with this dataset and why are they important?
+Missing coverage refers to gaps or incomplete representations within a dataset, leading to biased or skewed results as the 
+analysis may not capture the full picture.
+Missing provenance, on the other hand, means a lack of information about the data's origin, sources, and transformations, 
+making it difficult to assess the trustworthiness and accuracy of the data, as well as trace back and address any potential 
+issues or errors.
+
+Tags to explain the dataset is also very useful! 'Clean dataset', 
+
+How many columns does this dataset have? 35 
+
+What is the licence for this dataset and how would you summarise the usage rights in your own words?
+Database Contents License - 
+The license lets you use the contents of the database freely — including for commercial purposes. 
+You can copy, share, modify, and even sublicense the contents (anything protected by copyright). 
+However, you must follow the rules of the Open Database License (ODbL), which governs the database as a whole.
+The license does not cover database rights — only the copyright in the content. 
+The licensor also makes no promises about the accuracy of the content and is not responsible for any problems that result from using it.
+
+
