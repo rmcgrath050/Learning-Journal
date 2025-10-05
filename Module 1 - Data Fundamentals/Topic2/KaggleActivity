@@ -39,3 +39,21 @@ The license does not cover database rights — only the copyright in the content
 The licensor also makes no promises about the accuracy of the content and is not responsible for any problems that result from using it.
 
 
+
+
+What is the possible issue in identifying the meaning of the column named 'YearsSinceLastPromotion', 
+especially when interpreting the value of '0' in one of the fields?
+No context to when last promotion was, 0 has no context 
+
+Compare the contents of the column 'Over18' and 'OverTime', what data quality issue can you identify?
+inconsistant entries for same data
+
+What are some possible issues with the data quality of 'MonthlyIncome' and 'Monthly Rate'?
+no freuqencies provided , no currency /percentage data types provided
+
+How would you validate the 'EmployeeNumber' column and what needs paying special attention to?
+unqiue column, make it also non null
+
+
+
+
