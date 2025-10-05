@@ -7,6 +7,11 @@ Ideas for this mod:
 Off the job learning:
 -built archeiving table to receive data - but then i didnt built the arhieving procedure so not sure this counts? 
 - does otf learning need to be brand new learning or something in day to day role ive done before? 
+- Week 2  - Based on the insights gained from data profiling, the company established data quality rules and constraints to address the identified issues.  - Implementated primary keys 
+on tables ? - however i do this as part of my role (preventing errors and duplicate entries in the database.)
+- weeks 2 downloaded phython , followed correct documentation to install this
+
+
 
 ##What role do data engineers play in ensuring data quality?
 Accuracy
@@ -235,5 +240,73 @@ These frameworks offer customisable rules and metrics for assessing data quality
 Real-time anomaly detection - Continuous monitoring spots data anomalies instantly, averting data degradation and ensuring data reliability 
 Proactive quality assurance - Monitoring data quality metrics in real-time lets organisations proactively address issues/failures before they disrupt live operations, maintaining data integrity 
 Timely corrections - again minising disruption
+
+##UDIS 
+Definition: Unique identifiers (UIDs) are codes or numbers assigned to individual data records to distinguish them from others eg.primary keys 
+
+
+#Lesson 8 - Data testing methodologies
+
+###Horizontal Testing!
+Consitancy around mutiple datasources,
+
+###Historical analysis
+Track changes in data quality over time and ensure the long-term integrity of the data. also measure trends 
+
+###Rule Based testing
+validation of data against predefined rules or criteria
+
+###Statistical testing
+identify anomalies and outliers within datasets using advanced statistical methods. 
+eg. An e-commerce platform detecting fraudulent transactions based on purchasing patterns
+
+Open-source libraries:
+Griffin
+pros: Cost-effective, community support, customisable.
+cons: Limited features, may require technical expertise for customisation.
+
+Informatica:
+pros: Comprehensive features, user-friendly interfaces, company support.
+cons: Costly licensing fees, dependency on vendor roadmap for updates.
+
+manual data testing
+1. Sampling: Selecting a representative subset of data for detailed analysis, allowing data analysts 
+    to uncover potential issues without examining the entire dataset
+
+2. Spot-checking: Randomly selecting individual data points or records to verify their accuracy and consistency 
+    with expected values or patterns
+
+3. Data validation through comparison with trusted sources: Cross-referencing data against authoritative or 
+    verified sources to validate its accuracy 
+
+
+
+##Summary
+
+1. Data quality metrics, such as accuracy, integrity, consistency, and timeliness, are crucial for ensuring
+    data meets technical and business requirements
+
+2. Open standards and metadata play a vital role in promoting interoperability and data sharing across systems 
+    and organisations
+
+3. Navigating quality issues in common data formats like XML, CSV, and JSON is essential for seamless data
+    exchange and integration
+
+4. Data quality management strategies, including data profiling, validation, and monitoring, are necessary
+    for maintaining data accuracy and reliability
+
+5.  Adhering to data protection regulations, such as GDPR, and implementing robust data governance 
+    frameworks are critical for responsible data handling
+
+6. Data testing methodologies, including horizontal testing, historical analysis, rule-based testing, and statistical testing,
+    help identify and mitigate data quality issues
+
+7. Utilising data quality testing tools, frameworks, and manual testing techniques contributes
+    to comprehensive data quality assurance
+
+
+
+
+
 
 
