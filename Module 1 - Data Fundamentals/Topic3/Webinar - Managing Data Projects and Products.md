@@ -18,7 +18,7 @@ Frameworks like Scrum and Kanban help planning in DE, with emphasis with felxibi
 - close collaboration
 - responding to change 
 - iterative development 
-- felxible planning 
+- flexible planning 
 - effective feedback loops 
 - responsiveness to change 
 
