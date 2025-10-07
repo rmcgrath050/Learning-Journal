@@ -1,4 +1,4 @@
-#Introduction to data quality
+# Introduction to data quality
 
 
 Ideas for this mod:
@@ -138,23 +138,23 @@ Pros - Human readable, Simple Structure
 Cons - Lack of standardisation, Limited data types + Fragility: They are susceptible to errors due to inconsistent use of delimiters and line terminators
 
 
-Quality issue 1: Inconsistent formats
+<b>Quality issue 1: Inconsistent formats</b><br>
 Delimiters, encapsulators, and line terminators are essential components in CSV files. 
 Delimiters separate fields, encapsulators enclose fields with special characters, and line terminators indicate the end of a record.
 Solution : To mitigate this challenge and data quality issue you can standardise the use of delimiters, encapsulators, and line terminators across all CSV files.
 
-Quality issue 2 : Data type mismatch
+<b>Quality issue 2 : Data type mismatch</b><br>
 The absence of explicit data types in CSV files can result in misinterpretation of data, leading to incorrect analysis. 
 Solution : To mitigate this challenge and data quality issue you can provide metadata or schema information alongside CSV files to specify data types. 
 You can also perform data validation and type casting during parsing to ensure consistency. 
 
-Quality issue 3 : Header misalignment
+<b>Quality issue 3 : Header misalignment</b><br>
 Missing or misaligned headers in CSV files can lead to errors in data mapping and processing
 Solution :  To mitigate this challenge and data quality issue its important to ensure that all CSV files have consistent headers and alignment. 
 Implement error handling mechanisms to detect and rectify header misalignment issues.  
 
 
-#Lesson 5 - Navigating quality issues in JSON data formats
+## Lesson 5 - Navigating quality issues in JSON data formats
 
 JavaScript Object Notation (JSON), is a lightweight data interchange format that offers simplicity and efficiency.
 We'll also address challenges like nesting complexity, key-value pair integrity, and efficient management of large JSON datasets.
@@ -172,21 +172,21 @@ Cons:
 3. Nesting complexity: Complex nested structures in JSON can complicate parsing and processing, leading to performance issues
 
 
-Issue 1: Nesting complexity
+<b>Issue 1: Nesting complexity</b><br>
 JSON allows for deeply nested structures, where objects can contain other objects or arrays of objects. 
 While this flexibility is beneficial for representing complex data, it can also complicate parsing and increase processing time, especially for large datasets. 
 
-issue 2: Key-value pair integrity
+<b>Issue 2: Key-value pair integrity</b><br>
 The key serves as an identifier for the associated value, allowing for easy retrieval and manipulation of data. 
 Consistent key naming is essential in JSON to ensure the integrity and usability of the data.
 must establish naming conventions and validation rules to maintain key-value pair integrity across JSON documents!
 
-issue 3: Data volume
+<b>Issue 3: Data volume</b><br>
 Data engineers must consider the scalability and performance implications of working with large JSON datasets and implement appropriate solutions to address these challenges.
 Strategies for efficient processing include data streaming, pagination, compression, and distributed processing.
 
 
-#Lesson 6 - A brief guide to responsible data handling
+## Lesson 6 - A brief guide to responsible data handling
 
 ## Data policies
 Data policies are formalised guidelines and procedures that govern how data is collected, managed, used, and protected within an organisation. 
@@ -219,9 +219,9 @@ A data sharing policy must consider consent, data subject rights, and data minim
 
 They must integrate consent management features into systems to enable easy withdrawal of consent and maintain compliant record-keeping practices.
 
-# Leason 7 - Common strategies for ensuring data quality
+## Leason 7 - Common strategies for ensuring data quality
 
-## Examples of automated validation tools: 
+### Examples of automated validation tools: 
 
 Daily quality management Platforms 
 Platforms like Informatica Data Quality, Talend Data Quality, and IBM InfoSphere Information Analyser offer comprehensive data quality management solutions
@@ -248,7 +248,7 @@ Timely corrections - again minising disruption
 Definition: Unique identifiers (UIDs) are codes or numbers assigned to individual data records to distinguish them from others eg.primary keys 
 
 
-# Lesson 8 - Data testing methodologies
+## Lesson 8 - Data testing methodologies
 
 ### Horizontal Testing!
 Consitancy around mutiple datasources,
