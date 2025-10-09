@@ -88,10 +88,24 @@ Consider:
 Epic user stories is a high level description, which then is broken down into components 
 
 ## Agile Scrum <br> 
-
+<br>
 <img width="1450" height="774" alt="image" src="https://github.com/user-attachments/assets/c450b65b-64e4-4b30-8ea0-57eba966266e" />
 
+  
+<br>
+### Lean Pillars <br> 
+<br>
+<img width="584" height="396" alt="image" src="https://github.com/user-attachments/assets/98e04bd2-1f11-4b64-9c45-7efce09628c4" />
 
+
+### Lean Software Development<br> 
+<br>
+
+<img width="784" height="534" alt="image" src="https://github.com/user-attachments/assets/a40f6356-f693-4811-b022-67441d40afb3" />
+
+<br> 
+<br>
+<img width="1330" height="714" alt="image" src="https://github.com/user-attachments/assets/5effc73f-d253-43ce-8b47-59a5a3c9734c" />
 
 
 
