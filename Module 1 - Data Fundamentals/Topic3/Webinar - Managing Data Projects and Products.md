@@ -46,7 +46,58 @@ tools used eg. Atlassian Jira
 - Scrope 
 - Vision
 
-Sprint Planning
+## Sprint Planning
+- debate focused
+
+A burnout chart is a visual representation of the work remaining in a sprint or project over time
+
+### Scrum Boars and Sprint Backlog
+
+A scrum board represents backlog why to do , in porgress and done columns<br>
+Also can have develop test, deploy columns<br>
+Backlog grooming  - onngoing frooming means backlog items are sprint ready
+
+<b>Sprint review</b> - geeting feedback at end of sprint, what we have done<br> 
+<b>Sprint Retrospectivie<b/> - How we could have done better, what worked well, what we can commit to do in next sprint? <br>
+
+## Defination of Done
+<br>
+<img width="729" height="539" alt="Screenshot 2025-10-09 at 08 48 35" src="https://github.com/user-attachments/assets/5b8aaede-b6db-4f0c-b99a-be59503356de" />
+
+
+## Writing User Stories
+
+What is a user story? <br>
+at end sprint, user stories is expected outcomes of the user, 
+bringing user requirements to life with specific examples 
+
+
+Consider:
+-  Specificity
+-  Acceptance criteria
+-  User perspective
+-  Objectives
+-  INVEST, independable, negotiable, Valuable, estimable, 
+
+
+### User Story Checklist
+
+<img width="1270" height="1194" alt="image" src="https://github.com/user-attachments/assets/05508c46-3ecf-4937-95e9-1b69e16c28ee" />
+
+
+Epic user stories is a high level description, which then is broken down into components 
+
+## Agile Scrum <br> 
+
+<img width="1450" height="774" alt="image" src="https://github.com/user-attachments/assets/c450b65b-64e4-4b30-8ea0-57eba966266e" />
+
+
+
+
+
+
+
+
 
 
 
