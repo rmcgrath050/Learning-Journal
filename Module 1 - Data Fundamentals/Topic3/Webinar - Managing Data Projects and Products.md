@@ -145,8 +145,26 @@ The "5 Whys" technique is used to systematically identify the root cause of a pr
 
 ## Lesson 6: Effective stakeholder engagement
 
+User-centric requirements capture: Utilise concise, human-centric user stories to capture stakeholder needs and ensure data solutions are aligned with end-user requirements
+
+Qualitative and observational insights: Combine structured interviews, focus groups, and direct observations to gather in-depth, nuanced understanding of user needs and pain points
+
+Collaborative workshops and personas - Foster a shared understanding of user needs through collaborative workshops and the development of detailed user personas
+
+User stories are an effective tool for capturing stakeholder requirements in a concise, user-centric manner, helping to bridge the gap between technical teams and business stakeholders. 
 
 
+## Summary
+
+- Agile methodologies offer greater flexibility and responsiveness to change compared to the linear Waterfall approach, making them well-suited for dynamic data science projects
+
+- Scrum and Kanban provide structured Agile frameworks that empower data teams to collaborate effectively, manage workflows, and continuously improve their processes
+
+- Lean principles focus on eliminating waste and optimising processes, while Six Sigma aims to reduce variability and defects
+
+- Comprehensive stakeholder engagement, through methods like user stories, interviews, and collaborative workshops, is crucial for aligning data solutions with the needs of end-users and business stakeholders
+
+- The sprint retrospective is a valuable Scrum ceremony that fosters a culture of continuous learning, empowering data teams to openly discuss successes, failures, and implement insights for ongoing improvement
 
 
 
