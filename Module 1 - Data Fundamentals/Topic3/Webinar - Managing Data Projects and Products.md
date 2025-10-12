@@ -101,11 +101,54 @@ Epic user stories is a high level description, which then is broken down into co
 ### Lean Software Development<br> 
 <br>
 
+While Lean emphasises waste reduction and process optimisation, Six Sigma targets quality improvement. Let's explore how these methodologies differ and how they can be applied in the context of data engineering and analytics.
+<br>
+
 <img width="784" height="534" alt="image" src="https://github.com/user-attachments/assets/a40f6356-f693-4811-b022-67441d40afb3" />
 
 <br> 
 <br>
 <img width="1330" height="714" alt="image" src="https://github.com/user-attachments/assets/5effc73f-d253-43ce-8b47-59a5a3c9734c" />
+
+
+### Following Lean principles can help to: 
+
+Lean:
+- Identify and address data quality issues, such as missing values, outliers, or inconsistencies
+- Streamline data collection, pre-processing, and transformation workflows to improve efficiency
+- Avoid running resources that are not being efficiently utilised
+- Prevent data pipelines from being used for unnecessary tasks
+
+Six Sigma:
+- Continuously monitor and optimise data pipelines and analytical models to maintain high performance
+- Establish rigorous testing and validation procedures to ensure the accuracy and reliability of data-driven insights
+- Implement statistical process control techniques to identify and address root causes of data quality issues
+
+
+Lean methodologies encourage the elimination of non-value-adding activities and focus on streamlining processes. 
+In the context of identifying data sources and understanding data processing concepts and methods, Lean can facilitate quicker and more efficient decision-making regarding which data sources to prioritise and which data processing methods are most efficient for the task at hand. 
+
+Six Sigma adds to this by using data-driven techniques to identify variances in data quality and processing efficiency, allowing for a more precise selection of data sources and methodologies.
+
+example : The firm applies the Define, Measure, Analyse, Improve, and Control (DMAIC) process of Six Sigma to the data cleansing process. 
+
+This is how they did it:
+
+1. Define: The objective is clearly defined as reducing inaccuracies in transaction data.
+2. Measure: Current error rates are measured.
+3. Analyse: The root causes of data inaccuracies are identified (e.g., incorrect data entry, outdated information).
+4. Improve: Solutions are implemented, such as automated data validation checks and regular data quality audits.
+5. Control: New standards and controls are established to maintain the improved data quality level.
+6. Benefit: The structured approach leads to significantly reduced inaccuracies, enhancing the effectiveness of fraud detection algorithms. This results in reduced operational losses and improved customer trust.
+
+The "5 Whys" technique is used to systematically identify the root cause of a problem by asking "why" repeatedly, helping to address underlying issues rather than surface symptoms.
+
+## Lesson 6: Effective stakeholder engagement
+
+
+
+
+
 
 
 
