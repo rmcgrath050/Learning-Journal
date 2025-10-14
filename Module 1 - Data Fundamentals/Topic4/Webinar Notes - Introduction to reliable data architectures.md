@@ -51,8 +51,8 @@ why use these diagrams?
 - focus on secuirty , high level arch design
 - Shows how attackers exploit weaknesses
 -  Includes servers, databases, networks, and controls
--   Aids in proactive risk mitigation
--   Ensures data protection and system integrity
+- Aids in proactive risk mitigation
+- Ensures data protection and system integrity
 
   Attacks include : SQL injection , spoofingetc. 
 Risk migigation action such as gudies, phishing email checks 
@@ -70,8 +70,23 @@ Risk migigation action such as gudies, phishing email checks
 
 #### Example of a web based app:
 <img width="1030" height="342" alt="image" src="https://github.com/user-attachments/assets/2cd973f0-b2b0-41b6-a08e-3291d4360bee" />
+<br>
+<br>
+
+<b>Drawning Tools </b>
+- LucidChart (online)
+- Microsoft Visio (part of MS Office)
+- Dia (free software)
+- Draw.io (cloud based)
 
 
+<b>Tips </b>
+- Version Control your diagrams – they will evolve
+- Simplify when possible, split when necessary
+- Create logical groupings using polygons and colours
+- Complement diagrams with descriptions
+- Avoid too many acronyms
+- You will normally have to explain the symbols you use
 
 
 
