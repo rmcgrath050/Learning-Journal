@@ -57,5 +57,25 @@ why use these diagrams?
   Attacks include : SQL injection , spoofingetc. 
 Risk migigation action such as gudies, phishing email checks 
 
+
+## UML Component Diagram
+
+<br>
+<img width="608" height="318" alt="image" src="https://github.com/user-attachments/assets/2b8a22b0-b308-464c-992a-8eb33995da78" />
+
+## System Componet Diagrams
+<br>
+<br>
+<img width="1058" height="334" alt="image" src="https://github.com/user-attachments/assets/7dcf12f0-8454-4b57-9cd6-23845da59517" />
+
+#### Example of a web based app:
+<img width="1030" height="342" alt="image" src="https://github.com/user-attachments/assets/2cd973f0-b2b0-41b6-a08e-3291d4360bee" />
+
+
+
+
+
+
+
   
 
