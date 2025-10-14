@@ -113,5 +113,38 @@ The purpose of a UML component diagram is to show the relationship between diffe
 <img width="1222" height="468" alt="image" src="https://github.com/user-attachments/assets/ca4d4596-7ee2-428a-8f5b-08538813e512" />
 
 
+<br> 
+
+## Architecture Problem Space
+
+What is the current user experience or product?
+- What are the problems?
+- How can it be improved?
+- What assumptions have you made?
+- New product or user experience?
+- How do you think your propose design ideas support, change or extend current ways of doing things?
+
+## Data Mesh Principles
+
+A mesh is a technical approach to distrubed data ownership.
+Domian driven,  ecosytem Goverance, Self serve infrastructure as a Platform 
+
+<b>Data silos (each owner having storage mine cant use it ) > central data > leads to data mesh </b>
+<br>
+<br>
+
+<img width="1044" height="522" alt="image" src="https://github.com/user-attachments/assets/e16c883f-f11f-4b55-ad41-5cba63d2a625" />
+
+<br>
+<br>
+
+## Summary 
+
+- Architecture diagrams are crucial for managing complexity and change in data systems
+- Diagrams help convey key system aspects, initiate discussions, and provide different perspectives
+- Applying lenses, layers, and chunks enhances system comprehensibility and adaptability
+- Public cloud computing offers powerful capabilities for reliable data architectures
+- Data Mesh promotes decentralised data ownership and empowers domain-driven data management
+
 
 
