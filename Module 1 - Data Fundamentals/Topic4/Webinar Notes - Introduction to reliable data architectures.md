@@ -35,4 +35,27 @@ A Design Diagram
 - Focuses on one part of the system and shows its building blocks
 
 
+why use these diagrams?
+- helps with planning
+- understand what teams are needed in delivery
+- defines structure and high level decisions that guide how the system is built
+- easy to see how systems will flow to each other
+- can be viewed though various levels
+
+## Explaining FLowcharts
+
+<img width="1924" height="792" alt="image" src="https://github.com/user-attachments/assets/aeed23e1-d250-4012-ae76-1e201e445dfe" />
+
+## Missue Deployment diagram 
+
+- focus on secuirty , high level arch design
+- Shows how attackers exploit weaknesses
+-  Includes servers, databases, networks, and controls
+-   Aids in proactive risk mitigation
+-   Ensures data protection and system integrity
+
+  Attacks include : SQL injection , spoofingetc. 
+Risk migigation action such as gudies, phishing email checks 
+
+  
 
