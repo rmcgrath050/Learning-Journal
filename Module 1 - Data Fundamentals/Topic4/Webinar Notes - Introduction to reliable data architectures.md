@@ -20,3 +20,19 @@ reliability and compliance
 
 
 architectural diagram covers system deails, design diagram focuses on 10:17 come back to this!!!!***
+
+So design focuses on the how and architecture looks at the what (slide diargram incorrect) 
+
+An Architecture Diagram 
+- explains what your building
+- how stakeholders will interact with it
+- the constraints of the systems
+- often drawn in layers
+
+A Design Diagram
+- more technical design
+- normally does not have stakeholders
+- Focuses on one part of the system and shows its building blocks
+
+
+
