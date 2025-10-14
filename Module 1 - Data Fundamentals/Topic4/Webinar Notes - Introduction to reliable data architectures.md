@@ -62,6 +62,10 @@ Risk migigation action such as gudies, phishing email checks
 
 <br>
 <img width="608" height="318" alt="image" src="https://github.com/user-attachments/assets/2b8a22b0-b308-464c-992a-8eb33995da78" />
+<br>
+The purpose of a UML component diagram is to show the relationship between different components in a system
+
+<br>
 
 ## System Componet Diagrams
 <br>
@@ -83,14 +87,33 @@ Risk migigation action such as gudies, phishing email checks
 <b>Tips </b>
 - Version Control your diagrams – they will evolve
 - Simplify when possible, split when necessary
+
 - Create logical groupings using polygons and colours
 - Complement diagrams with descriptions
 - Avoid too many acronyms
 - You will normally have to explain the symbols you use
 
 
+## Applying lenses, layers and chunks
+
+<img width="1078" height="468" alt="image" src="https://github.com/user-attachments/assets/989352d0-c156-4b6b-b3c0-ae3cae82720c" />
+
+
+### Integration architecture diagram
+
+<img width="1588" height="1056" alt="image" src="https://github.com/user-attachments/assets/c6a019c3-0699-4354-afd9-4635c7a6752d" />
+
+
+### Deployment architecture diagram
+
+<img width="1862" height="976" alt="image" src="https://github.com/user-attachments/assets/0ca9d5ea-269e-444c-a6df-8e31555fcbb6" />
+
+### Data architecture diagram
+
+<img width="1222" height="468" alt="image" src="https://github.com/user-attachments/assets/ca4d4596-7ee2-428a-8f5b-08538813e512" />
 
 
 
+### 
   
 
