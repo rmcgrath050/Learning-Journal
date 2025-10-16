@@ -307,6 +307,53 @@ These approaches emphasise rapid prototyping, frequent releases, and continuous 
 By incorporating user feedback loops into the development process, architects can ensure that data products evolve to meet changing business needs and user expectations.
 
 
+### Wireframes: 
+Purpose: Provide a basic structural outline of the data product, emphasising functionality over aesthetics.
+
+### Mockups: 
+Purpose: Add aesthetic elements like colour schemes and fonts to wireframes, offering stakeholders a more realistic view of the final product. 
+
+### Prototypes: 
+Purpose: Simulate user interactions with the product, instrumental in identifying usability issues before final development. 
+
+For data engineers, interfacing with design teams for prototypes is crucial. 
+This involves effective communication of technical constraints and data capabilities, ensuring prototypes align with the overarching business goals. (Real life example - speaking to data analyst around what they need in final powerBI table?) 
+
+
+### Behavioural skills
+
+1. Effective collaboration involves working closely with UX designers and stakeholders, fostering communication and teamwork to ensure prototypes meet the needs of all parties involved. (Maybe introducing at start of calls who is dealing with what regarding project?)
+2. Providing constructive feedback on prototypes is essential, emphasising the integration of data functionalities to enhance the overall effectiveness of the product.
+3. Taking an active role in prototype reviews and usability testing allows data engineers to advocate for data integrity and contribute valuable insights to the development process.
+4. Professional development : Learning from interdisciplinary interactions and enhancing communication skills are crucial aspects of professional development for data engineers, facilitating effective collaboration and teamwork.
+
+## Lesson 5 - Navigating data seas with architectural governance
+
+To ensure effective governance and minimise risks, architecture modelling must consider various lenses such as usage patterns, data flow, physical setup, and networking. 
+
+1. Usage patterns - Understanding how different user groups interact with the system aids in designing user-centric architectures.
+2. Data flow - Visualising how data moves through systems identifies potential bottlenecks and security risks.
+3. Physical setup - Considering the physical deployment of resources impacts performance, redundancy, and disaster recovery strategies.
+4. Networking - Outlining network topologies and protocols ensures efficient data transfer and compliance with security policies.
+
+
+By integrating data catalogues, dictionaries, and meticulous metadata management practices into our diagrams, we not only chart clearer paths but also fortify our governance strategies against the turbulent seas of data complexity.
+
+
+<img width="580" height="378" alt="image" src="https://github.com/user-attachments/assets/14589dc4-9855-416e-8408-eea1d71280f4" />
+
+<br>
+<br>
+
+By marking out where compliance checks are made, setting up access controls based on roles, and visualising security measures, we create solid defences to protect our data from cyber threats. 
+
+
+1. Illustrating compliance checkpoints: Showing where and how compliance checks are integrated within the architecture
+2. Role-based access control: Mapping out data access permissions ensures only authorised personnel can access sensitive data, supporting compliance with data protection regulations
+3. Security protocols: Visualising security mechanisms reinforces the system’s defence against breaches.
+
+TOGAF serves as a governance framework that ensures alignment with business goals, compliance with regulatory requirements, and promotes standardisation in data architecture. 
+
 
 
 
