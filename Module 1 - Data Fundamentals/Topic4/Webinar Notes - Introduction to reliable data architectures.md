@@ -355,7 +355,21 @@ By marking out where compliance checks are made, setting up access controls base
 TOGAF serves as a governance framework that ensures alignment with business goals, compliance with regulatory requirements, and promotes standardisation in data architecture. 
 
 
+## Lession 6 summary 
 
+
+- Diagrams act as visual maps to simplify complexity and promote alignment among teams in project management
+- Sequence diagrams are a type of UML diagram used to visualise the timing and interactions between components within a system
+- Use case diagrams provide a visual representation of how users interact with a system, aiding in understanding functional requirements
+- Entity Relationship Diagrams (ERDs) illustrate the relationships between different data entities within an application or database
+- In a three-layered data architecture:
+
+      Data storage layer uses databases or data lakes for data persistence
+      Data processing layer uses frameworks like Apache Spark for operations like filtering, sorting, transformation
+      Presentation layer displays data to end-users via dashboards or reports
+
+- A microservices architecture breaks down an application into small, independent services focused on specific business capabilities that can be developed, deployed, and scaled independently
+- The API gateway acts as the entry point for clients in a microservices architecture, decoupling them from internal services and enabling cross-cutting concerns like authentication and logging
 
 ## Summary 
 
