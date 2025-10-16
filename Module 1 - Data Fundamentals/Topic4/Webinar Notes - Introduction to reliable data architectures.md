@@ -1,6 +1,5 @@
 # Introduction to reliable data architectures
 
-
 <b>When working with data systems, what is your stragey for addressing?</b>
 <br>
 AWS/azure - manage space automically 
@@ -18,8 +17,83 @@ products
 - Define architectural governance and its role in ensuring
 reliability and compliance
 
+There are also very special types of diagrams commonly used by data engineers that we will learn about, including:
+1. Unified modelling language (UML) diagrams
+2. Entity-relationship diagrams (ERDs)
+3. Architecture diagrams (e.g. Layered architecture, microservices architecture)
 
-architectural diagram covers system deails, design diagram focuses on 10:17 come back to this!!!!***
+<br>
+<br> 
+
+<img width="580" height="378" alt="image" src="https://github.com/user-attachments/assets/a87011db-6b12-4312-b413-c280bba00de8" />
+
+<br>
+<br> 
+
+Sequence diagrams are a type of UML diagram that emphasise the timing of interactions between various components or objects within a system. They aid project teams in comprehending the flow of messages and activities across different parts of a system or process.
+<br>
+<br> 
+
+## A Sequence diagram for student / apprentice registration
+<img width="580" height="378" alt="image" src="https://github.com/user-attachments/assets/31fd0360-5992-48b6-9443-e5206da74253" />
+
+<br>
+<br> 
+
+## Use Case Diagrams
+
+It illustrates the various interactions between users (actors) and the system to accomplish specific tasks or goals. 
+
+<img width="580" height="378" alt="image" src="https://github.com/user-attachments/assets/04036609-b8f5-42e0-84d0-fc38b789f15e" />
+
+Tips:
+1. Clearly define actors (e.g., Project Manager, Team Manager, Team Member etc) and their roles within the system using standard symbols such as stick figures
+2. Use arrows to illustrate the flow of information or data between actors and use cases
+3. Incorporate data stores or databases to represent where data is stored or retrieved within the system
+4. Clearly indicate dependencies between use cases, actors, and system components using appropriate connectors such as associations or include/extend relationships
+5. Consider breaking down complex use cases into smaller, more manageable components to avoid overwhelming the audience
+
+   
+## ERDS
+
+An entity relationship diagram (ERD) serves as a powerful visualisation tool for understanding the relationships between different entities within an application or database
+
+<br>
+<img width="580" height="378" alt="image" src="https://github.com/user-attachments/assets/a3b7aea6-704d-410f-8a90-5463bc8ce3a3" />
+<br>
+<br>
+
+The ERD consists of two main entities: Student and Course. These entities can be broken down as follows:
+
+Student entity:<br>
+Attributes: Name, Email
+<br>
+Prime Attribute: SSN
+
+Course entity:<br>
+Attributes: Title, Duration
+<br>
+Prime Attribute: Course Identifier (CID)
+
+The relationship between the Student and Course entities is represented by a join relationship in the middle, indicating that a student can enrol in multiple courses, and a course can have multiple students enrolled.
+
+
+## Logical Diagram / Organisational Architecture 
+
+What information are logical diagrams designed to provide?
+Logical diagrams are designed to illustrate the high-level flow of data within our system without referencing any specific vendors. 
+
+They focus on depicting the structure of data across different stages, providing a conceptual overview of how information moves through our architecture. 
+
+<img width="580" height="378"  alt="image" src="https://github.com/user-attachments/assets/1adcbe12-0eae-4a58-84b7-191cfed8e9e5" />
+
+This diagram above does not contain any vendors names, this instead would be shown in a solution design. A Solution design provides a more detailed representation of our system architecture, including specific vendor solutions or platforms. It highlights the exact systems and technologies involved at each stage of data processing, offering a more concrete view of our solution landscape. 
+
+
+
+## An Architecture Diagram 
+
+Architectural diagram covers system deails, design diagram focuses on software!
 
 So design focuses on the how and architecture looks at the what (slide diargram incorrect) 
 
@@ -137,6 +211,21 @@ Domian driven,  ecosytem Goverance, Self serve infrastructure as a Platform
 
 <br>
 <br>
+
+
+## Logical Diagram 
+
+<img width="580" height="378" alt="image" src="https://github.com/user-attachments/assets/f763135e-fe9a-4c9d-96d5-972f7985a6d0" />
+
+## Platform Architecture
+
+<img width="2044" height="722" alt="image" src="https://github.com/user-attachments/assets/aea1da62-e715-4b89-81c1-7288a76f4ada" />
+From the pre-cloud era and the dominance of Hadoop. 
+
+Data ingress refers to external traffic entering an organisation's network, while egress denotes the opposite direction of data transfer.
+
+
+
 
 ## Summary 
 
