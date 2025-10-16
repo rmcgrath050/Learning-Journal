@@ -225,6 +225,89 @@ From the pre-cloud era and the dominance of Hadoop.
 Data ingress refers to external traffic entering an organisation's network, while egress denotes the opposite direction of data transfer.
 
 
+## Lession 2 - Layered architecture
+ 
+Enter the three-layered data architecture pattern – a strategic blueprint that has revolutionised the way enterprises approach data management.
+
+<img  width="580" height="378" alt="image" src="https://github.com/user-attachments/assets/b0eb2e5a-a5d9-4379-aa1b-528d7a55ab79" />
+
+<br>
+<br>
+
+
+### Data Storage layer
+
+Benefits:
+1. Scalability: Separating data storage from processing allows the system to scale more efficiently to handle larger volumes of data.
+2. Security: It is possible to secure the data storage layer independently, which helps mitigate the risk of unauthorised access.
+3. Data integrity: The data storage layer maintains data consistency and accuracy by enforcing data integrity constraints like unique keys and foreign key relationships.
+
+### Data Processing layer
+
+Filtering, sorting, aggregation, and transformation. It typically uses data processing frameworks like Apache Spark or Apache Flink, or stream processing engines like Apache Kafka. 
+
+1. Performance: By processing data in parallel, this layer can achieve high output and low latency.
+2. Flexibility: The data processing layer supports a diverse range of data processing tasks, from simple filtering to complex machine learning algorithms.
+3. Resilience: It provides fault tolerance and automatic recovery, helping the system handle failures smoothly and stay operational.
+
+
+### Data Presentation layer
+
+The data presentation layer is responsible for displaying the data to end-users in a useful manner, this layer is usually implemented through a web application or business intelligence tools like Tableau or Power BI.
+
+1. Usability: A user-friendly interface makes it straightforward for end-users to interact with the data and gain insights.
+2. Customisation: The presentation layer can be tailored to meet a wide array of use cases and user preferences, offering a flexible and adaptable interface.
+3. Integration: It can integrate with other applications and services to provide a seamless user experience, enabling users to utilise the data across different contexts.
+
+Keep in mind the benefits of scalability, security, performance, and usability offered by this pattern as you continue your journey in data management.
+
+
+## Lession 3 Microservices architectures 
+
+A monolithic architecture is like a single large object that cannot be easily broken down into smaller pieces. Therefore makes it inflexible and difficult to make changes or scale specific parts independently.
+
+A microservices architecture breaks down an application into small, independent services, each responsible for a specific business capability or domain. These services are loosely coupled, meaning they can be developed, deployed, and scaled independently without affecting the entire system.
+
+<img width="580" height="378"  alt="image" src="https://github.com/user-attachments/assets/6a45cf52-feb1-4618-b494-a4226122e72a" />
+
+<br>
+<br>
+They communicate with each other through well-defined APIs, much like how residents of a city interact with different service providers to fulfil their needs
+
+Benefits include:
+1. Decentralised services - Each service is a separate codebase, managed by a small development team, allowing for faster development cycles and easier maintenance.
+2. Independent deployment - Services can be updated and deployed independently, without impacting the rest of the application, enabling faster bug fixes and feature releases.
+3. Polygot programming - Services can be written in different programming languages and technologies, allowing teams to choose the best tools for their specific needs.
+4. Scalability - Individual services can be scaled independently based on demand, optimising resource utilisation and improving cost-efficiency
+5. Fault isolation - If one service fails, it does not bring down the entire application, ensuring better resilience and availability.
+6. API Gateway - The API gateway acts as a single-entry point for clients, separating them from the internal services and enabling cross-cutting concerns like authentication, logging, and load balancing.
+
+
+ ## Lesson 4 - Designing data products visually  
+
+
+### Data Products 
+Raw data alone is often insufficient to achieve these goals. Enter data products – valuable assets created by transforming raw data into actionable insights, tools, or services that deliver tangible value to the organisation and its stakeholders. 
+
+Data products encompass a wide range of deliverables, including dashboards, reports, APIs, and data feeds. They are characterised by their relevance, accuracy, timeliness, and usability, making them indispensable assets for data-driven organisations.
+
+<b>KPIS/ Objectives </b> <br>
+Effective data products are closely aligned with business objectives and key performance indicators (KPIs). 
+By understanding the organisation's goals and priorities, data architects can design products that address specific needs, support decision-making processes, and drive measurable outcomes.
+
+<b>Valuable Data Products </b> <br>
+Designing valuable data products requires a deep understanding of user needs, pain points, and workflows. Incoportates user feedback
+
+<b>Understanding user needs/ pain points </b> <br>
+By empathising with users and gathering feedback, architects can tailor data products to meet specific needs and deliver maximum value.
+
+<b>Iterative development methodologies </b> <br>
+terative development methodologies, such as Agile or Lean, are essential for building valuable data products. 
+These approaches emphasise rapid prototyping, frequent releases, and continuous improvement based on user feedback. 
+By incorporating user feedback loops into the development process, architects can ensure that data products evolve to meet changing business needs and user expectations.
+
+
+
 
 
 ## Summary 
