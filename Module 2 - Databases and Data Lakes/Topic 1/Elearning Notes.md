@@ -161,6 +161,50 @@ Consolidation Exercise:
 
 # Lession 4 :  Data Structuring: Schema-on-Write, Relational Modelling
 
+## Schema-on-Write 
+
+Schema-on-write is a foundational concept in data management, particularly relevant to relational databases. It requires that the schema, or structure of the data, be defined before any data is written to the database. This pre-definition ensures data consistency and integrity, as each data entry must conform to the established schema, including data types, relationships, and constraints.
+
+<img width="696" height="482" alt="image" src="https://github.com/user-attachments/assets/9fbf1559-5320-4bca-8ddb-9dda3ef192c0" />
+
+<br>
+<br>
+
+
+## Relational modelling
+
+Relational modelling is a method used to structure data in a database by defining relationships among data points. It involves organising data into tables (relations) that include rows (records) and columns (attributes). Key concepts such as primary keys (unique identifiers for each record) and foreign keys (identifiers that establish relationships between tables) are crucial. Relational models facilitate efficient data retrieval and manipulation through structured queries.
+
+
+### Consolidation Exercise
+
+- Reflect on the data currently managed within your organisation. How many relational databases can you identify?
+- Investigate a specific example where restructuring data according to relational modelling principles enhanced operational efficiency or decision-making.
+- Write down your analysis in your learning journal, including the current challenges, proposed improvements, and the expected benefits.
+- Identify a colleague or a stakeholder in your business who could provide insights into how these changes might be implemented.
+
+
+# Lession 5 -Storing Data On-Premise vs. In the Cloud
+
+We will explore the fundamentals of on-premise storage, gaining insight into its unparalleled control and security benefits alongside its resource-intensive nature. Conversely, the cloud storage paradigm offers scalability and cost-efficiency, albeit with considerations of trust and dependency.
+
+
+<b>On Prem </b> <br>
+On-premise storage involves maintaining data servers and infrastructure within an organisation's physical premises. This traditional method offers complete control over the data environment, including security protocols and access mechanisms. It is akin to keeping valuable documents in a safe within one's own house, where access and security can be directly managed. However, this comes with the responsibility of managing hardware, software, and ensuring data protection, which can be costly and resource-intensive. On-premise storage is best suited for organisations with high-security requirements or those that handle sensitive data, where regulatory compliance and data sovereignty are paramount.
+
+
+<b>Cloud storage </b> <br>
+Cloud storage represents the shift towards hosting data on servers managed by third-party providers, accessible over the internet. This model offers flexibility, scalability, and cost-efficiency, as organizations can easily adjust their storage needs and only pay for the capacity they use. The cloud storage model can be compared to renting a safe deposit box in a bank; while it's off-site and managed by another entity, it promises security, accessibility, and scalability. 
+However, it also involves trusting a third party with the data and potentially facing issues related to data transfer speeds and internet dependency. Cloud storage is ideal for organisations looking for operational flexibility, cost savings on hardware, and the ability to scale quickly.
+
+<b>Hybrid </b> <br>
+Best of Both Worlds: Many organisations opt for a hybrid approach, combining on-premise and cloud storage to leverage the strengths of both. This strategy allows sensitive data to be kept on-premise for security reasons while utilising the cloud for scalability and flexibility, especially for non-sensitive data and applications that benefit from cloud computing resources.
+
+
+### Consolidation Exercise
+- Analyse the data storage strategy currently employed by your organisation. Consider the types of data you manage, their sensitivity, and your organisation's operational needs.
+- How could a shift towards a cloud, on-premise, or hybrid storage solution impact your data management practices? Document your thoughts in your learning journal, focusing on potential benefits and challenges.
+- Discuss your analysis with a colleague or stakeholder who could offer additional insights or perspectives on the feasibility and implications of such a shift.
 
 
   
