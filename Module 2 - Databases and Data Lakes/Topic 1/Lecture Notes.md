@@ -79,10 +79,40 @@ plugin that the user has installed and that has registered itself as the applica
 <b>Object storage </b>-- objects, metadata, unique identifier 
 <br>
 
-### History of Cloud
+### Cloud storage has evolved
+
 Mainly focused on storage, however during the cloud transition era it was common to talk about Data Lakes. 
 Post 2025 this evolved into data lakehouses , which benefit both from lakes and warehouses 
 
+<img width="692" height="428" alt="image" src="https://github.com/user-attachments/assets/e5491c81-7b2d-4932-9f7c-cc3e2b1ed2b0" />
+<br>
+<br>
 
+
+## Data Model
+
+Consists of three parts:
+- Structure of the data – what does it look like
+- Operations on the data – what's available
+- Constraints on the data – what's allowed
+
+
+Components/tables are called entities, columns are attributes 
+
+**Can relate about diving into SQL and not learning key concepts in working world! :) 
+
+<img width="692" height="428" alt="image" src="https://github.com/user-attachments/assets/87b6d62e-f23d-4cd9-a9a3-ed4a4cca9b15" />
+<br>
+<br>
+
+VARCHAR can have a character limit, while TEXT does not.
+The main difference is that Char stores fixed-length character strings (storage), and Varchar stores character strings of variable lengths.
+
+
+ ---domains/ data types -- CHECK diff here! edit!!!
+
+<b>ON_CONFLICT </b> - SQL ignores duplicate rows and continues to insert into table ignoring these! 
+
+automatic triggers- explore this in homework :) 
 
 
