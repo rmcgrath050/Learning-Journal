@@ -114,5 +114,6 @@ The main difference is that Char stores fixed-length character strings (storage)
 <b>ON_CONFLICT </b> - SQL ignores duplicate rows and continues to insert into table ignoring these! 
 
 automatic triggers- explore this in homework :) 
+shadowing - talk though working, 
 
 
