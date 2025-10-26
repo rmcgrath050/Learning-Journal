@@ -61,6 +61,12 @@ unqiue column, make it also non null
 
 ### Step 21 
 
-**Finish using excel in work - 
+
+### KSBS Completed: <br>
+K5: The inherent risks of data such as incomplete data, ethical data sources and how to ensure data quality.
+
+K11: Data and information security standards, ethical practices, policies and procedures relevant to data management activities such as data lineage and metadata management.
+
+S23: Present, communicate, and disseminate messages about the data product, tailoring the message and medium to the needs of the audience.
 
 
