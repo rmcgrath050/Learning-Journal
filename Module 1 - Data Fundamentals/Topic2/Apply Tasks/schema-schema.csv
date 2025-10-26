@@ -1,0 +1,3 @@
+Column Name,Column Type,Accepted range of values,Empty or missing items allowed,Description of meaning
+EmployeeNumber,VARCHAR,1-68,0,
+JobSatisfaction,INT,1-5,,
