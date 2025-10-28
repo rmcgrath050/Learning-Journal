@@ -40,7 +40,7 @@ Best data construct suits who uses the data the most!!!****
 <br>
 ## Star and Snowflake schemas
 
-<img width="1658" height="926" alt="image" src="https://github.com/user-attachments/assets/b5e69633-383f-4609-931d-27530673739c" />
+<img width="814" height="648" alt="image" src="https://github.com/user-attachments/assets/b5e69633-383f-4609-931d-27530673739c" />
 <br>
 <br>
 
@@ -52,4 +52,20 @@ Best data construct suits who uses the data the most!!!****
 ### Snowflake Schema
 - Snowflake can have table in middle but with links but then linked tables can have further links
 - simular to star schema but more dim tables involved! 
+
+****listen back to 40 mins in , choking eposide 
+
+
+### Data normalisation 
+Data normalization is the process of organizing data in a database to reduce redundancy and improve data integrity
+- streamlining dtaa to its most simple form 
+
+<img width="814" height="648" alt="image" src="https://github.com/user-attachments/assets/56954f5f-b999-470a-bb19-820e9f929edc" />
+<br>
+<br>
+
+- figure out your central table / transactional table
+- 
+
+
 
