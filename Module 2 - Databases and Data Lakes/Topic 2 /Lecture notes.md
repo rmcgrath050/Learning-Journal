@@ -66,7 +66,5 @@ Data normalization is the process of organizing data in a database to reduce red
 
 - figure out your central table / transactional table
 - data getting squashed into one column , not normalisation best practise (Column automany)
-- 
-
 
 
