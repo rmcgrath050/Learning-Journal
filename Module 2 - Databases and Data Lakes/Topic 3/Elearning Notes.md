@@ -89,4 +89,97 @@ Transactions are all or nothing.
 Atomicity guarantees that each transaction is treated as a single unit, which either succeeds completely or fails completely.
 eample includes begin/ rollback 
 
+#### Consistency
+Only valid data is saved.
+Ensures that any transaction will bring the database from one valid state to another, maintaining all predefined rules, such as unique primary keys, foreign key constraints, and custom constraints.
+
+#### Isolation
+Transactions do not affect each other.
+
+#### Durability
+Written data will not be lost.
+Durability guarantees that once a transaction has been committed, it will remain so, even in the event of a power loss, crashes, or errors
+
+In one scenario, due to a system failure, the transaction was interrupted right after the money was deducted but before it was credited to the other account. Thanks to the atomicity and durability properties, the system was able to roll back the incomplete transaction once the system was restored, thus preventing potential financial discrepancies for the customer and the bank.
+eg current lloyds example iclude begin try statements with deployments - making sure tasks are deployed together as a datasource etc
+
+
+## Lession 5: Writing Nested CRUD SQL Queries
+
+In database operations, mastering CRUD (Create, Read, Update, Delete) functionalities is essential for managing data effectively. When these operations involve complex data relationships or require the evaluation of conditions across multiple tables, nested SQL queries become invaluable. Nested queries, or subqueries, are queries placed within another SQL query, enhancing the flexibility and depth of data manipulation possible within a single statement. These queries are particularly useful in scenarios where the results of one query depend on the data retrieved by another.
+
+
+While SQL doesn't directly support nested 'CREATE' statements, complex 'CREATE' operations can involve subqueries to define or populate new tables based on existing data. For example, creating a new table that aggregates existing customer data but only includes those who meet certain spending thresholds.
+
+### Understanding Nested and Correlated Queries in SQL
+
+Nested Queries :
+Also known as subqueries, nested queries are executed within another query. The inner query runs first, providing results to the outer query.
+
+Correlated Queries 
+The inner query depends on the outer query and is executed repeatedly. eg WHERE EXISTS (SUBQUERY)
+
+<b>Differences:</b><br>
+Execution: Nested queries run once; correlated queries run for each outer row.
+Performance: Correlated queries can be slower due to multiple executions. 
+Dependency: Nested queries are independent; correlated queries rely on the outer query. 
+
+<img width="758" height="342" alt="image" src="https://github.com/user-attachments/assets/aaec7643-8b8e-45f2-86e3-9a89ec03d6d5" />
+
+
+- Correlated queries are resource-intensive and may be slower.
+- Consider rewriting correlated queries as joins for efficiency.
+- Use correlated queries for complex conditions involving row comparisons.
+- Understanding and using these queries effectively can improve database query performance.
+
+basically dont use correlated where possible as it performs the query by a row by row basis! 
+
+## Lession 6 : Joins and Database Normalisation
+
+oins allow for the combination of data from two or more tables based on a related column between them, enabling complex queries across a database. Database normalisation, on the other hand, is a systematic approach to reducing redundancy and dependency by organising fields and table relationships. It involves dividing large tables into smaller, less redundant tables and defining relationships between them to increase the coherence and efficiency of the data.
+
+
+1NF: Ensures all columns hold atomic values and each record is unique.
+2NF: Requires that all non-key attributes are fully functional dependent on the primary key.
+3NF: Ensures that no transitive dependencies exist between non-key attributes and the primary key.
+
+
+#### Key Concepts:
+- Join : A SQL operation used to combine rows from two or more tables based on a related column between them.
+- Normalsation : The process of organising data in a database to reduce redundancy and improve data integrity.
+- Functional Dependancy : A relationship that exists when one attribute uniquely determines another attribute.
+- Transitive Dependancy : A functional dependency in which one attribute indirectly determines another attribute through a third attribute.
+  eg recurisve dependancies :)
+
+
+## Lession 7 : GroupBy, Aggregation, and Windowing in SQL
+
+
+GroupBy is commonly paired with functions like COUNT, MAX, MIN, SUM, and AVG to perform calculations on each group.
+It is possible to group by more than one column, providing a more granular breakdown of data.
+Aggregation functions are used to compute a single result from a set of input values. These functions are critical for summarising data, making them indispensable for generating reports and analytics that support business decisions.
+
+#### Windowing Functions
+
+SQL window functions allow performing calculations across a set of rows that are related to the current row, 
+without collapsing the result into a single value. They are commonly used for tasks like aggregates, rankings and running totals.
+The OVER clause defines the “window” of rows for the calculation. It can:
+PARTITION BY: divide the data into groups.
+ORDER BY: specify the order of rows within each group.
+With this, functions such as SUM(), AVG(), ROW_NUMBER(), RANK() and DENSE_RANK() can be applied in a controlled way.
+
+<img width="500" height="214" alt="image" src="https://github.com/user-attachments/assets/4e7a2c57-3138-4811-8bee-6e05d35c54f1" />
+<br>
+<br>
+
+#### Over Clause:  
+Specifies the partitioning and ordering of a data set before the window function is applied.
+  
+#### Frame Specification
+Allows the window to be defined over a range of rows relative to the current row, providing flexible data analysis options.
+
+Through effective use of GroupBy, aggregation, and windowing, complex datasets can be transformed into actionable insights, enabling businesses to make informed decisions based on comprehensive data analysis. These techniques are vital in leveraging data as a strategic asset within an organisation.
+
+Lession 8 : 
+
 
