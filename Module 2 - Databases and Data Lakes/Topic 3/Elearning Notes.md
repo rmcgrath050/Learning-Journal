@@ -180,6 +180,23 @@ Allows the window to be defined over a range of rows relative to the current row
 
 Through effective use of GroupBy, aggregation, and windowing, complex datasets can be transformed into actionable insights, enabling businesses to make informed decisions based on comprehensive data analysis. These techniques are vital in leveraging data as a strategic asset within an organisation.
 
-Lession 8 : 
+## Lession 8 : Risks and Disaster Recovery, Shards in Database Systems
+
+Risks to database systems can come from multiple sources, including hardware failures, software bugs, human errors, and natural disasters. Effective disaster recovery strategies are vital to ensure that data can be quickly restored and applications can be brought back online with minimal downtime.
+
+#### Risk Assessment
+Regularly identifying and assessing risks to data security and system integrity. This involves evaluating potential threats and the likelihood of their occurrence.
+
+#### Disaster Recovery Planning
+Developing and implementing plans that ensure data can be recovered and systems restored after a disaster. This includes maintaining backups, having redundant systems in place, and ensuring that staff are trained in recovery procedures.
+
+•• Having redundant systems means intentionally duplicating critical components in a system to ensure that if one fails, a backup can take over, preventing service interruptions
+
+#### Continuous Monitoring and Testing
+Regular testing of disaster recovery procedures to ensure they are effective when needed. Continuous monitoring of system performance and security helps in early detection of issues that could lead to data loss.
+
+#### Sharding for Scalability and Performance
+Sharding is a database architecture pattern that involves dividing a larger database into smaller, more manageable pieces, or "shards," which can be spread across multiple servers. This not only enhances the performance but also aids in handling larger datasets efficiently.
+
 
 
