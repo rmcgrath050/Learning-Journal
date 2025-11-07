@@ -198,5 +198,20 @@ Regular testing of disaster recovery procedures to ensure they are effective whe
 #### Sharding for Scalability and Performance
 Sharding is a database architecture pattern that involves dividing a larger database into smaller, more manageable pieces, or "shards," which can be spread across multiple servers. This not only enhances the performance but also aids in handling larger datasets efficiently.
 
+#### Horizontal Partitioning
+Sharding typically involves dividing a database horizontally, where rows of a database table are held separately, rather than dividing the table schema. Each shard contains the same schema with a different subset of data.
 
+#### Load Distribution
+By distributing the data across multiple shards, which can be hosted on separate hardware or networked servers, sharding helps in balancing the load and reducing the response time for data queries.
+
+#### Data Locality
+Sharding can improve performance by locating data closer to where it is most frequently accessed, reducing latency and speeding up access times.
+
+##### Solution to performance bottlenecks
+The database was partitioned into multiple shards based on geographic regions within the UK, which not only improved query performance due to reduced data volume per shard but also localized the data closer to users, enhancing the user experience. Meanwhile, the disaster recovery strategy included geo-replication across multiple data centres, ensuring that even if one data centre was affected by a physical disaster, others could take over without impacting data availability.
+
+<br>
+<br>
+
+<img width="1642" height="1252" alt="image" src="https://github.com/user-attachments/assets/ea79cf47-d6e2-4de2-a2d7-ebcf070b3fb6" />
 
