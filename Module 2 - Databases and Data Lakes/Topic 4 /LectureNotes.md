@@ -119,6 +119,7 @@ Normally comes with compute power read/write so higher cost for <i>hot data</i>.
 - RANK()
 - EXPLAIN QUERY PLAN (INSERT SQL QUERY HERE)
 - A TEMP TREE in query plan means there is a sort going on, could consider indexes in this scenario
+- indexes - for columns most queried or joined onto
 - 
   
 
