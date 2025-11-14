@@ -74,5 +74,49 @@ types of problems can be identified:
 - cost savings
 - improved operations
 - risk reduction
+
+
+Data profiling can be neglected as its not top ten list of concerns, and usually font know of improvements until after discovering the problems! Value is also hard to measure. 
+there is no clear owner of data quality and exposes coporate weaknesses 
+
+## Database Archiving and Retention
+
+Archving - Work example include: fraud self serve files adding a manual archieving date timestamp on file keeping daily files retained
+<br>
+### Retention 
+
+- Keep data for a business object for a specified period of time , cannot be destroyed until such requirments has passed.
+- GDPR
+- The most important business objects ten to have longest retention periods!
+- Retention requirements often exceed 10 years, examples include health/ eduction records, customer transactions etc
+
+### On prem Example of archiving 
+
+ <img width="338" height="266" alt="image" src="https://github.com/user-attachments/assets/ee4b89b8-e423-4d8f-8206-870ae68963db" />
+
+
+<br>
+<br>
+ <img width="636" height="470" alt="image" src="https://github.com/user-attachments/assets/a509425b-3674-4552-9304-b01a008cc41f" />
+
+<br>
+<br>
+Normally comes with compute power read/write so higher cost for <i>hot data</i>. Arc data would be known as cold data.  need to think about will operational performative be enhanced with less data? 
+
+
+## Query profiling step by step 
+
+<img width="772" height="622" alt="image" src="https://github.com/user-attachments/assets/94becce8-ab74-42e7-8c63-d5c2322d4624" />
+<br>
+<br>
+
+## Windows function : Practical learning
+
+- also known as a partiton , ranking with lag and lead eg clova view using this for customers logins
+-  involves a column inclfuenced by a grouping of another column
+- eg <i>sum(pay_amount) OVER (PARTITION BY CustomerID) as ch_total</i>
+- eg <i>sum(pay_amount/sum(pay_amount)) OVER (PARTITION BY CustomerID) as ch_total</i>
 - 
+  
+
 
