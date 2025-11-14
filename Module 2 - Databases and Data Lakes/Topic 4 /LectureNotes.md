@@ -116,6 +116,9 @@ Normally comes with compute power read/write so higher cost for <i>hot data</i>.
 -  involves a column inclfuenced by a grouping of another column
 - eg <i>sum(pay_amount) OVER (PARTITION BY CustomerID) as ch_total</i>
 - eg <i>sum(pay_amount/sum(pay_amount)) OVER (PARTITION BY CustomerID) as ch_total</i>
+- RANK()
+- EXPLAIN QUERY PLAN (INSERT SQL QUERY HERE)
+- A TEMP TREE in query plan means there is a sort going on, could consider indexes in this scenario
 - 
   
 
