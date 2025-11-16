@@ -1,4 +1,4 @@
-14/11/25 10:38
+14/11/25 10:38 -12:02
 
 # Topic 4 - Database Administration and Optimisation
 
@@ -174,6 +174,25 @@ make data-driven optimization decisions,
 and collaborate with stakeholders to align performance goals with business requirements.
 
 #### Indexing strategies
+Database performance optimisation techniques also include indexing strategies, database configuration tuning, horizontal scaling (sharding), and vertical scaling (adding more computing resources). Indexing strategies focus on creating appropriate indexes on frequently queried columns, choosing the right index types based on data characteristics and query patterns, and monitoring index usage and performance to identify redundant or underutilised indexes.
+
+#### Database configuration
+Database configuration tuning involves adjusting database configuration parameters to optimize performance, such as memory allocation, buffer sizes, caching mechanisms, and parallelism settings, based on workload characteristics and hardware resources.
+Horizontal scaling (sharding) distributes data across multiple database instances or servers, partitioning data based on a key or range to distribute the workload and enable parallel processing and improved scalability for large datasets.
+
+#### Collaboration
+Collaboration between data engineers and database administrators (DBAs) is essential for smooth integration and optimization of databases within the data ecosystem.  Data engineers focus on data pipelines, data integration, and overall data architecture, while DBAs specialize in database management, performance tuning, and security. 
+Effective communication, regular discussions on database requirements, performance goals, and optimization strategies, and collaboration on database design, schema changes, and migration plans are crucial.
+Knowledge sharing, conducting joint performance reviews and analysis sessions, and continuously learning from each other's expertise help improve overall database management.
+
+
+## How to optimise your database 
+
+
+
+
+
+
 
 
 
