@@ -1,4 +1,4 @@
-14/11/25 10:38 -12:02
+14/11/25 2 hours completed 
 
 # Topic 4 - Database Administration and Optimisation
 
@@ -188,10 +188,137 @@ Knowledge sharing, conducting joint performance reviews and analysis sessions, a
 
 ## How to optimise your database 
 
+### Indexes
+
+When you index your data, it helps reduce the amount of I/O required to retrieve information from your tables.It also improves performance by reducing the number of disks required to read disk data.
+
+But it is recommended that you create an index for tables containing lots of columns, those most commonly used, and those with high cardinality. (An example of a data table column with high-cardinality would be a USERS table with a column named USER_ID. This column would contain unique values of 1-n)
+
+Indexes are different ways to speed up searches in a table.
+Different indexes help with different kinds of searches.
+If two indexes are the same, you only need one.
+Use whichever index performs best.
 
 
 
+### Database Size
 
+If you do not plan to add any new data to your database, then it is recommended that you do not increase the size of your database. Increasing the size of your database will cause additional I/O operations which can affect performance.
+
+I/O operations means Input/Output operations — basically any time your database has to read data from storage or write data to storage.
+<br>
+Think of it like this:
+Reading from the database = input
+Writing to the database = output
+<br>
+These actions take time because the storage device (like an SSD or hard drive) has to do the work.
+
+When it comes to keeping a smaller database size, the other important reason is that it is recommended that you reduce the fragmentation. You should also ensure that performance is maintained by avoiding index fragmentation and file fragmentation.
+
+Index fragmentation – this happens when the index (your search shortcut) becomes messy and unorganized.
+File fragmentation – this happens when the actual database file gets stored in pieces across the disk.
+<br>
+
+Index fragmentation occurs when all the rows in an index become fragmented into different pages due to their sizes. For example, if there are two columns in an index, one column has 100 rows while another has 50 rows.
+
+File fragmentation occurs when the files are filled with different pages due to the large data size. For example if a database file grows too big to fit in one continuous space on the disk, the operating system stores its pages in multiple separate locations, causing the file to become scattered across the disk.
+
+### Mutiple Tables
+
+Do not create too many small tables when they represent the same type of data.
+If you split related data into too many tables, you'll need separate indexes for each one, which hurts performance and complicates your design
+
+Your goal is to reduce operational expenses by reducing your cluster resources (CPUs, memory, disk space), changing your instance configuration (RAM, CPU cores, disk size), or reducing storage requirements (disk space).
+
+Your “cluster” is the group of servers running your database.
+You can save money by using smaller or fewer servers:
+- CPUs → the processing power (like the brain of the computer)
+- Memory (RAM) → short-term storage used to run tasks quickly
+- Disk space → long-term storage where your data/files live
+
+Reduce storage requirements (disk space)
+This means:
+- Storing less data
+- Cleaning old logs
+- Compressing data
+- Deleting unused backups
+- Using more efficient storage formats
+
+### Truncate Table
+
+Don’t split a single record into many tiny rows just because you have many columns. In other words: <br>
+❌ Don’t store what should be one row as many separate rows <br>
+✔️ Keep related data in one row if they belong together <br>
+
+### Reduce Table Size
+
+If you have been using the same table for a long time, then it is recommended that you should consider reducing the size of your table. Reducing the size of your table will cause fewer I/O operations and fewer disk seeks to retrieve data from the disk.
+
+### Use Auto-Increment Columns
+
+If there are several columns in a single table, it is recommended that each of these columns have an auto-incrementing ID. Thus, it would be unique.
+This would help improve performance by eliminating duplicate IDs when rows are inserted into a table
+
+### Enable Statistics
+
+When a new query or statement is executed against a database, then statistics are calculated and stored in memory by default. This helps improve performance by reducing I/O operations.
+
+Statistics are calculated
+The database collects some information about your data, like:
+1. How many rows are in a table
+2. How many distinct values are in a column
+3. How data is distributed (e.g., 90% of customers live in one city)
+<br>
+These are called statistics.
+<br>
+- Stored in memory
+- The database keeps these statistics in RAM (fast memory) instead of constantly reading from disk.
+- Improves performance / reduces I/O operations
+- If the database already knows statistics, it doesn’t have to scan the entire table from the disk every time.
+Fewer disk reads = faster queries.
+
+<br>
+Use statistics most of the time, especially when:
+- Your tables are large
+- Your queries involve filters, joins, or sorting
+- You want the database to automatically choose the fastest query plan
+
+<br>
+Reasons for disabling statistics:
+- Tables are very small → scanning the whole table is already fast
+- Memory is very limited, and keeping statistics in RAM could use valuable resources
+- doing high-frequency bulk inserts/updates and statistics are constantly changing, which could slow down operations!
+
+<br>
+Example:<br>
+1. A logging table that just keeps growing with new entries and is rarely queried by complex filters.
+2. You don’t need statistics because queries just read the newest rows sequentially.
+
+
+### Scenario of real life example:
+1. slow query response times and struggles to handle the growing data volume. 
+2. Performance analysis reveals high CPU utilisation and slow query execution times, with inefficient queries containing complex joins and lacking proper indexing.
+
+Solution:<br>
+- NoSQL quality and performance optimisation techniques, such as denormalisation, indexing, and sharding, are applied to address the performance issues.
+- Monitoring and fine-tuning the database configuration lead to improved query response times and resource utilisation.
+<br>
+
+
+Outcome:<br>
+faster data retrieval, efficient reporting, and seamless integration with other HR systems, enhancing overall productivity and decision-making capabilities. 
+
+
+
+## Summary 
+- Choose the right DBMS based on factors like scalability, performance, data consistency, and transaction support, considering the differences between SQL and NoSQL databases.
+- Design databases for scalability and performance by considering data volume, growth rate, query patterns, partitioning, sharding, caching, and regular monitoring and tuning.
+- Implement robust security measures, including access controls, authentication, role-based access control, data encryption, regular patching, and comprehensive backup and recovery procedures.
+- Monitor key data access metrics, such as query response time, throughput, concurrency, resource utilisation, and indexing effectiveness, using various tools and techniques.
+- Optimise database performance through query optimisation, indexing strategies, configuration tuning, horizontal scaling (sharding), and vertical scaling.
+- Foster collaboration between data engineers and database administrators through effective communication, knowledge sharing, and joint performance optimization efforts.
+
+  
 
 
 
