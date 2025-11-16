@@ -120,7 +120,13 @@ Normally comes with compute power read/write so higher cost for <i>hot data</i>.
 - EXPLAIN QUERY PLAN (INSERT SQL QUERY HERE)
 - A TEMP TREE in query plan means there is a sort going on, could consider indexes in this scenario
 - indexes - for columns most queried or joined onto
-- 
-  
+- eg of an index creation <i>CREATE INDEX IF NOT EXISITS IDX_TableName_colName ON TABLEName(col names DESC) </i>
+- Try rnning the index after the EXPLAIN to show <font color="red"><b>performanace differences in your work!!</b></font>
+
+
+### Considerations/ Refection of lession:
+- When writing code always reflect on query. 
+- If using a nested query , consider would a CTE be more effective?
+- Am I using uneeded joins, or a distinct not needed?
 
 
