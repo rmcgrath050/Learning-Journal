@@ -38,7 +38,23 @@ The structure of a Linux system includes the kernel, system libraries, system ut
 
 ## Lession 2: Navigating the Linux filesystem
 
+Imagine a world without a logical structure—a chaotic jumble of data strewn across storage devices. To address this, we turn to the filesystem hierarchy standard (FHS), a set of conventions that govern the layout of Unix-like systems.
+Knowing FHS helps data engineers locate files and directories necessary for data processing tasks. 
 
+### Unpacking FHS
+
+Every general-purpose computer needs to store data of various types on a hard disk drive (HDD) or something equivalent. There are a couple reasons for this, but mostly because RAM loses its contents when the computer is switched off. 
+here are non-volatile types of RAM that can maintain the data stored there after power is removed but they are pretty expensive. Therefore, we need a logical method of organising and storing large amounts of information in a way that makes it easy to manage. 
+
+<br>
+
+<img width="640" height="486" alt="image" src="https://github.com/user-attachments/assets/15aec409-a43b-4d71-ad11-beab8b983f52" />
+
+<br>
+- All data in Unix is organised into files. All files are organised into directories. These directories are organised into a tree-like
+  structure called the “Filesystem”.
+-  The filesystem hierarchy standard (FHS) is a reference describing the conventions used for the layout of Unix-like systems.
+-  It has been made popular by its use in Linux distributions, but it is used by other Unix-like systems as well. It is maintained by the       Linux Foundation.
 
 
 
