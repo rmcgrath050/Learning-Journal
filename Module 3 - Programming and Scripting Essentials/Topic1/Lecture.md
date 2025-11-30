@@ -165,6 +165,17 @@ Cron jobs are specifically designed for scheduling tasks to run periodically at 
 
 - Global regular expression print (Grep) is a versatile tool that allows you to search for patterns, extract relevant information, and        manipulate text effortlessly
 - Log management plays a pivotal role in maintaining system health, diagnosing issues, and ensuring compliance.
-- 
+- Which Grep option inverts the match to exclude certain patterns? The -v option inverts the match, excluding specific patterns.
 
 
+## Lession 6: Summary 
+
+- Linux offers several utilities for data engineers. You can connect commands using pipes (|) to filter data, transform it, and channel it where needed
+
+- Text processing tools like grep, sed, and awk are your Swiss Army knives. They allow you to slice, dice, and manipulate text like a pro
+
+- Linux allows you to schedule tasks with precision. You can automate backups, ETL processes, and system maintenance using cron jobs
+
+- Linux offers advanced text processing and log management tools. With grep, you can search, extract, and manipulate text effortlessly. You can detect patterns, filter logs, and count occurrences
+
+- Log management in Linux allows you to manage logs like a seasoned wizard. You can understand log structures, monitor in real-time, and automate rotation
