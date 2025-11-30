@@ -53,8 +53,10 @@ here are non-volatile types of RAM that can maintain the data stored there after
 <br>
 - All data in Unix is organised into files. All files are organised into directories. These directories are organised into a tree-like
   structure called the “Filesystem”.
--  The filesystem hierarchy standard (FHS) is a reference describing the conventions used for the layout of Unix-like systems.
--  It has been made popular by its use in Linux distributions, but it is used by other Unix-like systems as well. It is maintained by the       Linux Foundation.
+- The filesystem hierarchy standard (FHS) is a reference describing the conventions used for the layout of Unix-like systems.
+- It has been made popular by its use in Linux distributions, but it is used by other Unix-like systems as well. It is maintained by the       Linux Foundation.
 
+
+Lessions continued on Lecture notes.... 
 
 
