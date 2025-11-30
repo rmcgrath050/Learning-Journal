@@ -1,5 +1,7 @@
 # Lession 3.1 Linux for Data Engineers
 
+Completion : 27/11/25 2.5 hours 
+
 - Its an open source operating system
 - X known as twitter uses Linux for massive data infrastructure
 - <b>Data Driven Enterprise:</b> to help leverage vast amounts of data to make informed decisions and drive business strategies
