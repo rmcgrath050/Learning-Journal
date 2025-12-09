@@ -119,3 +119,9 @@ Constructive Feedback - “Consider using a dictionary here instead of a list fo
 
 <br>
 
+
+## Summary
+- Effective code reviews not only improve code quality but also enhance team collaboration and knowledge sharing
+- DevOps are not just about tools and technologies, but also about fostering a culture of collaboration and shared responsibility
+- For data engineers, mastering version control is essential for managing scripts, configurations, and data pipelines efficiently
+
