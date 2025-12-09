@@ -15,4 +15,10 @@ https://colab.research.google.com/drive/1rCZCIxaNQhamDF3_6ofalKuTppPMnbUb#scroll
   ### Numeric operations
 - floor - divides and rounds to nearest round number
 - Exponentiation - a to the power of b eg 10 ** 3 = 1000
+
+### String Operations
+- text.strip - strips whitespace
+- replace ( what we want to replace, what we want to replace to)
+- : conditional statements needs this after condition expectation
+- For loops used for lists and dictionaires , steps though items
 - 
