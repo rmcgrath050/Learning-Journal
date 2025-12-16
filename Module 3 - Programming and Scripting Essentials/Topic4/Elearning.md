@@ -13,7 +13,10 @@
   - Built-in Features: Native data cleaning and time-series support
   
   Installing Pandas: Installing Pandas is as simple as running a pip install pandas command in your terminal. Importing the Library: To use Pandas, you must import it first. The common alias for Pandas is pd.
-  
+
+## Lession 4 : Data manipulation and subsetting
+
+
   
   #### Data Structures:
   - Pandas offers two primary data structures, including series and dataframe.
