@@ -92,6 +92,52 @@ Just like engineers reinforce bridges with strong materials, we reinforce our al
 <br>
 <img width="760" height="618" alt="image" src="https://github.com/user-attachments/assets/7211842a-8fe5-49fa-98d5-a669cd68081d" />
 
-### Lession 4  - advanced techniques
+## Lession 4  - advanced techniques
 
 Graphs are powerful tools used to model complex systems. They are like interconnected cities on a map. In this section, we will delve into advanced graph algorithms that help us navigate these ‘cities’ efficiently. 
+
+#### Shortest path algorithms
+These algorithms help us find the most efficient path between two nodes in a graph. 
+They are like GPS systems guiding a traveller to their destination. 
+Algorithms like Dijkstra’s and Bellman-Ford help you discover the most efficient path.
+Dijkstra’s algorithm explores neighbouring cities in order of increasing distance, ensuring you reach your destination with minimal travel time.
+
+
+#### Cycle detection algorithms 
+These algorithms help us identify cycles in a graph, preventing us from going in circles. 
+In computer science, cycle detection or cycle finding is the algorithmic problem of finding a cycle in a sequence of iterated function values.
+
+
+#### Network flow algorithms
+These algorithms help us optimise the flow in a network while respecting capacity constraints. 
+They are like traffic control systems optimising the flow of vehicles on the road. 
+
+#### String algorithms 
+
+<b>Pattern Matching</b><br>
+- These algorithms help us locate patterns within a longer text. 
+- Algorithms like Knuth-Morris-Pratt (KMP) and Boyer-Moore efficiently locate patterns within a longer text
+- KMP avoids unnecessary character comparisons by using a prefix function
+- Boyer-Moore skips ahead based on mismatched characters
+- They are like a reader searching for a specific word in a book.
+
+<b>Pattern Matching</b><br>
+- These algorithms help us quickly identify matching substrings.
+- Algorithms like Rabin-Karp use hashing to quickly identify matching substrings.
+- Rabin-Karp slides a window over the text, hashing each substring and comparing it to the target hash
+- They are like a music enthusiast searching for a specific phrase in a song’s lyrics.
+
+<b>String Compression</b><br>
+- These algorithms help us reduce the space needed to store strings while preserving data (like DNA sequences or text documents).
+- Compression algorithms reduce the space needed while preserving data
+- Techniques like Run-Length Encoding (RLE) replace repeated characters with a count.
+- They are like a librarian archiving books in a compact yet accessible manner.
+
+<br>
+Modern software applications typically use pre-existing libraries for pattern matching algorithms like Knuth-Morris-Pratt (KMP) and Boyer-Moore, avoiding the need to reinvent the wheel. These algorithms are integral to various tools and systems for efficient text searching.
+Examples of software packages that use string searching and pattern matching algorithms include: Text Editors and IDEs, Databases, Search Engines, Bioinformatics software (e.g. for DNA sequence analysis).
+File Search Utilities: Unix tools like grep, Compilers, Text Processing Libraries: Regular expression libraries in Python and Java.
+Version Control Systems: Tools like Git, Security Systems: Intrusion detection and antivirus software, NLP Libraries like SpaCy and NLTK.
+
+<br>
+<br>
