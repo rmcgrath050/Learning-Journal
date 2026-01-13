@@ -135,9 +135,14 @@ They are like traffic control systems optimising the flow of vehicles on the roa
 
 <br>
 Modern software applications typically use pre-existing libraries for pattern matching algorithms like Knuth-Morris-Pratt (KMP) and Boyer-Moore, avoiding the need to reinvent the wheel. These algorithms are integral to various tools and systems for efficient text searching.
+<br>
 Examples of software packages that use string searching and pattern matching algorithms include: Text Editors and IDEs, Databases, Search Engines, Bioinformatics software (e.g. for DNA sequence analysis).
+<br>
 File Search Utilities: Unix tools like grep, Compilers, Text Processing Libraries: Regular expression libraries in Python and Java.
 Version Control Systems: Tools like Git, Security Systems: Intrusion detection and antivirus software, NLP Libraries like SpaCy and NLTK.
 
 <br>
 <br>
+
+
+
