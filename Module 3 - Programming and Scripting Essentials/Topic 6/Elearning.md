@@ -39,6 +39,7 @@ It involves breaking down problems, designing efficient algorithms, and implemen
 
 ### Lession 2 - Software development tools and techniques
 
+
 #### Tools
 In data engineering, software development tools are like a craftsman’s workshop. They enable efficient project management and collaboration, helping data engineers track progress, automate processes, and enhance productivity throughout the development lifecycle. 
 <br>
@@ -102,14 +103,22 @@ Algorithms like Dijkstra’s and Bellman-Ford help you discover the most efficie
 Dijkstra’s algorithm explores neighbouring cities in order of increasing distance, ensuring you reach your destination with minimal travel time.
 
 
+<img width="386" height="334" alt="image" src="https://github.com/user-attachments/assets/ac339d2e-b79e-4d4c-9756-2b173b4ad04a" />
+
+
 #### Cycle detection algorithms 
 These algorithms help us identify cycles in a graph, preventing us from going in circles. 
 In computer science, cycle detection or cycle finding is the algorithmic problem of finding a cycle in a sequence of iterated function values.
 
+<img width="310" height="448" alt="image" src="https://github.com/user-attachments/assets/648bc8fc-866e-426f-b408-c2334bde3501" />
 
 #### Network flow algorithms
 These algorithms help us optimise the flow in a network while respecting capacity constraints. 
 They are like traffic control systems optimising the flow of vehicles on the road. 
+
+<img width="356" height="318" alt="image" src="https://github.com/user-attachments/assets/7c3d9f95-6726-47c4-b54b-d32856ae9cd4" />
+
+
 
 #### String algorithms 
 
@@ -137,10 +146,52 @@ Modern software applications typically use pre-existing libraries for pattern ma
 <br>
 Examples of software packages that use string searching and pattern matching algorithms include: Text Editors and IDEs, Databases, Search Engines, Bioinformatics software (e.g. for DNA sequence analysis).
 <br> 
+<br>
 File Search Utilities: Unix tools like grep, Compilers, Text Processing Libraries: Regular expression libraries in Python and Java.
 Version Control Systems: Tools like Git, Security Systems: Intrusion detection and antivirus software, NLP Libraries like SpaCy and NLTK.
 
-
-
 <br>
 <br>
+
+### Advanced Data Strutures
+
+In this section, we will explore more complex structures that provide efficient ways to organise and manipulate data.  These are as follows:
+
+#### Heaps (Priority Queues) 
+
+Heaps help us maintain a partially ordered structure, are useful for tasks like scheduling. 
+Min-heaps ensure the smallest element is at the top, useful for scheduling tasks
+Max-heaps prioritise the largest element, helpful for finding top-k elements.
+
+#### TRIES 
+
+Tries help us store words in a tree-like structure for efficient word lookup. 
+- Each level represents a character, allowing fast word lookup
+- Tries power autocomplete features and spell-checkers
+- They are like a dictionary organised in a way that allows fast word search. 
+
+#### Segment trees
+
+- Segment trees handle range queries efficiently
+- They divide data into segments, allowing quick calculations (e.g., finding maximum or sum) within specific intervals
+- Segment trees are essential for handling dynamic data
+
+#### Reakl Life scenarios 
+
+- Real life applications include social networks like facebook using graph algorithms to suggest friends
+- Searach engines like google using string algorithms to find relevant web pages based on search queires. Efficient indexing and searching of web content rely heavily on these algorithms
+- Database systems use advanced data structures for efficient indexing. This allows quick retrieval of data, enhancing the performance of database operations.
+- 
+
+
+### Lession 5 -Key learning points
+-  Grasped time complexity, space efficiency, and correctness, and used strategies like Divide and Conquer, and Dynamic Programming for problem-solving.
+-  advanced techniques, including graph and string algorithms, and advanced data structures.
+-  Algorithmic thinking is crucial for tackling problems efficiently. It involves breaking down problems, designing efficient algorithms, and implementing solutions through code. Common algorithms include sorting, graph, and machine learning algorithms
+-  Understanding the importance of software development tools, common debugging techniques, and the role of documentation in maintaining software projects is essential
+-  Version control systems like Git enable collaboration, debugging tools ensure the final system works as intended, and well-written documentation is vital for maintaining and scaling software projects
+-  The ability to construct efficient algorithms involves understanding the intricacies of time complexity, space efficiency, and correctness
+-  Optimising resource usage ensures that algorithms can handle large datasets without faltering. Problem-solving strategies like Divide and Conquer, Dynamic Programming, and Greedy Algorithms can lead to elegant solutions
+-  Advanced algorithmic techniques include graph algorithms for efficient navigation and optimisation, string algorithms for pattern discovery and data preservation, and advanced data structures for task organisation and efficient queries
+
+
