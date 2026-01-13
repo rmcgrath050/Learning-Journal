@@ -12,3 +12,7 @@ Tips for identifying the key message
 
 Bar chart shows different quanties
 historgram looks a continuious range of data , usually foucsed on one vlaue 
+
+## Phtyon Libraries
+- numpy library allows us to do functions like Sum, Median, Max, Min, Standard deviation etc
+- 
