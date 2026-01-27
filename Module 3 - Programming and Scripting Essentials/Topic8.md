@@ -2,7 +2,7 @@
 ### Devops
 
 
-<img width="1196" height="576" alt="image" src="https://github.com/user-attachments/assets/45723c54-6447-4ec4-b0c6-50c26fdcc8b4" />
+<img width="796" height="576" alt="image" src="https://github.com/user-attachments/assets/45723c54-6447-4ec4-b0c6-50c26fdcc8b4" />
 
 If there was no Devops development, teams silos. 
 
@@ -13,7 +13,7 @@ If there was no Devops development, teams silos.
 
 ### Continuous Integration
 
-<img width="1078" height="616" alt="image" src="https://github.com/user-attachments/assets/520f956e-ea1a-4d1e-9d5b-09406a461574" />
+<img width="778" height="616" alt="image" src="https://github.com/user-attachments/assets/520f956e-ea1a-4d1e-9d5b-09406a461574" />
 
 - once your code is on local computer ,
 - put into a pacakge for github , shared local reposibisty with Bank?
