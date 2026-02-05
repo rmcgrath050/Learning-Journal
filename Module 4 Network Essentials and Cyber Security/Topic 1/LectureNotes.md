@@ -95,9 +95,10 @@ Can not put everything in one area! Subnet masks are used.
 Helps traffic move quicker on a network and if not broken down in segments , security risk is higher. 
 Network can ensure bandwidth is increased in these segments. 
 
+<img width="530" height="328" alt="image" src="https://github.com/user-attachments/assets/5ae2854f-60be-4f9c-aeaf-99fb8e50c5ad" />
 
-
-
+## Virtual Local Area Networks 
+Each port can be configured into separate Lans. Could be useful for different departments in a large business. Can be configured separately such as increasing size for speed etc. 
 
 
 
