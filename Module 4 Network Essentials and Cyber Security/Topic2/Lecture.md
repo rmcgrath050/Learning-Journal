@@ -41,6 +41,27 @@ Can play about here - https://encode-decode.com/aes-128-cbc-encrypt-online/
 
 On your browser can check secuirty > certifcates here 
 
+### hash function
+
+- you give the data , then it gets hashed, if password is lost then the data is stored, its the hash that is stored and this is the problem
+- Hash saves on space, size of dtaa doesnt matter as we are storing the hash
+- Hashing is a one way function , cannot retrieve the orginal data from its hash
+- think of it like making a cake, it has been digested no return to orginal ingrediants
+- Check sum algorthms are used to check integrity of data!
+
+
+encrypted data in terms of your data is converted to encoded values when hashed. You can then use this hashed value to compare against when logging in etc compare the stored hash against a freshly hashed version of you password
+
+
+<img width="684" height="484" alt="image" src="https://github.com/user-attachments/assets/44fc327c-2dc3-45f9-920d-7c488a1a412f" />
+
+1. Data backups and replication - redunancy, other servers are on standby
+2. help with bottlecks in regards to network load balancing
+
+
+### Understanding finanical inpact 
+
+<img width="750" height="539" alt="image" src="https://github.com/user-attachments/assets/af257564-d187-4626-9709-00f04944c764" />
 
 
 
