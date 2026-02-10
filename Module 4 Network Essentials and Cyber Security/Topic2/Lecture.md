@@ -33,6 +33,16 @@ Access is about protecting the lock not the data, the door itself is protected!
 - Certicates  > local computer (can explore these here on local pc drive )
 - 
 
+<img width="900" height="370" alt="image" src="https://github.com/user-attachments/assets/bf362826-236c-4309-8cfe-69f389023879" />
+
+Private and public keys can intwine together.
+
+Can play about here - https://encode-decode.com/aes-128-cbc-encrypt-online/
+
+On your browser can check secuirty > certifcates here 
+
+
+
 
 
 
