@@ -5,6 +5,7 @@ CIA Traid is a framework that focueses on breaking down secuirty.
 - Integrity focuses on permissions. What can you do/ what you can't do.
 - Availibilty focuses on fallover plan and recoverability
 
+<br>
 
 <img width="280" height="230" alt="image" src="https://github.com/user-attachments/assets/3d0a47a5-cafe-4caf-a028-a1296c2f3fae" />
 
@@ -26,7 +27,11 @@ Access is about protecting the lock not the data, the door itself is protected!
 - A brute force attack is a hacking method that uses trial and error to crack passwords, time is not on its side
 - bit warden website tests your password, and tells u how long bruteforce takes
 - encryption key , 1 issue is potientally getting lost, this also is a compromise
-- Key maangement can be a issue , and computers / browsers can have an certificate, any data exchange there is always a certificate 
+- Key maangement can be a issue , and computers / browsers can have an certificate, any data exchange there is always a certificate
+- Certificate is software that manages the encrytion keys, it etstablishes trust! 
+- Email is always encrypted
+- Certicates  > local computer (can explore these here on local pc drive )
+- 
 
 
 
