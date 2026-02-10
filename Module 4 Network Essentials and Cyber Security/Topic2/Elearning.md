@@ -73,3 +73,30 @@ By systematically evaluating each potential hazard in terms of its severity, pro
 
 
 
+<img width="902" height="786" alt="image" src="https://github.com/user-attachments/assets/34e24df8-324c-473e-a2cb-1a80a932ad1e" />
+
+- The organisation should assess the risk based on both the severity of the vulnerability and the value of the asset.
+- While the vulnerability is high-risk, the value of the asset also plays a crucial role in risk prioritisation.
+
+
+## 3. Understanding threats and attacks
+
+By understanding the nature of these dangers, we can develop robust defence mechanisms to protect our data and infrastructure.
+An attack is an intentional act by a malicious actor to exploit a vulnerability.
+ Being aware of common attack vectors enhances your ability to protect data products and infrastructures. Additionally, it prepares you for discussing these topics in your <b>EPA professional discussion!! <b/>
+
+### Threats
+- Malware: Malicious software designed to damage or disrupt systems, steal data, or perform other unwanted actions. Types of malware include viruses, worms, and spyware. Example: A piece of malware might be downloaded unknowingly from an email attachment, which then spreads through the network, stealing sensitive data.
+- Phishing: A tactic used to trick individuals into divulging confidential information by pretending to be a trustworthy entity in electronic communications. Example: An email that appears to be from a bank, asking the recipient to click on a link and enter their login credentials. The link leads to a fake website controlled by attackers.
+- Insider Threats: Risks posed by individuals within the organisation who have access to sensitive information and misuse it. Example: A disgruntled employee who leaks confidential data to a competitor.
+- Social Engineering: Manipulating people into breaking normal security procedures and divulging confidential information. Example: An attacker calls an employee pretending to be from IT support and convinces them to reveal their password.
+
+<br>
+A phishing attack may trick employees into divulging sensitive information. Implementing email filtering and user training can reduce the risk of such attacks. For instance, a company might face a phishing threat where attackers send emails pretending to be from a trusted source. 
+
+<br>
+Spearphishing is a more targeted form of phishing, where attackers tailor their messages to specific individuals or organisations, often using personal information to make the attack more convincing.
+
+<b>A real life example:</b>
+- The attackers gained access through a third-party HVAC vendor, highlighting how insider threats and social engineering can be exploited to breach large networks.
+- In fact, there are several types of threat actors you should be aware of, including Hacktivists, Rogue State Actors, Script Kiddies, and Common Hackers
