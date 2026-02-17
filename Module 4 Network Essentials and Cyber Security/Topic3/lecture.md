@@ -56,4 +56,31 @@ If we help each other with security we design a pattern together.
 
 ### Anti Patterns
 - one of the benefits include 'Hardcoded secrets'
-- sometimes api keys are included in the code (that's an anti pattern as key easily obtained) 
+- sometimes api keys are included in the code (that's an anti pattern as key easily obtained)
+
+### HTTPS 
+
+A secured protocol (Hypertext Transfer Protocol Secure)
+- provides a encrypted transmission of data 
+- encryption of data in the exchange between ssl client and ssl server 
+
+
+### Downgrade Attacks
+-- A channel not ungraded and not used - supposed to be removed, an attacker can take advantage
+- VPS/VPN provides a secure exchange 
+- Make sure to keep up to date with updates
+
+<img width="778" height="536" alt="image" src="https://github.com/user-attachments/assets/7bd5d5ad-c68d-4d19-8fa8-158d005a5bc4" />
+
+**Part of assignment will be designing a diagram , of pipeline , infrastucture etc. Please avoid AI to draw diagrams! Could fail for this!! 
+
+Go though this lens:
+1. on your job
+2. Porject role
+3. area of expertise
+4. Stage of project design
+
+
+<img width="592" height="632" alt="image" src="https://github.com/user-attachments/assets/c2c0871e-5363-46b1-a215-f7e9e94ab942" />
+
+
