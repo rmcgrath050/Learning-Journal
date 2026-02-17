@@ -86,8 +86,9 @@ Go though this lens:
 - why is there no firewall in public zone? Eaxmple assessement question, must be able to justify why? - can say as its public need everyone to have access here!
 - DMZ , delimited zone!
 - Lots of examples of UML diagrams/ networking diagrams
-- Cna draw on draw.io, lucidchart, Dia, Microsfot Visio
-- 
+- Cna draw on draw.io, lucidchart, Dia, Microsoft Visio
+- http://plantunml.com/
+  
 
 
 
