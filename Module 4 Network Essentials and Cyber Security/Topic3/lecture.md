@@ -83,4 +83,13 @@ Go though this lens:
 
 <img width="592" height="632" alt="image" src="https://github.com/user-attachments/assets/c2c0871e-5363-46b1-a215-f7e9e94ab942" />
 
+- why is there no firewall in public zone? Eaxmple assessement question, must be able to justify why? - can say as its public need everyone to have access here!
+- DMZ , delimited zone!
+- Lots of examples of UML diagrams/ networking diagrams
+- Cna draw on draw.io, lucidchart, Dia, Microsfot Visio
+- 
+
+
+
+
 
