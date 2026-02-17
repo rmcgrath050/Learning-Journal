@@ -92,7 +92,7 @@ Go though this lens:
 <br>
 <img width="584" height="266" alt="image" src="https://github.com/user-attachments/assets/24e80d95-6250-49c8-888c-6a71b46e092c" />
 
-
+chat access groups and service accounts and all that and not worry too much about all this!
 
   
 
