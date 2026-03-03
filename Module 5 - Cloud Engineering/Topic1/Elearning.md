@@ -72,3 +72,32 @@ availability, scalability, security, compliance, and performance.
 - Scalability : another essential factor, allowing systems to handle increasing loads without compromising performance. Cloud environments facilitate both vertical and horizontal scaling
 
 - Security and compliance are other paramount requirements, especially with regulations like the General Data Protection Regulation (GDPR) affecting how data is stored and processed. Organisations must ensure that their cloud solutions adhere to relevant laws and industry standards. A future module (Data Responsibilities) will guide you specifically through those requirements.
+
+
+
+## Lesson 3 : role of hyperscalers in meeting business and user requirements
+
+
+Understanding the capabilities of hyperscalers is essential for organisations aiming to meet key business and user requirements in the cloud computing landscape. 
+<br>
+Hyperscalers—large cloud service providers (CSPs) such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)—play a significant role in offering extensive global infrastructure and advanced services. 
+
+<br>
+hese providers not only supply the fundamental compute, storage, and networking resources but also enable organisations to leverage cutting-edge technologies like edge computing, artificial intelligence, and machine learning.
+
+
+#### Distinguishing Cloud service providers from Hyperscalers
+
+CSPs are companies that offer network services, infrastructure, or business applications in the cloud. Hyperscalers, on the other hand, refer to the largest CSPs that provide scalable cloud infrastructure capable of handling vast amounts of data and computation.
+<br>
+The differentiation lies in the scale and capacity; hyperscalers possess the resources to support massive workloads and global operations, making them pivotal in addressing complex organisational needs.
+
+
+#### Meeting business/ user requirements with hypersalers 
+
+availability, scalability, security, and compliance—hyperscalers are uniquely positioned to meet these demands.
+Their global presence ensures high availability and low latency, while their robust infrastructure supports scalability and performance.
+<br>
+Hyperscalers invest heavily in security measures and compliance certifications, offering advanced tools and services that smaller providers may not match.
+
+#### Role of hyperscalers in Edge Computing 
