@@ -101,3 +101,33 @@ Their global presence ensures high availability and low latency, while their rob
 Hyperscalers invest heavily in security measures and compliance certifications, offering advanced tools and services that smaller providers may not match.
 
 #### Role of hyperscalers in Edge Computing 
+
+One of the significant contributions of hyperscalers is their support for edge computing, a paradigm that brings computation and data storage closer to the sources of data.
+<br>
+Edge computing is crucial for applications requiring real-time processing and minimal latency, such as Internet of Things (IoT) devices, autonomous vehicles, augmented reality (AR), virtual reality (VR), and online gaming.
+<br>
+By processing data near the edge of the network, organisations can reduce the time it takes for data to travel, resulting in faster responses and improved user experiences.
+
+
+#### Global infrastructure and edge services of hyperscalers
+
+Hyperscalers enable edge computing through their extensive global infrastructure, consisting of numerous data centres and edge locations strategically placed around the world.
+<br>
+Google Cloud provides Anthos for managing workloads across hybrid and multi-cloud environments, including edge locations.
+These services allow organisations to deploy applications closer to end-users or data sources, significantly reducing latency.
+
+
+#### Edge Computing for LOT applications
+
+Consider an IoT application that monitors industrial equipment in real time to detect anomalies and predict maintenance needs. Processing the vast amounts of sensor data centrally could introduce delays and bandwidth challenges.
+
+<br>
+
+By utilising edge computing services from hyperscalers, the data can be processed locally, enabling immediate analysis and rapid responses to potential issues. This approach enhances operational efficiency and reduces the risk of equipment failure.
+
+
+#### Advanced networking of Hyperscalers
+
+offer advanced networking capabilities, such as content delivery networks (CDNs) and dedicated connectivity options. CDNs distribute content across multiple edge locations, ensuring fast and reliable access for users worldwide.
+
+Services like AWS CloudFront, Azure Content Delivery Network, and Google Cloud CDN accelerate the delivery of web content, videos, and applications by caching copies closer to users.
