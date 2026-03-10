@@ -50,3 +50,25 @@ Docker engine inside the container area is like the house management!
 - Kubernetes manaages the nodes (mutiple docker hosts)
 - KN automates container provisioning, networking, load distribution and saling
 
+#### Tools
+- can run kubernetes yourself or run a service like Amazon EKS
+- Why does AWS offer both ECS and EKS - EKS is management of kubernetes,EKS is more for portability purposes
+ 
+<img width="738" height="572" alt="image" src="https://github.com/user-attachments/assets/33d1d0d3-9804-461f-8e59-b6603d570e08" />
+
+Docker support is what we will look at in the lab!
+<br>
+
+Datasources can be from all types of environments (eg. developer, aws cloud, on prem CI/CD server) 
+
+<br>
+<br>
+
+<b>Diagram Helpful with EPA : </b>
+<img width="1116" height="1156" alt="image" src="https://github.com/user-attachments/assets/6b154045-1e53-4c83-8a4d-eac08348af3d" />
+
+
+
+
+
+
