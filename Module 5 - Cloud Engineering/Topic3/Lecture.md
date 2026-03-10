@@ -32,6 +32,20 @@ Docker engine inside the container area is like the house management!
 2. It solves the problem of overhead expenses and is more efficent to run
 3. Different from virtual machine as virtual machine involves more processing power, less easy to manage/ maintain 
 
+#### ECS
+- ECS is a passive system , like routing decides where things go.
+- Allocates resources eg with capicity
+- orchestration brain of it all
+- cluster is a combination of containers in EC2 ( empty floor of building)
+- Self heals itself to move containers to an available EC2 instance in the same ECS cluster
 
+
+#### Amazon ECS Cluster Options 
+- need to be able to agrue for aor an against approach for different scenarions **EPA
+- Amazon ECS customer involves management of docker engines and VM guest operating systems
+- With fargate less control but faster to run
+- EC2 needs to comply with FCA complaince guidelines,
+
+- 
 
 
