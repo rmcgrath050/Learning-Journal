@@ -44,8 +44,9 @@ Docker engine inside the container area is like the house management!
 - need to be able to agrue for aor an against approach for different scenarions **EPA
 - Amazon ECS customer involves management of docker engines and VM guest operating systems
 - With fargate less control but faster to run
-- EC2 needs to comply with FCA complaince guidelines,
+- EC2 needs to comply with FCA complaince guidelines
 
-- 
-
+#### Kubernetes
+- Kubernetes manaages the nodes (mutiple docker hosts)
+- KN automates container provisioning, networking, load distribution and saling
 
