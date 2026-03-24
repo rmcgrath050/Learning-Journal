@@ -19,7 +19,7 @@ Considerations include:
 * Capital one model example - can help asnwer about implementing secuirty with migration
 
 Lessons learned:
-- robust contingency plans (Risk massessement and management) 
+- robust contingency plans (Risk assessement and management) 
 - engaging stakeholders - whos using products 
 - better research investigation + planning
 - Skilled personal , better training
