@@ -27,6 +27,9 @@ Lessons learned:
 
 
 
+Reduncancy can be expesive but access what could happen , hoe bad it could be , cost of failures/outcomes and compare cost. 
+
+
 
   
 
