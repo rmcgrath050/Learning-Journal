@@ -15,12 +15,18 @@ They also use DevOps tools to continuously deploy updates and monitor performanc
 <img width="534" height="582" alt="image" src="https://github.com/user-attachments/assets/4160c066-3560-4023-86a3-b6daaaaf233e" />
 
 <br>
+<br>
 No need for cloud when:
-- Cost considerations: For small-scale applications with predictable, low workloads, on-premises solutions may be more cost-effective in the long run.
-- Regulatory constraints: Some industries have strict data residency and compliance requirements that necessitate keeping data on-premises.
-- Latency sensitivity: Applications requiring ultra-low latency might perform better when hosted locally.
-- Existing infrastructure: Organisations with significant investments in on-premises infrastructure may prefer to maximise their current assets.
-- Security concerns: Although cloud providers offer robust security, some businesses may have specific security policies that favour on-premises deployment.
+<br>
+
+
+
+
+- Cost considerations: For small-scale applications with predictable, low workloads, on-premises solutions may be more costeffective     in the long run.
+- Regulatory constraints: Some industries have strict data residency and compliance requirements that necessitate keeping data on      premises.
+- Latency sensitivity: Applications requiring ultralow latency might perform better when hosted locally.
+- Existing infrastructure: Organisations with significant investments in onpremises infrastructure may prefer to maximise their         current assets.
+- Security concerns: Although cloud providers offer robust security, some businesses may have specific security policies that favour       onpremises deployment.
 
 
 ### Sanity checking user and business requirements
@@ -154,3 +160,11 @@ Recognising when cloud solutions are appropriate and when they are not is crucia
 
 <img width="716" height="508" alt="image" src="https://github.com/user-attachments/assets/a06b7af8-2005-495b-a1e9-ac9d10cecbe1" />
 
+
+1. Cloud fundamentals
+- Recognise key cloud compute types and cost structures.
+- Explore the cloud landscape’s top providers, common utilities, and resources.
+- Be able to demonstrate your mastery of continuous learning in your EPA professional discussion.
+- Evaluate the business case for cloud adoption and calculate ROI on cloud projects.
+- Identify key business and user requirements for cloud-based data products.
+- Describe key IAM concepts and the importance of service accounts.
