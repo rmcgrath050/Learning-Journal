@@ -160,7 +160,7 @@ Recognising when cloud solutions are appropriate and when they are not is crucia
 
 <img width="716" height="508" alt="image" src="https://github.com/user-attachments/assets/a06b7af8-2005-495b-a1e9-ac9d10cecbe1" />
 
-
+<br>
 1. Cloud fundamentals
 - Recognise key cloud compute types and cost structures.
 - Explore the cloud landscape’s top providers, common utilities, and resources.
@@ -168,3 +168,49 @@ Recognising when cloud solutions are appropriate and when they are not is crucia
 - Evaluate the business case for cloud adoption and calculate ROI on cloud projects.
 - Identify key business and user requirements for cloud-based data products.
 - Describe key IAM concepts and the importance of service accounts.
+
+
+2. Data in the cloud
+- Explain how businesses collate requirements for cloud data movement and storage.
+- Identify regulatory risks for storing and moving data in the cloud.
+- Compare pros and cons of typical data access control methods.
+- Appraise competing alternatives for data access from various CSPs.
+
+3. Containers & orchestration
+- Demonstrate visual modelling for container design by drawing diagrams.
+- Compare pros and cons of serverless mode vs. VM deployment model.
+- Deploy a microservices application using orchestration and serverless deployments.
+- Report on resource usage and optimise resources for sustainable growth.
+- Explain the basics of Infrastructure as Code
+
+4. Securely deploying cloud data products
+- Explain the components and importance of CI/CD in the cloud.
+- Identify and mitigate security risks in cloud deployments.
+- Implement a secure cloud data deployment using cloud-native tools
+- Compare the principles of Site Reliability Engineering (SRE) to the principles of DevSecOps.
+- Monitor cloud deployments using dashboards and logs.
+- Elaborate on the usefulness of Infrastructure as Code in the context of data product deployment
+
+5. Migrations, archiving, monitoring & disaster recovery
+- Analyse typical types of cloud migration projects, including failed ones, and explain how to document “lessons learned”.
+- Develop archiving policies and frameworks.
+- Explain the significance of introducing redundancy for performance and availability.
+- Explain the importance of, and the differences between, business continuity management, disaster recovery, and incident response.
+- Deploy and monitor cloud-native applications using Azure Monitor and Python monitoring services.
+
+
+6. Cloud Solutions Integration
+- Document and describe complex integrated cloud architectures.
+- Explain the significance of Infrastructure as Code (IaC) in cloud integration and how it enhances efficiency and sustainability.
+- Appraise the role of tools like Ansible and Teraform in automating cloud integrations.
+- Demonstrate integrating multiple cloud providers into a hybrid cloud environment, including on-premises systems (visualise and explain at least two approaches to integrating different cloud providers into a hybrid cloud and/or on-premises clusters with the cloud.)
+- Explain the benefits of using comprehensive third-party tools like Snowflake and Databricks to integrate and manage data across cloud platforms.
+- Explain how you would integrate visualisation tools (like Power BI) with a cloud data product.
+
+7. Putting it together
+- Design cloud solutions based on user and business requirements.
+- Evaluate use cases on whether they are suitable for cloud-based approaches.
+- Monitor setup and running costs of cloud-native data products.
+- Implement net-zero practices with right-sizing and auto-scaling policies.
+
+
