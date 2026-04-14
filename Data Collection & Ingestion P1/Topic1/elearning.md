@@ -108,3 +108,60 @@ Often, the datasets you will work with will have either column names that are no
 <img width="676" height="552" alt="image" src="https://github.com/user-attachments/assets/5f4e3ac2-a557-4475-b645-64a0784f2506" />
 <br>
 <br>
+
+## 4. Importance of automation
+
+Automating tasks such as data correction, regular reporting and data retrieval processes reduces manual intervention and ensures that tasks are executed consistently and on schedule. It is automation that takes you from manual collection to automated ingestion.
+
+Automated correction includes rule-based corrective steps that are automatically applied to the data. This reduces the need for manual intervention, as the modified values are obtained or generated and committed without human supervision.
+
+Automated correction requires an environment with well-defined standards, commonly accepted rules, and known error patterns. The amount of automated correction can be reduced over time if this environment is well-managed and corrected data is shared with upstream systems.
+
+##### Techniques
+
+1. Normalisation, normalisation scales the data to a fixed range, usually between 0 and 1. This ensures that all features are on the same scale and prevents certain features from dominating others due to their larger magnitude.
+2. Standardisation, This technique is useful when the data has different scales and varying ranges, and it ensures that each feature has a comparable impact on the model.
+3. Encoding categorical variables, Encoding categorical variables is an essential preprocessing step in machine learning when dealing with features that are not numerical. Categorical variables represent qualitative data, such as types, classes, or labels.
+
+
+### Data quality automation
+
+1. Automated data cleansing and deduplication: The process of detecting and correcting (or removing) corrupt, inaccurate, duplicated or irrelevant records from a dataset or database.
+
+2. Data validation: Ensuring that the data collected or used is accurate, meaningful, and relevant to the context. This might involve checking for logical consistency, correctness of format, etc. Reports may be automatically generated and the right personnel notified in case of major inconsistencies.
+
+3. Data profiling: The process of examining the data available in an existing database and collecting statistics or informative summaries about this data.
+
+4. Data enrichment: Adding value to raw data by linking it with additional information from external sources.
+
+### Automated data quality reporting
+<br>
+<br>
+<img width="1048" height="580" alt="image" src="https://github.com/user-attachments/assets/e0934185-0e6e-476c-a5bb-cab3d39abf18" />
+<br>
+<br>
+<img width="886" height="778" alt="image" src="https://github.com/user-attachments/assets/63b16ed5-289a-429a-b086-721a344f74a9" />
+<br>
+<br>
+<img width="1000" height="644" alt="image" src="https://github.com/user-attachments/assets/df84002c-88e7-4c43-ac9e-1f688704db14" />
+
+
+
+## 5. Summary 
+
+- Data extraction: This first stage involves extracting the raw data from its source system(s), for example, extracting log files from web servers, getting new transaction records from a database, or downloading data exports from applications.
+
+
+- Data validation: Once extracted, the raw data should go through basic validation checks for completeness, correctness, and integrity using type checking, range checks, mandatory field checks, etc. This stage helps catch any data quality issues early.
+
+
+- Data transformation: Here, the validated raw data gets transformed to prepare it for loading into the target system. Transformations may include filtering, cleansing, joining data from multiple sources, splitting complex records, enforcing uniform schemas, aggregating, encoding values, etc.
+
+
+- Data loading: Transformed data gets loaded into the analytics database, data warehouse, data lake, or another persistent store location for reporting, analytics, machine learning, etc. Common loading methods include bulk loads for batch data or real-time, incremental loads via messaging systems.
+
+
+- Data quality monitoring: After loading, statistics on row counts, errors encountered, data completeness, etc., are tracked to monitor quality levels and detect potential issues with the ingestion process.
+
+
+- Metadata & catalogue updates: Finally, metadata stores and data catalogues get updated with details about newly available data sets, columns, quality metrics, and other technical metadata to enable discoverability.
