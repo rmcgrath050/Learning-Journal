@@ -63,3 +63,10 @@ Types of dirty data include:
 
 7. If applicable, use the profiling feature of the pandas library to generate a profile report. This will provide you with valuable information about your dataset.
 
+##### Why data exploration matters:
+
+1. Dataset Understanding, Firstly, doing this will give you a great understanding of the limits of your dataset, which is essential if you are to trust the results of your final analyses.
+2. Trend Indetification: Secondly, data exploration can point you in the direction of important trends and analyses you hadn’t considered previously. These have the potential to add to your intended analyses or to present a complicating factor that you need to consider.
+3. Revelaing Outliers : This pre-analysis can also be your first clue to where you may have dirty data. This can be the first time you see that outlier, realise there are twice as many categories as there should be, or discover that the data collection method was different last year than it was the year before.
+
+4. 
