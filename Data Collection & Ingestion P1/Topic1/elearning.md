@@ -69,4 +69,42 @@ Types of dirty data include:
 2. Trend Indetification: Secondly, data exploration can point you in the direction of important trends and analyses you hadn’t considered previously. These have the potential to add to your intended analyses or to present a complicating factor that you need to consider.
 3. Revelaing Outliers : This pre-analysis can also be your first clue to where you may have dirty data. This can be the first time you see that outlier, realise there are twice as many categories as there should be, or discover that the data collection method was different last year than it was the year before.
 
-4. 
+## 3. Cleaning data in Python
+
+Best practices for data cleaning:
+- Store raw data separately.
+- Use version control and always keep the original.
+- Document your data-cleaning decisions and justifications.
+- Add comments to your code to explain the purpose of each cleaning step and any assumptions made.
+- You will want to make sure your data cleaning efforts are not significantly changing the distribution or introducing any unintended biases.
+- If you have a long cleaning process or one that is automated, you may want to maintain a separate document where you record the details of each cleaning step. Details such as the date, the specific action taken, and any issues encountered may be helpful down the road. Remember to store this document somewhere easily accessible, such as in the same project folder as the data or the code. In the case of an automated, regularly updated pipeline, consider having this log be an automatic part of the data cleaning process.
+- Identify common data cleaning tasks and encapsulate them into reusable functions. This allows you to apply the same cleaning steps to multiple datasets. This is especially helpful if you have company-specific abbreviations you want to map.
+
+
+##### Dropping unnecessary columns in a DataFrame
+
+  <img width="636" height="534" alt="image" src="https://github.com/user-attachments/assets/bb49c42e-f978-4f8e-a7a6-4dcaac0bfe1e" />
+
+<br>
+<br>
+
+##### Tidying up fields in the data
+
+You can use regex to enforce that the fields are always in the right format, and remove field data that is bogus, as illustrated below. Remember, you can review the lesson on regular expressions from Module 3 to refresh your memory!
+
+<img width="708" height="698" alt="image" src="https://github.com/user-attachments/assets/b4e7e123-d06f-448a-be33-47422237d434" />
+
+<br> 
+#####  Cleaning the entire dataset using the `applymap` [use code syntax] function
+
+In certain situations, you will see that the 'dirt' is not localised to one column but is more spread out. There are some instances where it would be helpful to apply a customised function to each cell or element of a DataFrame. `pandas .applymap()` [use code syntax] method is similar to the in-built `map()` [use code syntax] function and simply applies a function to all the elements in a DataFrame.
+
+
+#####   Renaming columns and skipping rows
+
+Often, the datasets you will work with will have either column names that are not easy to understand, or unimportant information in the first few and/or last rows, such as definitions of the terms in the dataset, or footnotes. In that case, we’d want to rename columns and skip certain rows so that you can drill down to the necessary information with correct and sensible labels.
+
+
+<img width="676" height="552" alt="image" src="https://github.com/user-attachments/assets/5f4e3ac2-a557-4475-b645-64a0784f2506" />
+<br>
+<br>
