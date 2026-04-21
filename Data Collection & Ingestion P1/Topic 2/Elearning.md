@@ -80,4 +80,36 @@ Change Data Capture (CDC) is a design pattern that captures incremental changes 
 
 <img width="568" height="351" alt="image" src="https://github.com/user-attachments/assets/22489f08-cea1-4c5a-9e46-8fc8a08f8312" />
 
+<br>
+So why use CDC?
+- Synchronising data between transactional and analytical systems.
+- Enabling real-time analytics on operational data.
+- Feeding real-time dashboards and applications with up-to-date data.
+- Replicating data for disaster recovery and high availability.
+<br>
+
+Implemented though:
+- Source database with CDC enabled (e.g., MySQL Postgres, Oracle GoldenGate).
+- CDC tool to capture and transmit changes.
+- Feeding real-time dashboards and applications with up-to-date data.
+- Target data store to apply changes (data warehouse, data lake, NoSQL database).
+<br>
+
+Tools for CDC include AWS Database Migration Service (DMS), Azure Data Factory, Google Cloud Datastream.
+
+<br>
+Pros:
+- Enables near real-time data synchronisation.
+- Minimises impact on source systems (no expensive queries).
+- Supports heterogeneous source and target systems.
+- Integrates well with existing data pipelines and architectures.
+
+Cons:
+- Requires enabling CDC on source databases (may need DBA involvement).
+- Can be complex to set up and manage, especially for multiple sources.
+- May increase load on source systems and networks.
+- Some CDC tools can be expensive for high-volume workloads.
+
+<br>
+<img width="586" height="480" alt="image" src="https://github.com/user-attachments/assets/81f0a300-024e-478b-bc70-c810a3659c4f" />
 
