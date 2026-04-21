@@ -64,5 +64,20 @@ Ensuring data security and governance involves implementing encryption, validati
 
 ## 2. Heterogeneous data ingestion use cases
 
+A heterogeneous data ingestion pattern involves managing data that comes in various formats and structures, such as a mix of structured, semi-structured, and unstructured data. It also involves those scenarios in which data undergoes transformations during its ingestion into the destination storage system. These transformations range from basic adjustments like altering the data type or format to adhere to the requirements of the destination, to more intricate processes such as employing machine learning algorithms to generate new data attributes. This approach typically occupies most of the time for data engineers and ETL developers, who work on cleansing, standardising, formatting, and structuring the data according to business and technological specifications.
+
+## 3. Advanced data ingestion patterns
+
+Choosing the right data ingestion method requires careful consideration of several factors, including:
+
+- Where is your data originating from?
+- What's the intended storage destination?
+- How is the data currently structured within that system?
+
+
+Change Data Capture (CDC) is a design pattern that captures incremental changes made to a database and applies them to a target data store in near real-time. CDC uses transaction logs or triggers to identify and capture changes. A key feature of CDC is it applies directly to database events (not system events, application events, log events etc)
+
+
+<img width="568" height="351" alt="image" src="https://github.com/user-attachments/assets/22489f08-cea1-4c5a-9e46-8fc8a08f8312" />
 
 
