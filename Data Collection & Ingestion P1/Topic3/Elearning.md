@@ -76,3 +76,20 @@ In short, microservices are more about the software architecture, while the APIs
 <br>
 Meanwhile, APIs allow the standardised mechanisms for web governance – the inspection mechanisms that are looking to make sure everything is where it should be and configured correctly – while retaining development agility and making the reuse and discoverability of microservices possible.
 
+<br>
+Without an API, there would be a lot of disconnected microservices. If you want your microservice to be used, then you must create an API!!!
+
+<br>
+
+## 2. Case study - Building an ingestion microservice
+
+In the era of big data and cloud computing, the ability to build scalable and efficient data ingestion systems is crucial. Serverless architectures offer a way to achieve this with minimal overhead and maximum flexibility.
+
+Additionally, focusing on net-zero benefits aligns with the growing emphasis on sustainability in technology. By mastering these concepts, you will be at the forefront of creating innovative and responsible data solutions.
+
+Step 1 :
+- Choose a Serverless Platform (e.g., AWS Lambda, Azure Functions, Google Cloud Functions). These platforms automatically manage server provisioning, scaling, and resource allocation.
+
+Step 2 :
+
+
