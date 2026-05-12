@@ -85,4 +85,10 @@ When setting up Kafka, several configuration parameters need to be considered:
 - Producer and Consumer Settings: Configuring batch sizes, compression, and acknowledgement levels to optimise performance and reliability.
 
 
+### Challeneges
 
+Setting up Kafka can present several challenges, including:
+- Zookeeper coordination: Ensuring Zookeeper is correctly configured and integrated with Kafka can be complex.
+- Network configuration: Properly setting up network settings to allow brokers to communicate efficiently.
+- Resource allocation: Allocating sufficient memory and storage resources to handle expected data loads.
+- Security configuration: Implementing SSL, SASL, and ACLs to secure data streams and broker access.
