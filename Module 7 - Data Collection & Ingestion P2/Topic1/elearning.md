@@ -46,3 +46,43 @@ In large organisations, HR systems use Pub-Sub models to manage employee data ch
 
 ## L3. Deep dive into Kafka
 
+Apache Kafka is an open-source distributed event streaming platform used by over 80% of Fortune 100 companies, including banking giants like Goldman Sachs and tech firms like LinkedIn. Kafka is renowned for its ability to handle high-throughput, fault-tolerant data streams, making it an indispensable tool for real-time analytics and data processing.
+
+
+- Topics: Categories or feed names to which messages are published. For example, "transaction_events" or "user_activity."
+- Partitions: Subdivisions of topics that allow Kafka to parallelise message processing. Each partition is an ordered, immutable sequence of records that is continually appended to.
+- Producers: Applications that write data to Kafka topics. They can send messages to multiple topics and partitions based on their configuration.
+- Consumers: Applications that read data from Kafka topics. They can be part of a consumer group to distribute the load.
+- A consumer group is a collection of consumers that work together to consume messages from a topic's partitions, ensuring load balancing and fault tolerance.
+
+
+##### Kafka Clusters
+
+A Kafka cluster consists of multiple brokers (servers) that manage the storage and retrieval of messages. Zookeeper is used to manage and coordinate the cluster, ensuring data consistency and system reliability. Each broker can handle multiple partitions, allowing Kafka to scale horizontally by adding more brokers to the cluster.
+<br>
+<br>
+<img width="742" height="484" alt="image" src="https://github.com/user-attachments/assets/85cf4f6b-ba7b-4abf-910e-c5b95dc136a9" />
+<br>
+
+Kafka ensures data consistency through its replication mechanism. Each partition can have multiple replicas across different brokers, with one broker acting as the leader and others as followers. Kafka guarantees strong consistency by ensuring that all replicas acknowledge a message before it is considered successfully written. This ensures that even if a broker fails, the data remains available and consistent across the cluster.
+<br>
+<br>
+
+<img width="648" height="465" alt="image" src="https://github.com/user-attachments/assets/7187a7d3-b2e9-49b6-8f77-16221e6b7105" />
+<br>
+<br>
+
+
+#### Kafka as a log
+
+Kafka treats each partition as an immutable log. Messages are appended to the end of the log and are assigned a sequential offset. Consumers track their position in the log by recording the offsets they have processed. This log-based architecture allows Kafka to efficiently handle large volumes of data and provides durability by retaining messages for a configurable retention period.
+
+
+Practical configuration considerations
+When setting up Kafka, several configuration parameters need to be considered:
+- Retention Policies: Define how long Kafka retains messages in a topic, balancing storage costs with data availability.
+- Replication Factor: Determines the number of replicas for each partition, impacting data durability and availability.
+- Producer and Consumer Settings: Configuring batch sizes, compression, and acknowledgement levels to optimise performance and reliability.
+
+
+
