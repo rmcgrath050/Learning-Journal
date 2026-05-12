@@ -92,3 +92,5 @@ Setting up Kafka can present several challenges, including:
 - Network configuration: Properly setting up network settings to allow brokers to communicate efficiently.
 - Resource allocation: Allocating sufficient memory and storage resources to handle expected data loads.
 - Security configuration: Implementing SSL, SASL, and ACLs to secure data streams and broker access.
+
+
