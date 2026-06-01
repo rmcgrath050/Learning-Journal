@@ -9,7 +9,7 @@
 - network latency? (Between producers and brokers) 
 - delays in ingestion, data generated too slowly 
 - loss of network / faulty sensors
-- 
+
 
 #### How would you improve the speed?
 Use compression to reduce network load
@@ -25,7 +25,7 @@ Azure event hubs - fully managed, manages clusters ,
 
 What would work best for organisation? 
 - Kafta would be more ideal for on prem and bespoke customer solutions
-- 
+
 
 Disadvantages of Cloud services
 - latency 
@@ -37,7 +37,7 @@ Provide encryption and integrity for transfer
 Needs it legally! - Instant messaging services, finance , gov systems 
 
 
-ACLS is about what level of access  u have, who can read/write.delete data. 
+#### ACLS is about what level of access  u have, who can read/write.delete data. 
 
 - Examples : PII data, high value financial transactions, trading/market data, 
 
