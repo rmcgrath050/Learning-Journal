@@ -41,13 +41,22 @@ Classic Airflow sensors:
 
 ### Designs
 - Control Tables / Metadata Tables (Upsteam tables update and dag checks these) 
-- Event-Driven Triggers
+- Event-Driven Triggers (using Pub/Sub, Kafka, webhooks)
+- Batch Windowing (Quarterly DAG only allowed to run:6am–12pm after upstream completion SLA) , business-defined processing windows ,         avoids waiting 
+- Could maybe do batch now as its quickest design , considering alot of learning already for GCP, this was a tradeoff
+- dbt Freshness Checks - but data could be techincally the same as previous report Tom has confirmed!!
+
+Yes — in many banking/reporting systems, a simple scheduled DAG is enough if the business process guarantees the data is finalized by a known reporting window.
+
+
 
 Source load finishes
     ↓
 Publishes event/message
     ↓
 Triggers Airflow DAG
+
+- 
 
 
 
