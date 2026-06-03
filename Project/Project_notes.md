@@ -39,5 +39,20 @@ Classic Airflow sensors:
 
 
 
+### Designs
+- Control Tables / Metadata Tables (Upsteam tables update and dag checks these) 
+- Event-Driven Triggers
 
-### 
+Source load finishes
+    ↓
+Publishes event/message
+    ↓
+Triggers Airflow DAG
+
+
+
+
+### Design 
+- Currently FDP is updated by upstream data from ODP - surely no update happens until the fresh load of ODP? Therefore could use DBT freshness?
+
+- 
