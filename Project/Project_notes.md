@@ -24,7 +24,6 @@ but your DAG still runs on schedule
 
 
 That creates:
-
 incomplete tables
 stale active records
 incorrect quarterly outputs
