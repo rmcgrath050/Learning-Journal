@@ -28,5 +28,16 @@ incomplete tables
 stale active records
 incorrect quarterly outputs
 
+### Why no airflow sensors?
+- Your bank avoiding Airflow sensors is also common.
+
+Classic Airflow sensors:
+- poll repeatedly
+- occupy workers
+- can create scaling issues
+- can become operationally messy
+
+
+
 
 ### 
