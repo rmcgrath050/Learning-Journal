@@ -1,6 +1,19 @@
 
 ## First: Translate the Problem Into Components
 
+##### tools
+- airflow
+- teraform
+- dag
+- DBT
+- bigquery
+- Github
+- tws
+- kubernetes
+- docker
+  
+
+
 First: Translate the Problem Into Components
 
 You likely have something like:
