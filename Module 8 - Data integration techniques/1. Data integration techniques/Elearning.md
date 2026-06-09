@@ -21,4 +21,28 @@ Traditional ETL tools may not be built for horizontal scalability or distributed
 ETL tools were designed for structured relational data. But data pipelines today must handle JSON, logs, images, clickstreams, and other complex formats. ETL often struggles with flexibility, whereas modern pipelines can be built to accommodate varied and unpredictable data structures.
   
 
+## Modern data integration
+
+<b>The traditional ETL model says: “Move everything, transform it, then report on it.” Modern pipelines ask instead: “What’s the lightest, fastest way to get the right data where it needs to be?” Let’s explore four answers to that question.</b>
+
+##### Data Federation: Access without movement
+
+Imagine you could reach into three different systems - without ever copying their data - and query them as one. That’s the essence of data federation: it enables your pipeline to query multiple backends as though they were one source.
+- Watch out for: performance bottlenecks if sources are slow or unavailable
+
+##### Unified view
+Data virtualisation provides a consistent schema over disparate systems. It's not just about access - it's about abstraction. This is your pipeline’s way of saying: “No matter how messy the sources are, I’ll present clean columns downstream.” Often used in tandem with semantic layers or governed data platforms, virtualisation supports reusability across teams without replicating storage
+
+##### Data Blending
+Where virtualisation offers abstraction, blending focuses on fast combinations. This is the integration approach you use when your pipeline is pulling together data for a specific purpose - say, a marketing report or an ad spend dashboard - and you don’t need a perfect schema match.
+
+##### ELT: Ingest Now, Transform Later
+Sometimes the best pipeline strategy is speed. ELT - Extract, Load, Transform -  flips the traditional model: it gets the data into your platform first, then applies transformations once it's safely there. It’s fast, cost-effective, and cloud-native. Here's why it matters for pipelines:
+- Reduces latency between collection and storage
+- Allows transformations to be versioned and decoupled from ingestion
+- Scales well with columnar stores like BigQuery and SnowFlake
+  
+But beware: ELT pipelines demand good governance - raw data needs documentation, monitoring, and often staging layers to avoid chaos.
+
+
 
