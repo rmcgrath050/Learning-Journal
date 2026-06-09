@@ -44,5 +44,34 @@ Sometimes the best pipeline strategy is speed. ELT - Extract, Load, Transform - 
   
 But beware: ELT pipelines demand good governance - raw data needs documentation, monitoring, and often staging layers to avoid chaos.
 
+#### Trade-offs to consider:
+
+- Performance: Federation can slow down if APIs are rate-limited or unavailable. Consider fallbacks or caching.
+- Data freshness vs. consistency: Real-time feeds (like APIs) offer freshness but may lack historical context unless logged.
+- Governance: Blended and federated data sources may bypass standard data governance workflows unless carefully documented.
+- Operational complexity: A hybrid pipeline means managing multiple integration strategies, which can increase maintenance overhead.
+
+“One size rarely fits all.” The best integration strategies are modular, mixing techniques to balance performance, flexibility, and complexity
 
 
+## 3. Real-time and streaming data integration
+
+##### From batches to streams: A shift in thinking:
+
+Today, organisations are shifting towards streaming and micro-batching models that enable real-time insights and responsive systems. This section explores how and why that shift is happening, and what it means for designing modern data pipelines.
+
+
+- Batch:
+Data is collected over time, then processed in bulk.
+Pro: Good for historical analysis, low-latency use cases.
+Con: Poor for real-time insights or immediate action.
+
+-Steaming 
+Data flows continuously, event-by-event, through the pipeline.
+Pro: Enables low-latency decision-making, live dashboards, and responsive automation.
+Con: Requires careful design: state management, ordering, fault tolerance.
+
+- Micro Batching
+A hybrid: mini-batches processed rapidly in intervals (e.g., every few seconds)
+Lower complexity than pure streaming.
+Supported by tools like Spark Structured Streaming.
