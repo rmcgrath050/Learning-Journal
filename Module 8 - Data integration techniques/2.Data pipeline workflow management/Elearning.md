@@ -74,8 +74,54 @@ Here are the key capabilities shared by most orchestration tools:
 
 
 ##### 3 Key techniques for workflow optimisation 
-- Parrallelism and concurrency, can run tasks parrall without increasing complexity. Eg Downloading five files in sequence might take 10 minutes. In parallel, it could take 2–3 minutes depending on bandwidth. (Better use of CPU)
-- Caching Intermediate Results , if parts of workflow dont change can cache results rather than regenerating each time, speeds up pipeline and avoids redundant computation. Can use task decorators or checkpints  ( availble in conposer tools like prefect) to reuse cached outputs when input data hasnt changed
-- 
+- Parrallelism and concurrency, can run tasks parrall without increasing complexity. Eg Downloading five files in sequence might take 10 minutes. In parallel, it could take 2–3 minutes depending on bandwidth. (Better use of CPU).
+- Caching Intermediate Results , if parts of workflow dont change can cache results rather than regenerating each time, speeds up pipeline and avoids redundant computation. Can use task decorators or checkpints  ( availble in conposer tools like prefect) to reuse cached outputs when input data hasnt changed. Tradeoff here includes data staleness if not managed correctly. 
+- Scaling Resources Strategically , Some tasks may be CPU-bound (like sorting or joining large tables), while others may be IO-bound (like pulling from a remote API). Optimising your workflow might mean increasing parallel workers, switching to more powerful compute, or offloading to scalable infrastructure like cloud functions. Tradeoff here inclues scaling compute = increased cost! 
+
+The goal isn’t to make everything “as fast as possible” - it’s to make workflows efficient, reliable, and right-sized for their purpose!
+<br>
+
+## L.5 Automation strategies for repetitive tasks
+
+Automation adds most value to 
+- Routine Scheduling
+- Event Driven Triggers, Tools like Prefect, Dagster, and cloud-native platforms (AWS Lambda, Azure Functions) support sensor-based or webhook triggers, allowing workflows to start precisely when needed - no sooner, no later.
+- Reuabale workflow template, creating workflow templates reduces duplication and onboarding time.
+
+In reality, automation must be observed and maintained. This is why logging, monitoring, and alerting systems are essential companions to automation. It’s also good practice to keep automation code
+- version controlled
+- Documented with clear instuctions
+- Modular enough to be reused and extended
+
+## L.6 Monitoring and maintaining workflow efficiency
+
+In real-world data engineering, pipelines fail for many reasons - API outages, schema changes, network issues, or just plain old logic errors. What separates resilient systems from fragile ones is how early and clearly those failures are detected. That’s where monitoring comes in!
+<br>
+<br>
+What should you monitor?
+- Taks success/ failure rates
+- Execution times, are thes increasing? a sign of scale issues/ downstream lag eg data volume scaling issues, indexes no longer fit entirely into the server's RAM (memory).
+- Resource usage , CPU, memory, disk - especially important in cloud deployments.
+- Queue backlogs, delays here can point to upstream bottlenecks
 
 
+Most orchestration tools provide a UI or dashboard that visualises this information and lets you drill into logs. If you’re using cloud-native tools, you can integrate with services like CloudWatch, Datadog, or Grafana for deeper insights.
+
+<br>
+<img width="834" height="584" alt="image" src="https://github.com/user-attachments/assets/be10eb08-cf72-41d6-b015-2b483f586418" />
+<br>
+
+- dont relay on dahsboards alone, make sure to set up alerts or if a runtime exceeds expectations
+- Make sure to check logs as a habit, espically after updates or infrastucture changes
+- Clean up, Retire old workflows that no longer run. Consolidate duplicated logic. Archive logs and intermediate files to avoid clutter and storage bloat.
+- Test changes in isolation, Use test environments or sandbox DAGs to trial updates before promoting them to production.
+
+
+## Sumamary 
+
+- Workflows in data engineering are structured sequences of dependent tasks that manage how data is moved and transformed.
+- Effective workflow design involves clear task boundaries, defined dependencies, and scheduled execution using tools or code.
+- Workflow orchestration tools like Apache Airflow and Prefect allow engineers to schedule, monitor, and automate complex pipelines.
+- Optimisation techniques such as parallelism, caching, and resource tuning improve the speed and efficiency of data workflows.
+- Automation reduces manual repetition by using time-based or event-driven triggers and reusable workflow templates.
+- Monitoring and maintenance involve tracking workflow performance, setting alerts, and regularly reviewing logs to ensure reliability.
