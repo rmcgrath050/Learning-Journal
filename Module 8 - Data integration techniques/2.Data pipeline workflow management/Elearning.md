@@ -49,3 +49,33 @@ There are several common workflow patterns in data pipelines:
 These tools take the logic, timing, and tracking of your pipeline and wrap them in a controllable system. They’re like a mission control centre for your data jobs: monitoring execution, handling dependencies, retrying failed tasks, and visualising the flow of operations. They don’t just run jobs - they manage workflows as code.
 
 
+Here are the key capabilities shared by most orchestration tools:
+- Define workflows using code or configuration (usually Python or YAML).
+- Schedule tasks to run at specific times or when triggered by an event.
+- Manage dependencies so tasks run only when prerequisites are complete.
+- Retry on failure or send alerts if things go wrong.
+- Provide visual dashboards for monitoring task status, logs, and history.
+- Track state, so workflows resume gracefully if interrupted.
+
+
+##### Apache airflow
+- Industry standard in many organisations, with a strong community and plugin support.
+- Workflows are defined as Directed Acyclic Graphs (DAGs) in Python.
+- Well-suited to batch processing and ETL-style pipelines.
+- Built-in UI for tracking and retrying tasks.
+- Can feel heavyweight or complex for smaller pipelines.
+
+
+## L.3 Techniques for optimising data workflows
+
+##### Question : how to optomise a late dahboard? 
+- first step understanding where the delay occurs
+- could be due to single slow task, waiting on a dependancy, are tasks running in sequence when they should be parallel?
+
+
+##### 3 Key techniques for workflow optimisation 
+- Parrallelism and concurrency, can run tasks parrall without increasing complexity. Eg Downloading five files in sequence might take 10 minutes. In parallel, it could take 2–3 minutes depending on bandwidth. (Better use of CPU)
+- Caching Intermediate Results , if parts of workflow dont change can cache results rather than regenerating each time, speeds up pipeline and avoids redundant computation. Can use task decorators or checkpints  ( availble in conposer tools like prefect) to reuse cached outputs when input data hasnt changed
+- 
+
+
