@@ -117,7 +117,7 @@ Most orchestration tools provide a UI or dashboard that visualises this informat
 - Test changes in isolation, Use test environments or sandbox DAGs to trial updates before promoting them to production.
 
 
-## Sumamary 
+## Summary 
 
 - Workflows in data engineering are structured sequences of dependent tasks that manage how data is moved and transformed.
 - Effective workflow design involves clear task boundaries, defined dependencies, and scheduled execution using tools or code.
