@@ -42,6 +42,38 @@ hi guys,
 - so the RFQ,DOB, salary....
 - points on the RHS, which you guys got and asked excellent questions - save these as they are portfolio-worthy. that's why i wanted u to ask the questions
 
+### Design schema points
+
+<i>To help you with this the source application team has provided you with some test data. It
+consists of the data for ten UK users plus data about when they logged into the website to
+access the application.
+
+In subsequent phases additional countries will supply you with data from their localised
+version of the application.
+You will need to accommodate their different formats and requirements in your schema
+and pipeline as the project evolves.
+You will need to establish full documentation for both the schema and the pipeline that
+can be handed to another team so that they can also implement it. </i>
+
+
+- import columns from UK User data, except details such as password , phone , salary postcode etc due to PII
+- Request for username to be created , making this unique as email is not as realiable due to ability of changing in furture , could also have multiple users per email
+- Convert DOB to yyyy/mm/dd - use age of last birthday for YYYY, could validate the column 'age on next birthday' to validate correct format to clean
+- market segmentation table with warehouse design, valid from, valid to , iscurrent cols inlcuded, include customerIDsk and marketing column data , when latest record recied previous record no longer current , finalise valid to date insert new record
+- customer table , contains all demographic info , which also has confidential information here, access is managed, required columns only accessed via view
+- Login information table , retain 12 months data ,append daily ensure no duplicates, , convert LoginTS from UNIX timestamp to user friently datetime
+- user login metrics table , every login retianed for last 12 months, for secuirty montoring and audit, and for user profile history we want to know if they do change email when did this happen and what it used to be, marketing team tracks movement, complaince team need for auditing 
+
+
+ 
+<img width="1504" height="1194" alt="image" src="https://github.com/user-attachments/assets/b9cdb452-6721-4664-a91a-b93014676e93" />
+
+</br>
+</br>
+
+<img width="1580" height="1216" alt="image" src="https://github.com/user-attachments/assets/b7a6c635-a64d-4304-865f-bad86ded59a2" />
+
+
 
 ### Conclusion 
 - You've used Slowly Changing Dimension Type 2: that's a proper data-warehousing pattern, and it's the right answer for what we asked.
