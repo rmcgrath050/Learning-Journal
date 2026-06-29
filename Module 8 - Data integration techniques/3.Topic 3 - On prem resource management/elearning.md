@@ -27,4 +27,16 @@ Cutting-edge techniques to enhance resource efficiency and scalability in your d
 - Infrastructure as Code (IaC): Managing infrastructure through code-based definition files.
 - Hybrid and multi-cloud strategies: Distributing workloads across multiple environments.
 
-  
+
+## L2. Resource management tools and platforms
+
+The ability to manage resources effectively is crucial for ensuring that data pipelines run smoothly, meet performance requirements, and stay within budget constraints. This lesson will introduce you to key resource management tools and platforms that can help you achieve these goals. 
+
+By understanding and utilising these tools, you can optimise resource allocation, enhance performance, and reduce costs in your data engineering tasks.
+
+### kubernetes
+
+An open-source container orchestration platform that automates deployment, scaling, and management of containerised applications.
+
+Kubernetes supports horizontal pod autoscaling based on custom metrics, allowing data pipelines to adjust parallelism based on queue depth or processing latency. eg queue = total number of unread or unprocessed messages/jobs waiting in your message broker / What it is: The total time it takes for a single item (or batch) to move entirely through your pipeline, from the moment it enters the queue to the time its processing is completed.
+
