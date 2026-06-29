@@ -40,3 +40,10 @@ An open-source container orchestration platform that automates deployment, scali
 
 Kubernetes supports horizontal pod autoscaling based on custom metrics, allowing data pipelines to adjust parallelism based on queue depth or processing latency. eg queue = total number of unread or unprocessed messages/jobs waiting in your message broker / What it is: The total time it takes for a single item (or batch) to move entirely through your pipeline, from the moment it enters the queue to the time its processing is completed.
 
+### Terraform and CloudFormation
+
+with terraform you decribe the end result, tell it what you want instead of creating steps one at a time
+A Terraform configuration might specify a complete data processing environment, including compute resources, network configurations, and security groups.
+
+Consistent environments across deployments, infrastructure testing and validation, and collaborative development through code review and continuous integration.
+
