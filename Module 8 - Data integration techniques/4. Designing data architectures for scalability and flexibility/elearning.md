@@ -57,6 +57,31 @@ Start with visibility. Key performance indicators (KPIs) might include:
 - Resource usage – CPU, memory, and disk consumption.
 - Backlog size – In stream systems, how much data is waiting to be processed.
 - Tools like Prometheus, Grafana, or cloud-native services (e.g. AWS CloudWatch) help visualise this data and reveal bottlenecks.
+<br>
 
+2. Optimise transformations
+Inefficient code can ruin even the best hardware. Techniques include:
+- Push down filters early to reduce data volume.
+- Avoid shuffling large datasets unless necessary (especially in tools like Spark).
+- Break down large jobs into smaller, parallel tasks!!
+
+<img width="1542" height="1194" alt="image" src="https://github.com/user-attachments/assets/997babff-42ae-4599-814b-f7dc9ff89e92" />
+
+<br>
+
+#### Realiability at scale 
+1. embrace fault tolerance
+   
+At scale, things fail - network outages, API timeouts, malformed data. Build resilience by:
+- Implementing retry logic with exponential backoff.
+- Ensuring idempotency in jobs so repeated runs don’t corrupt data.
+- Using checkpointing in stream systems to resume from the last known good state.
+
+  
+2. Decouple and buffer
+
+   
+4. Validate the data
+5. Test beyond unit tests
 
 
