@@ -74,14 +74,18 @@ Inefficient code can ruin even the best hardware. Techniques include:
    
 At scale, things fail - network outages, API timeouts, malformed data. Build resilience by:
 - Implementing retry logic with exponential backoff.
-- Ensuring idempotency in jobs so repeated runs don’t corrupt data.
+- Ensuring idempotency in jobs so repeated runs don’t corrupt data. (Produces same result for example GET  - retrives data without changing state vrs POST isnt idempotent as creating two distinct records) 
 - Using checkpointing in stream systems to resume from the last known good state.
 
-  
 2. Decouple and buffer
+- Introducing message queues like Kafka or RabbitMQ allows for back-pressure handling and ensures that data isn’t lost if a downstream system fails temporarily
 
-   
-4. Validate the data
+3. Validate the data
+Introduce data quality checks early and often:
+- Schema validation (e.g. using Great Expectations or custom logic).
+- Null checks, range validations, and duplicate detection.
+- Alerting on anomalies, like sudden drops in data volume.
+
 5. Test beyond unit tests
 
 
