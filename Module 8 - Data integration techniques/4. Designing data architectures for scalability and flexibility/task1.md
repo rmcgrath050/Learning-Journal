@@ -61,3 +61,12 @@ Yes, there's an agreed mapping - High School Diploma - A level (RQF 3), Foundati
 4. DOBs: all MM/DD, or does it vary? 
 Inside the US file they're consistent: all month-first US style, e.g. 11/23/01. The catch isn't variation within the file; it's that the UK and France are day-first. So your parser has to know which country it's readin-same field, different rule on the way in. And one more: look at 6/5/45 with age 79: a two-digit year is ambiguous on the century. What other column tells you it's 1945, not 2045?
 
+### Melanie's Scottish questions
+
+2. How do SCQF levels map to RQF levels? Scotland runs its own qualifications framework, SCQF, and it does not line up one-to-one with the RQF that England, Wales and Northern Ireland use: the level numbers don't even match, so an SCQF level and an RQF level with the same number are not the same thing. There are broad equivalences published, but they're approximate, not a clean lookup. 
+
+So my question back to you: if the two frameworks don't map cleanly, what does that mean for how you store education? Do you force Scottish qualifications into your existing RQF field and lose information: or does your schema need to hold the framework and the level? 
+
+4. Invalid email handling - some spaces in the data, should we correct (assuming spaces should be removed), or flag somehow?
+5. DOB ambiguity - data presents as DD/MM/YY - are we safe to use age to derive century like with French data?
+   
