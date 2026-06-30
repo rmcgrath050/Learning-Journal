@@ -88,4 +88,19 @@ Introduce data quality checks early and often:
 
 5. Test beyond unit tests
 
+Include:
 
+- Integration tests that simulate end-to-end flows.
+- Load tests that mimic high data volumes.
+- Failure tests that inject faults (e.g. disconnecting sources mid-flow)
+
+<b>Think like an airport <b> 
+- Flights (data) arrive and depart on time (low latency).
+- Traffic is managed efficiently with many gates and runways (parallelism).
+- There are contingency plans for bad weather or delays (fault tolerance).
+- Staff monitor systems constantly and respond quickly when things go wrong (observability).
+
+
+## L2. Tools and techniques for scalable data processing
+
+This section includes adopted tools and approaches for processing large and growing data volumes efficiently, reliably, and in real time.
