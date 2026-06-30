@@ -63,12 +63,29 @@ Inside the US file they're consistent: all month-first US style, e.g. 11/23/01. 
 
 ### Melanie's Scottish questions
 
+Melanie's Scottish questions
+
 2. How do SCQF levels map to RQF levels? Scotland runs its own qualifications framework, SCQF, and it does not line up one-to-one with the RQF that England, Wales and Northern Ireland use: the level numbers don't even match, so an SCQF level and an RQF level with the same number are not the same thing. There are broad equivalences published, but they're approximate, not a clean lookup. 
 
 So my question back to you: if the two frameworks don't map cleanly, what does that mean for how you store education? Do you force Scottish qualifications into your existing RQF field and lose information: or does your schema need to hold the framework and the level? 
 
+-------
+
+On currency: your logic's sound: Scotland's in the UK, the data shows £, so GBP is a fair read. But, is 'I assumed' the same as 'I checked'? You've got a currency column in your schema for a reason. Even if every Scottish row is GBP, does the field still get populated, explicitly, GBP: or do you leave it blank and let the next engineer guess? Assumptions are fine; unrecorded assumptions are the bug
+
+-------------------
+On frequency: careful, this is the trap. You can see the currency in the data. Can you see the frequency? Is there anything in the file that actually tells you these are annual and not monthly? If not, then 'they're probably annual' isn't a fact you have: it's a hole. So what does a good engineer do with a number whose units they can't confirm: assume, or flag it back to me and record what was agreed? 
+
+-----------
+
+Good: you're reusing a technique you've already proven, which is exactly right if it still holds. So let me push on that 'like the French data' bit before you copy it across.
+The two-digit year problem is real: '63' could be 1963 or 2063, and the file won't tell you which. Deriving the century from age can work: but only while one assumption holds. What's the assumption underneath it? … Right: that everyone's a living adult of plausible working age. So where does that break? What happens to your logic for someone born in, say, '08: is that a 17-year-old or a 117-year-old? And does this dataset guarantee no edge cases like that, or are you hoping it doesn't?
+
+Then the bigger question, the one that matters more than the fix: even if your derivation is right 99% of the time: how would the next engineer know you derived it rather than read it? If you silently turn '63' into 1963, you've made a guess that looks like a fact. What would you do so that decision is visible and checkable later? 
+
+
 4. Invalid email handling - some spaces in the data, should we correct (assuming spaces should be removed), or flag somehow?
 5. DOB ambiguity - data presents as DD/MM/YY - are we safe to use age to derive century like with French data?
 6. I think just one more Scottish question now - 6. Location mapping - this data has District, can you confirm if this is equivalent to County (UK) and State (USA)? Based on limited sample data I believe so
-
+7. For invalid email address (containing spaces or full stops), should these be dropped?
 
