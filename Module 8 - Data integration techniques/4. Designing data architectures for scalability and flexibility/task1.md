@@ -1,11 +1,12 @@
 ## Notes on activity from last week 
 
-Stakeholder Q&A
+#### Stakeholder Q&A
+
 
 Brian's Questions (but everyone can benefit as they were good questions) 
 
 1. Should the password be masked in the DB?
-firstly, what is your instinct? and why?
+firstly, wat is your instinct? and why?
 Imagine this leaking, are you comfortable that the column is readable? 
 
 mask, encrypt, hash
@@ -39,3 +40,24 @@ parse the real format, remember the century problem??
 
 7. I presume BAC+ is employment type?
 Pause on this one - I want you to check this assumption. Look at the actual values in that column. Licence, Master, Doctorat.....does that seem like employment? This is good to remember when naming columns, to prevent corrupting things like education mapping in this case. Because we need to build mapping on these column names 
+
+Melanie's Questions - Topic 3
+1. Gender
+ a value for 'prefer not to say', separate from missing? 
+That's a sharp observation. 'Prefer not to say' is an answer; missing data is the absence of one. Good modelling keeps them distinct. This file doesn't contain it (only 0/1), so it's not today's job, but note it in your design. That's exactly the 'prepare for future formats' kind of thinking you want
+
+2. 
+Salary, all annual, or can frequency vary?
+Treat them as annual,there's no pay-frequency column in the file, 
+
+so they're all on the same basis (figures like $27,000 up to $170,900 read as annual)
+
+note: notice the pattern: just like currency, an amount is meaningless without its period. If a future file mixed annual and monthly with no marker, what would you need to add?
+
+3. Education 
+ confirmed US-RQF mapping?
+Yes, there's an agreed mapping - High School Diploma - A level (RQF 3), Foundation - HND (5), Bachelor - degree (6), Master's -7, Doctorate - 8. Use it But watch: your file also contains Associate Degree, and that one isn't on the standard table. When you hit it, don't guess silently - flag it and reason where it sits. That gap is deliberate
+
+4. DOBs: all MM/DD, or does it vary? 
+Inside the US file they're consistent: all month-first US style, e.g. 11/23/01. The catch isn't variation within the file; it's that the UK and France are day-first. So your parser has to know which country it's readin-same field, different rule on the way in. And one more: look at 6/5/45 with age 79: a two-digit year is ambiguous on the century. What other column tells you it's 1945, not 2045?
+
