@@ -69,4 +69,6 @@ So my question back to you: if the two frameworks don't map cleanly, what does t
 
 4. Invalid email handling - some spaces in the data, should we correct (assuming spaces should be removed), or flag somehow?
 5. DOB ambiguity - data presents as DD/MM/YY - are we safe to use age to derive century like with French data?
-   
+6. I think just one more Scottish question now - 6. Location mapping - this data has District, can you confirm if this is equivalent to County (UK) and State (USA)? Based on limited sample data I believe so
+
+
