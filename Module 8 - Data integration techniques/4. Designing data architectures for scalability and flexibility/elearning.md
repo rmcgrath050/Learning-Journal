@@ -107,8 +107,8 @@ This section includes adopted tools and approaches for processing large and grow
 
 #### Objectives
 - Identify key tools used in scalable data processing, including their strengths and use cases.
-- Understand the role of distributed <b>computing frameworks</b> like Apache Spark.
-- Explain the use of event <b>streaming tools</b> such as Apache Kafka in real-time data workflows.
+- Understand the role of distributed computing frameworks like Apache Spark.
+- Explain the use of event streaming tools such as Apache Kafka in real-time data workflows.
 - Select appropriate techniques for managing growing data volumes and complexity.
 
 
