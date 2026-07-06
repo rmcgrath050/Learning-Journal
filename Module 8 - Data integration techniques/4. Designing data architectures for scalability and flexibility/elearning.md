@@ -101,6 +101,51 @@ Include:
 - Staff monitor systems constantly and respond quickly when things go wrong (observability).
 
 
-## L2. Tools and techniques for scalable data processing
+## L3. Tools and techniques for scalable data processing
 
 This section includes adopted tools and approaches for processing large and growing data volumes efficiently, reliably, and in real time.
+
+#### Objectives
+- Identify key tools used in scalable data processing, including their strengths and use cases.
+- Understand the role of distributed <b>computing frameworks</b> like Apache Spark.
+- Explain the use of event <b>streaming tools</b> such as Apache Kafka in real-time data workflows.
+- Select appropriate techniques for managing growing data volumes and complexity.
+
+
+#### Apache Spark
+- Parallel execution of tasks using Resilient Distributed Datasets (RDDs)
+- In-memory computing for faster processing than Hadoop MapReduce
+- Batch, streaming, and machine learning workloads in a single engine
+
+Spark is a go-to tool when your pipeline must crunch large volumes of data in short timeframes - such as user behaviour logs, IoT sensor streams, or data lake ETL jobs.
+
+#### Apache Kafta
+- Ingest and buffer massive volumes of incoming data (like clickstreams or transactions)
+- Support publish/subscribe models between producers (e.g., sensors, APIs) and consumers (e.g., Spark, Flink, or databases)
+- Replay or reprocess data in fault-tolerant ways
+
+#### Airflow and Prefect - workflow
+
+As pipelines grow in size and complexity, orchestrators help manage task dependencies, retries, and execution order:
+
+- Apache Airflow uses directed acyclic graphs (DAGs) to define workflows in Python.
+- Prefect offers more flexibility with dynamic workflows and cloud-first execution models.
+
+
+### Techniques that enable scale
+
+Let’s dive into the core principles that help systems stay fast, resilient, and ready for growth.
+- Partitioning and Sharding: Break large datasets into partitions based on time, geography, user ID, etc., so they can be processed in parallel. This is essential for distributed execution.
+- Backpressure Handling: In streaming systems, build in mechanisms that slow down ingestion when downstream components can’t keep up - avoiding crashes and data loss.
+- Idempotent Design: Ensure that if a process is re-run (due to failure or retry), it doesn’t cause duplicate inserts or corrupt results. This is vital when scaling means tasks may fail and restart unpredictably.
+- Stateless Processing: Where possible, design your data transformations to be stateless - they depend only on the current input, not historical context. Stateless functions scale more easily across machines.
+
+lets take the example of live stock market data:
+- Kafka to ingest and distribute the real-time trade data
+- Spark Streaming to perform calculations on the fly
+- Delta Lake to store processed data in a query-friendly format
+- Airflow to schedule periodic cleanup jobs and ensure checkpointing
+
+Each component plays a role in handling high-volume, fast-moving data in a scalable way.
+
+As your data grows, your tools must grow with it. In this lesson, you’ve seen how Spark handles heavy lifting, Kafka enables real-time messaging, and orchestrators like Airflow tie it all together.
