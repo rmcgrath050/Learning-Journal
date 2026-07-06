@@ -149,3 +149,53 @@ lets take the example of live stock market data:
 Each component plays a role in handling high-volume, fast-moving data in a scalable way.
 
 As your data grows, your tools must grow with it. In this lesson, you’ve seen how Spark handles heavy lifting, Kafka enables real-time messaging, and orchestrators like Airflow tie it all together.
+
+## L4 Designing data architectures for scalability and flexibility
+
+Designing a scalable and flexible architecture isn’t just about handling today’s data load - it’s about making sure your systems can adapt to tomorrow’s challenges. That includes more users, more data sources, new tools, and evolving business needs. In this lesson, we’ll unpack how to build data systems that stay robust as they scale, while remaining flexible enough to change direction when required.
+
+#### Objectives:
+- Describe the principles behind scalable and flexible data architectures.
+- Identify common architectural patterns used to support growth and change.
+- Distinguish between tightly and loosely coupled components in data systems
+- Explain how modularity, storage choice, and data flow design influence long-term scalability.
+
+#### Core principles of scalable architecture
+
+1. Modular and decoupling
+   Break your architecture into independent, modular components. This allows you to upgrade, replace, or scale parts of the system           without bringing everything down. For example:
+   Use Kafka to buffer data between producers and consumers.
+2. Design services so that you can add more instances, rather than upgrading individual machines. Databases, processing engines, and         orchestrators should support horizontal scaling - think of distributed systems like Spark, Cassandra, and Kubernetes
+3. Polygot existence Don’t force every dataset into one database. Use the right tool for the job:
+   Object storage (e.g. S3, Azure Blob) for raw, unstructured data.
+   Data warehouses (e.g. Snowflake, BigQuery) for analytical queries.
+   Document stores (e.g. MongoDB) for flexible JSON structures.
+   Use microservices to handle specific transformations independently.
+4. Event driven design: Build systems that respond to events, rather than relying on scheduled batch jobs. This enables more immediate       reactions to changes in data - ideal for modern business needs like real-time personalisation or fraud detection.
+
+### Common scalable architecture patterns
+
+let’s explore how they come together in real-world architectural models. These patterns aren't one-size-fits-all templates but are commonly used blueprints that help you think about data movement, storage, and processing at scale. 
+ach has strengths and trade-offs, depending on your organisation’s needs, data volume, and latency requirements.
+<br>
+<img width="834" height="746" alt="image" src="https://github.com/user-attachments/assets/15c9b8e9-f0a4-432b-87e9-2d7241abcac2" />
+<br>
+<img width="1730" height="794" alt="image" src="https://github.com/user-attachments/assets/2001b12e-51a1-4dbe-8cca-356eb7e93301" />
+<br>
+<img width="1490" height="1196" alt="image" src="https://github.com/user-attachments/assets/62e0eea9-c4dc-4955-bf7b-b0b6f8bb3c6d" />
+
+<br>
+<br>
+
+- You need wide hallways (scalable data flow)
+- Dedicated units for each shop (modularity)
+- Shared infrastructure like plumbing and power (data orchestration)
+- And the ability to add new shops or refit old ones without shutting everything down (flexibility)
+
+## L5 Balancing performance with cost and resource constraints
+
+Scalability is powerful - but it’s not free. Every design choice in a data system has trade-offs. A low-latency, real-time pipeline may need expensive compute resources. A resilient, fault-tolerant system might cost more in storage and replication. 
+<i>Project notes : (DAG running montly , if data not there = replication ,tradeoff but reobust for goverance, avoiding sensors (following bank data policy) and reliably  of data , also snapshot in time </i>
+
+
+
