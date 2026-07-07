@@ -49,4 +49,17 @@ Averages hide pain. Track latency as a distribution: p50 is typical, p95 and p99
 
 #### Batch versus streaming: what to emphasise
 
+Batch favours runtime distribution, queue wait, and freshness at deadlines (e.g., “by 09:00”). Streaming prioritises end-to-end latency (event time to serving), consumer lag, and backpressure. In both cases, correlate user-facing SLIs with cause indicators: if lag rises while consumer CPU is idle, the bottleneck is upstream or in I/O; if CPU and GC time spike during a shuffle, the constraint is compute or memory.
 
+Design a top row that answers “Are we meeting our SLOs right now?” with single-stat cards for p95 latency, freshness, and error rate. The middle row explains why (lag, queue depth, stage time, GC). The bottom row shows resources (CPU, memory, I/O, concurrency). Keep units consistent and add deploy/incident annotation.
+
+Don’t page on vanity metrics (e.g., any single error). Don’t add high-cardinality labels (like user_id) to time-series metrics-they explode storage and slow queries. And don’t set unattainable SLOs; start with what you already achieve, then ratchet up.
+
+Why it matters: In software, tiny temporary glitches happen constantly (like a single user losing Wi-Fi for a split second). If your system alerts a human for every single error, engineers will experience alert fatigue. They will start ignoring notifications, causing them to miss real, massive system crashes.
+
+Why it matters: Monitoring databases (like Prometheus) store metrics by creating a separate timeline for every unique label combination. If you attach a unique user_id to a metric, the database has to create millions of separate timelines. This explodes your storage costs and makes your dashboards incredibly slow or completely broken.The fix: Keep time-series labels broad (like region: us-east or status: 500). If you need to investigate a specific user's path, look at your system logs or traces, not your metrics.
+
+The two Service Level Indicators (SLIs) you should show in the top row are Pipeline Freshness and 95th Percentile (p95) Latency/Runtime.
+
+1.  Pipeline Freshness (The Direct Impact) : his is your primary user-facing symptom. The business does not care how fast the pipeline runs; they care that the daily sales data is missing at 09:00. Because freshness has breached its target, it immediately flags to an engineer that the business commitment is broken
+2.  p95 Latency / Runtime : is reveals where the system is failing. The scenario notes that average runtime is stable, meaning 90%+ of the pipeline steps or historical runs look perfectly normal. However, the surge in p95 latency shows that a specific, heavy edge case—such as an unindexed table, a massive batch of month-end data, or a stalled upstream dependency—is bottlenecking the entire system.
