@@ -69,3 +69,22 @@ The two Service Level Indicators (SLIs) you should show in the top row are Pipel
 2. Show you care about efficiency. (e.g., "I know that tracking too much unnecessary data can slow down systems and waste company money.")
 3. Instead of "Vanity Metrics": Show you care about real impact. (e.g., "I believe data engineering should focus on solving actual business problems, not just tracking numbers that look good on paper."
 
+Your monthly SLO is 99.0% ‘fresh by 09:00’. How much budget do you have in a 30-day month? 30 days × 24 × 60 = 43,200 minutes. 1% allowed impact = 432 minutes.
+
+#### Lession summary
+
+In this lesson you explored the signals that matter in production: the golden signals (latency, traffic, errors, saturation) plus data-platform essentials like freshness, completeness, schema health, and cost per successful outcome. You saw why tail behaviour (p95/p99) tells a truer story than averages and how to turn measurements into SLIs with realistic SLOs and, where needed, SLAs. We walked through practical formulas for computing key KPIs and used error budgets and burn rates to judge when a problem is significant.
+
+
+## L2. Dashboards & Visualisation Tools
+
+Dashboards should answer one question at a glance: Are users getting value right now, and if not, where should I look first? This lesson shows how to design outcome-first dashboards that are readable at 2am, reusable across services, and fast enough to trust.
+
+#### Objectives
+1. Arrange dashboards so one audience sees one story at a glance.
+2. Use Grafana for outcome-focused time-series and Kibana for searchable explanations.
+3. Link panels so context (service, environment, time) follows the user into logs and traces.
+
+
+
+
