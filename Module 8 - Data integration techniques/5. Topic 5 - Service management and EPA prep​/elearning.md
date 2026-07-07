@@ -63,3 +63,9 @@ The two Service Level Indicators (SLIs) you should show in the top row are Pipel
 
 1.  Pipeline Freshness (The Direct Impact) : his is your primary user-facing symptom. The business does not care how fast the pipeline runs; they care that the daily sales data is missing at 09:00. Because freshness has breached its target, it immediately flags to an engineer that the business commitment is broken
 2.  p95 Latency / Runtime : is reveals where the system is failing. The scenario notes that average runtime is stable, meaning 90%+ of the pipeline steps or historical runs look perfectly normal. However, the surge in p95 latency shows that a specific, heavy edge case—such as an unindexed table, a massive batch of month-end data, or a stalled upstream dependency—is bottlenecking the entire system.
+
+#### things to understand for interview
+1. "I understand that looking at averages can hide major glitches that ruin a user's experience.
+2. Show you care about efficiency. (e.g., "I know that tracking too much unnecessary data can slow down systems and waste company money.")
+3. Instead of "Vanity Metrics": Show you care about real impact. (e.g., "I believe data engineering should focus on solving actual business problems, not just tracking numbers that look good on paper."
+
