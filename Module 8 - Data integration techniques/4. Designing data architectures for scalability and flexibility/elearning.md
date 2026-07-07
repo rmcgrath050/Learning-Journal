@@ -197,5 +197,14 @@ ach has strengths and trade-offs, depending on your organisation’s needs, data
 Scalability is powerful - but it’s not free. Every design choice in a data system has trade-offs. A low-latency, real-time pipeline may need expensive compute resources. A resilient, fault-tolerant system might cost more in storage and replication. 
 <i>Project notes : (DAG running montly , if data not there = replication ,tradeoff but reobust for goverance, avoiding sensors (following bank data policy) and reliably  of data , also snapshot in time </i>
 
+#### objectives:
+- Identify the trade-offs between performance, cost, and resource availability in data architecture.
+- Apply techniques for managing costs in cloud-based and hybrid environments.
+- Evaluate decisions around storage, compute, and scheduling based on workload needs.
+- Understand how architectural choices impact long-term operational efficiency.
 
+
+#### Trade offs
+
+When designing data systems, it's easy to focus on the ideal - maximum speed, zero latency, endless storage. But real-world systems don’t live in a vacuum. They live in budgets, on shared infrastructure, and under the weight of business priorities.
 
