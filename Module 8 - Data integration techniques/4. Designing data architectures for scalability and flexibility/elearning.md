@@ -94,7 +94,7 @@ Include:
 - Load tests that mimic high data volumes.
 - Failure tests that inject faults (e.g. disconnecting sources mid-flow)
 
-<b>Think like an airport <b> 
+<b>Think like an airport </b> 
 - Flights (data) arrive and depart on time (low latency).
 - Traffic is managed efficiently with many gates and runways (parallelism).
 - There are contingency plans for bad weather or delays (fault tolerance).
