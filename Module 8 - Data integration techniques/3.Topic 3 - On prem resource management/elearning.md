@@ -47,3 +47,61 @@ A Terraform configuration might specify a complete data processing environment, 
 
 Consistent environments across deployments, infrastructure testing and validation, and collaborative development through code review and continuous integration.
 
+## L3. Optimising resource management for a Telco data processing pipeline
+
+##### Workload classifcation
+Definition: Categorising workloads into critical, important, and routine, and establishing resource allocation policies.
+Example: Prioritising regulatory reporting during peak periods to ensure compliance! - Run these first every morning! 
+
+<br>
+
+##### Hybrid infrasturcre approach
+Definition: Using a combination of on-premises and cloud resources to meet compliance and scalability needs.
+Example: Processing sensitive data on-premises while leveraging cloud resources for peak processing periods.
+<br>
+
+##### Auto Scaling
+Definition: Automatically scaling cloud resources based on data volume metrics.
+Example: Configuring scale-out thresholds to add resources before performance degradation occurs.
+<br>
+
+##### Cost Optimisation
+Definition: Implementing strategies to minimise costs while maintaining performance.
+Example: Using spot instances for fault-tolerant components and scheduling non-time-sensitive processing during off-peak hours.
+
+Cost optimization means reducing cloud costs by using cheaper resources (like spot instances) for workloads that can tolerate interruptions and scheduling non-urgent tasks to run when demand is low, without affecting application performance.
+
+If your reports depend on batch jobs finishing before users can run reports, you are managing resources.
+
+## Reflection
+*** EPA 
+
+<i>Think about a recent project where you had to manage computational resources...</i>
+
+You could say:
+
+If your reports depend on batch jobs finishing before users can run reports, you are managing resources:
+"I designed SQL Server data sources that were populated as part of an overnight batch process. To ensure reports were available on time, I considered the execution order and timing of dependent processes so that reporting only occurred once the required data sources had been fully generated. This avoided unnecessary reruns via report owners and reduced contention with other batch processes."
+<br>
+
+Option 2: Query optimisation:
+- added indexes
+- rewritten joins
+- reduced table scans
+- avoided unnecessary calculations
+- filtered data earlier
+
+
+When designing data sources, I optimised SQL queries to minimise execution time by reducing unnecessary joins and ensuring appropriate indexes were used. Faster queries reduced CPU and I/O usage on the SQL Server while still delivering the required reporting data.
+<br>
+
+
+"The reporting framework generated multiple reports from shared data sources. I designed the data sources so they could be reused across reports instead of recalculating the same data multiple times. This reduced processing overhead and improved overall batch execution."
+
+That's resource optimisation because you're avoiding duplicate work.
+<br>
+
+Most of my work has been designing SQL Server data sources for a bespoke batch reporting framework. Although I wasn't managing cloud infrastructure directly, I did consider computational resources by designing efficient queries, avoiding redundant processing, and ensuring data sources were generated in the correct sequence so reports could run reliably without placing unnecessary load on the database.
+
+
+
