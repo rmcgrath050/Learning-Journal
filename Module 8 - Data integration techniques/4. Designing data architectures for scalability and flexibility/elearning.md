@@ -208,3 +208,6 @@ Scalability is powerful - but it’s not free. Every design choice in a data sys
 
 When designing data systems, it's easy to focus on the ideal - maximum speed, zero latency, endless storage. But real-world systems don’t live in a vacuum. They live in budgets, on shared infrastructure, and under the weight of business priorities.
 
+1. Speed vrs Cost: Data warehouses like Snowflake and BigQuery offer fast queries, but can become expensive at scale. Don’t store everything in a fast-query system. Keep cold data in cheap storage, and move only what’s needed into high-performance layers.
+2. 
+3. 
