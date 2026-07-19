@@ -105,3 +105,61 @@ Most of my work has been designing SQL Server data sources for a bespoke batch r
 
 
 
+## L4. YARN mechanism - on-premises infrastructure example
+
+Apache Hadoop is an open-source distributed computing framework that uses commodity computers to provide processing capability and data storage space. It offers resilience through data replication and is written in Java™. Hadoop has four main building blocks:
+<br>
+
+<img width="1508" height="1194" alt="image" src="https://github.com/user-attachments/assets/025ba2dd-25bd-4306-a333-694d0444337b" />
+
+1. Hadoop Common: The base API jar file that acts as the foundation for the other components.
+
+2. Hadoop Distributed File System (HDFS): Distributes large files across many physical machines to ensure high-speed streaming and resilience.
+
+3. Yet Another Resource Negotiator (YARN): Provides centralised resource management and scheduling.
+
+4. MapReduce: A programming model for processing large datasets.
+
+#### HDFS explained
+
+1. Data Blocks: Files are broken into blocks (default size 128MiB) and stored with triple redundancy.
+2. Heartbeat Mechanism: Monitors the health of machines in the cluster.
+3. File System Namespace: Keeps track of files, their component blocks, and access permissions.
+4. Name Node: The master server responsible for block tracking, access control, and modification timestamps. It operates as an Active/Passive Cluster with a Secondary Name Node for replication and logging tasks.
+5. Data Nodes: Service read and write requests, perform block creation, deletion, and replication tasks.
+6. Rack Awareness: Helps the Name Node understand the physical layout of Data Nodes to make informed decisions about block distribution.
+
+
+Hadoop
+Apache Spark (which evolved beyond traditional MapReduce)
+Large-scale distributed data processing
+
+It's designed for situations where a single database server isn't enough.
+
+Compare it to your work:
+
+Designing SQL Server data sources
+Writing SQL queries
+Creating datasets for a bespoke reporting framework
+Supporting batch reporting
+Optimising query performance
+
+That's relational database processing, not distributed computing!
+
+"Although I haven't used YARN directly, I understand that it acts as a resource manager for Hadoop, allocating CPU and memory to different processing jobs so they can run efficiently without competing for the same resources. In my SQL Server reporting work, I apply similar principles by scheduling and sequencing batch processes so that dependent data sources are available when needed and database resources aren't overloaded."
+
+
+My current experience is in SQL Server batch reporting, where I optimise query performance and schedule data processing so reports are available when needed. Alongside this, I'm learning Terraform, Kubernetes and GCP. This has helped me understand how modern cloud platforms allocate resources and orchestrate workloads. Although I haven't used YARN directly, I understand that it serves a similar purpose within Hadoop by allocating CPU and memory to data processing jobs, scheduling execution, and preventing resource contention across the cluster."
+
+# L5 Conclusion
+
+whats applicable to me :
+- Advanced Resource Management Strategies: Employing techniques like containerisation and orchestration (Docker and Kubernetes), serverless computing (AWS Lambda, Azure Functions), workload-aware scheduling, Infrastructure as Code (IaC) tools (Terraform, AWS CloudFormation), and hybrid/multi-cloud strategies to optimise resource utilisation across various environments.
+
+- Resource pooling: Sharing computational resources across multiple workloads to improve utilisation efficiency and reduce overall infrastructure costs, leveraging platforms like Kubernetes.
+
+- Cost optimisation: Using strategies to minimise resource costs while maintaining performance, such as spot instances for fault-tolerant workloads and scheduling intensive processing during off-peak hours.
+
+
+
+
