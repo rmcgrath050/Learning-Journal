@@ -209,5 +209,51 @@ Scalability is powerful - but it’s not free. Every design choice in a data sys
 When designing data systems, it's easy to focus on the ideal - maximum speed, zero latency, endless storage. But real-world systems don’t live in a vacuum. They live in budgets, on shared infrastructure, and under the weight of business priorities.
 
 1. Speed vrs Cost: Data warehouses like Snowflake and BigQuery offer fast queries, but can become expensive at scale. Don’t store everything in a fast-query system. Keep cold data in cheap storage, and move only what’s needed into high-performance layers.
-2. 
-3. 
+2. Always on vrs on demand : Schedule batch jobs intelligently. Not everything needs to run every hour - some jobs can run daily or when triggered by events.
+3. Scaling models : Auto-scaling clusters (e.g. with Kubernetes or cloud-native services) respond to changing workloads automatically. Can lead to unexpected costs if thresholds are not well defined. Manual vrs auto Use auto-scaling with cost caps, usage alerts, and strong observability
+4. Orchestrators like Airflow and Prefect let you set task dependencies, retries, and schedules. Efficient workflows can reduce retries, wasted compute, and job failures. void chaining too many jobs sequentially - look for opportunities to parallelise, delay non-urgent steps, or short-circuit unnecessary tasks!!!!
+
+
+## L6. Case studies on scalable data architectures
+
+Scenario: An online streaming platform needed to handle sharp spikes in traffic during live events without over-provisioning.
+
+- Data ingestion using Azure Data Factory from store systems, web logs, and supplier databases.
+- Consolidation in Delta Lake for unified, low-cost storage.
+- Query layer using Databricks SQL and Power BI dashboards.
+- Batch jobs managed with Apache Airflow to refresh product and inventory data daily.
+
+<img width="1696" height="806" alt="image" src="https://github.com/user-attachments/assets/03395d6f-d99b-4a34-9fcd-75362b1cb2db" />
+
+- Lakehouse architecture provided a flexible schema-on-read layer while supporting structured queries.
+- Azure’s auto-scaling resources handled peak sales events like Black Friday.
+- Cost control was achieved by offloading most storage to blob containers and only computing when needed.
+
+<br>
+
+Scenario : An online streaming platform needed to handle sharp spikes in traffic during live events without over-provisioning.
+
+- Kubernetes with auto-scaling clusters hosted in GCP.
+- BigQuery for high-performance, on-demand analytics.
+- Cloud Pub/Sub to decouple producers (video logs, metadata) and consumers (analytics pipelines, monitoring tools).
+- Cold data archived to Google Cloud Storage.
+
+<br>
+
+- Auto-scaling responded in real time to demand surges, reducing idle infrastructure costs.
+- Buffering through Pub/Sub prevented ingestion bottlenecks during load spikes.
+- Teams built observability dashboards to forecast and pre-scale ahead of major events.
+
+## L.7 Conclusion
+
+- Scalable pipelines rely on breaking tasks into smaller parts, using distributed tools, and decoupling components to handle increasing volumes without slowing down.
+  
+- Monitoring, optimisation, and fault tolerance are critical - because a fast pipeline isn’t useful if it fails under pressure or delivers inconsistent results.
+
+- Choosing the right tools - like Spark, Kafka, and Airflow - helps you process more data, more quickly, with architecture that can flex as needs grow.
+
+- Well-architected systems are modular, loosely coupled, and able to evolve - designed from the ground up to handle both scale and change.
+
+- Scalability is about smart choices - optimising storage, compute, and scheduling to avoid over-engineering and unnecessary expense.
+
+- Real-world architectures balance trade-offs and adapt to context - showing that scalability isn’t a blueprint, but a mindset applied through the right design choices.
