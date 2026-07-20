@@ -85,6 +85,30 @@ Dashboards should answer one question at a glance: Are users getting value right
 2. Use Grafana for outcome-focused time-series and Kibana for searchable explanations.
 3. Link panels so context (service, environment, time) follows the user into logs and traces.
 
+Put outcomes at the top: a small set of SLIs with their SLO context, such as p95 latency, error rate, and data freshness. In the middle, show explanations: signals that hint at causes, for example consumer lag for a stream or stage time for a batch job. At the bottom, show resources and dependencies - CPU, memory, I/O, and the health of things you rely on like your warehouse or message broker. This layout means a learner can glance at the top row to see if users are impacted, and then scan downwards to understand why.
+
+Queue dept: how many tasks, this can increase due to: 
+- Not enough compute resources.
+- A slow processing step.
+- A downstream system is delayed
+
+<i>
+An SLI (Service level indicator)  is simply a measurement. How is the system actually performing?
+An SLO (service level objective) is the target you want the SLI to meet.
+SLI = What happened.
+SLO = What should happen.
+</i>
+
+<br>
+
+indicators that explain change:
+- Consumer lag
+- Queue depth
+- Transformation stage time
+- GC %
+- Cache hit rate
+- Top error types
 
 
+Think of your system as a play. Metrics are the applause meter - numbers over time that tell you if the audience is happy (latency, error rate, freshness, lag). Logs are the script - what was said and where it went wrong (messages, exceptions, validation failures). Traces are the stage map - who moved where and which scene dragged (spans across services). When all three share the same identifiers and time window, you can follow the story cleanly from symptom to cause.
 
