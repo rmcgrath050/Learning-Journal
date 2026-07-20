@@ -112,3 +112,9 @@ indicators that explain change:
 
 Think of your system as a play. Metrics are the applause meter - numbers over time that tell you if the audience is happy (latency, error rate, freshness, lag). Logs are the script - what was said and where it went wrong (messages, exceptions, validation failures). Traces are the stage map - who moved where and which scene dragged (spans across services). When all three share the same identifiers and time window, you can follow the story cleanly from symptom to cause.
 
+
+#### Grafana
+
+Grafana is where you show the state of the world. Start with a single dashboard for one pipeline or service. At the top, place a few outcome cards-p95 latency, error rate, and freshness-with each card labelled in plain language and with units. Plot p50, p95, and p99 on the same graph so tail pain is visible. 
+
+
