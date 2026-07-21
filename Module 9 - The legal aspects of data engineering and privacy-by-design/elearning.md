@@ -92,3 +92,12 @@ Retailers secure customer data using encryption for transactions, access control
 
 ## L5. Techniques for embedding privacy into data systems  
 
+### Privacy integration in banking platforms
+
+- Integrated role-based access control (RBAC) to limit data exposure based on job responsibilities.
+- Used end-to-end encryption for all customer data in the mobile banking app.
+- Applied pseudonymisation techniques for analytics, replacing identifiable customer information with anonymous IDs.
+
+
+
+
