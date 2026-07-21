@@ -235,7 +235,30 @@ Vulnerability management.
 Logging and monitoring.
 
 
+ ## Activity 5 : Designing a Privacy-byDesign Framework 
+
+<i>
+Privacy Enhancement for an E-Commerce Platform  Your team has been asked to enhance privacy in a sample project: an e-commerce platform called "ShopSecure." This platform collects user data such as names, addresses, payment details, and shopping preferences. Recent feedback and audits highlight concerns about data security and regulatory compliance.  Challenges include:  • Storing sensitive payment information securely.  • Allowing users to control their data, including the ability to delete accounts.  • Ensuring compliance with GDPR and PCI DSS standards.  The solution must include:  • Data minimisation techniques for storing customer information.  • Secure processing features for handling sensitive payment data.  • User-centric controls for data access, modification, and deletion.  Discussion Points  1. What steps can be taken to minimise the collection of sensitive data? Explore the use of pseudonymisation and just-in-time data requests.  2. How can you ensure payment data is securely processed and stored? Consider encryption standards, such as TLS and AES, and secure tokenisation.  3. How can the platform provide users with control over their data? Suggest features like account dashboards, one-click account deletion, and privacy notices.
+</i>
+
+What the assessor is looking for:
+
+They're typically expecting you to mention these key concepts:
+GDPR: Data minimisation, user rights (access, rectification, erasure), transparency, lawful processing.
+PCI DSS: Don't store card details unless absolutely necessary, use tokenisation, encrypt data, restrict access, and monitor/audit payment systems.
+Technical controls: TLS, AES-256, RBAC, MFA, audit logging.
+User experience: Privacy dashboard, easy consent management, and straightforward account deletion.
 
 
+- Remove unnesscary data fields
+- use pseudonymisation for shopping preferences
+- Encrypt payment data with TLS
+- Use tokenisation to reduce brech risks
+- User control : add privacy settings to dashboard, and can download data ( GDPR compliance)
 
- ## Activity 4 : Designing a Privacy-byDesign Framework 
+
+ ## Activity 6 : Designing a Privacy-byDesign Framework 
+
+ <img width="1146" height="678" alt="image" src="https://github.com/user-attachments/assets/5c9ec2b9-cc0b-4c40-80d5-ce908012082e" />
+
+  
