@@ -60,6 +60,35 @@ This diverts resources from normal operations and increases downtime.
 
 ## L4. Understanding privacy-by-design
 
+Privacy-by-design ensures that these systems are created with robust privacy protections from the outset, fostering customer trust and compliance with data protection laws.
 
+#### Core principle 1: Proactive, not reactive
 
+Privacy-by-design focuses on identifying and addressing risks during development rather than reacting to breaches after they occur.Online retailers anticipate potential risks, such as fraudulent access to payment systems, and implement safeguards like tokenised payment methods.
+
+#### Core Principle 2 : Privacy embedded into design
+
+Retailers design systems with privacy defaults, such as anonymising customer data during analytics.
+
+#### Core Principle 3 : End to End secuirty
+
+Retailers secure customer data using encryption for transactions, access controls for databases, and secure deletion methods for outdated information.
+
+#### Technical and security infrastructure
+
+<br>
+<br>
+
+<img width="1074" height="682" alt="image" src="https://github.com/user-attachments/assets/b5f64d2e-58d2-4edb-a58e-65d7c20de11a" />
+
+<br>
+<br>
+
+- Hosting : The hosting and e-commerce platform (website) is fully managed and maintained by an outsourced company called PCIData Hosting.
+- Secuirty Measures : A firewall is deployed between the Internet and the AutoRental website. The AutoRental website is housed within an AutoRental demilitarized zone (DMZ) with a Microsoft SQL Server 2015 server housed within an AutoRental internal zone.
+- Techinal specs : The website is running on a Windows 2012 Server, using Microsoft Internet Information Services (IIS) and Microsoft ASP (Active Server Pages). The AutoRental DMZ and internal zone are both isolated networks for just AutoRental’s use.
+- Payment page generation : All cardholder data (CHD) is entered into the payment form, which is built by the website using the PSP’s JavaScript payment form.
+- Data handling : With the JavaScript payment form, the AutoRental website is responsible for building the payment page, albeit with JavaScript code downloaded from the PSP.
+
+## L5. Techniques for embedding privacy into data systems  
 
