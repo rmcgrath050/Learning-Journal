@@ -135,7 +135,6 @@ Discussion Points
 - Role based access - based on what data each user should only see
 - Anoymisation - giving customers a userID instead of being identified by personal details
 
-
 2.	How will user consent be obtained and managed?
 - Propose a mechanism for obtaining and updating consent.
 - Use of tools such as OneTrust
@@ -143,9 +142,100 @@ Discussion Points
 3.	How will the framework ensure compliance with GDPR and HIPAA?
 - Identify specific organisational policies and best practices.
 - NIST Privacy Framework to create a standardised approach to privacy risk management
+- Audit logging provides evidence of compliance with GDPR accountability principle
 
 4.	How will you ensure data minimisation while delivering useful insights?
 - Explore strategies for collecting only necessary data.
 - Automatic deletion for data no longer required
 
+"Our Privacy-by-Design framework embeds privacy throughout the application's lifecycle. Sensitive health data is protected using encryption, multi-factor authentication, role-based access control, audit logging, and pseudonymisation. Users provide explicit, granular consent and can review or withdraw it at any time through privacy settings. The framework supports GDPR by implementing data minimisation, transparency, lawful processing, and user rights, while meeting HIPAA requirements through strong security controls, audit trails, and organisational policies. To balance privacy with functionality, only data necessary for delivering health insights is collected, retained only as long as needed, and aggregated or pseudonymised wherever possible."
 
+<br>
+
+<img width="1760" height="854" alt="image" src="https://github.com/user-attachments/assets/a878403d-6585-4d51-8edb-51c360294db8" />
+
+<br>
+
+
+
+A strong company policy would cover more than just technology—it should define how employees and the organisation handle personal data.
+
+For this scenario (a health app handling sensitive medical data), here are the strongest policies.
+
+#### 1. Data Protection and Privacy Policy ⭐⭐⭐⭐⭐
+
+This is the most important one.
+
+It would state:
+Only collect data necessary for the app's purpose.
+Process data lawfully and fairly.
+Protect personal and health information.
+Ensure GDPR and HIPAA compliance.
+Define retention periods.
+Securely delete data when no longer required.
+
+
+#### 2. Access Control Policy
+
+Employees should only access data required for their role.
+
+For example:
+Role	Access
+GP	Assigned patient's medical data
+Dietitian	Nutrition information
+Support staff	Account details only
+Developer	No access to live patient records
+
+This follows the principle of least privilege.
+
+#### 3. Consent Management Policy
+
+The organisation should require that:
+
+Consent is explicit.
+Consent is recorded.
+Users can withdraw consent at any time.
+Consent is reviewed if the purpose of processing changes.
+
+#### 4. Third-Party Data Sharing Policy
+
+Before sharing health data:
+
+Verify the third party meets GDPR/HIPAA requirements.
+Sign a Data Processing Agreement.
+Share only the minimum necessary data.
+Regularly audit third-party compliance.
+
+This is particularly important because your scenario mentions sharing data with healthcare providers.
+
+#### 5. Incident Response / Data Breach Policy
+
+If a breach occurs:
+
+Contain the breach immediately.
+Assess the impact.
+Notify regulators within required timeframes (for GDPR, where applicable).
+Notify affected users if there's a high risk to their rights and freedoms.
+Investigate and implement corrective actions.
+
+#### 6. Data Retention and Deletion Policy
+
+For example:
+Keep medical records only as long as required.
+Automatically delete inactive accounts after the defined retention period (where appropriate and subject to legal requirements).
+Securely erase backups when retention expires.
+
+#### 7. Security Policy
+
+Require:
+Encryption at rest and in transit.
+Multi-factor authentication.
+Regular security testing.
+Vulnerability management.
+Logging and monitoring.
+
+
+
+
+
+ ## Activity 4 : Designing a Privacy-byDesign Framework 
