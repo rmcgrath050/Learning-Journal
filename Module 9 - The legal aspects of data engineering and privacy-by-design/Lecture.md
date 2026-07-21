@@ -20,10 +20,11 @@
 <br>
 
 Answers: 
-A: •	Lawfulness, Fairness, and Transparency
-B: •	Storage Limitation
-C: •	Data Minimization
-D: •	Accuracy
-E: •	Integrity and Confidentiality (Security)
-F: •	Purpose Limitation
-G: •	Accountability
+
+- A: •	Lawfulness, Fairness, and Transparency
+- B: •	Storage Limitation
+- C: •	Data Minimization
+- D: •	Accuracy
+- E: •	Integrity and Confidentiality (Security)
+- F: •	Purpose Limitation
+- G: •	Accountability
