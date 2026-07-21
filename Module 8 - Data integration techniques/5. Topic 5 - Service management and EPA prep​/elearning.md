@@ -118,3 +118,42 @@ Think of your system as a play. Metrics are the applause meter - numbers over ti
 Grafana is where you show the state of the world. Start with a single dashboard for one pipeline or service. At the top, place a few outcome cards-p95 latency, error rate, and freshness-with each card labelled in plain language and with units. Plot p50, p95, and p99 on the same graph so tail pain is visible. 
 
 
+
+## L3 . Analysing Performance Trends & Identifying Bottlenecks
+
+Learning objectives:
+1. Describe a sensible baseline for a service or pipeline
+2. Separate seasonality from drift
+3. Use paired signals (latency, lag, saturation) to locate a likely bottleneck
+4. Validate your diagnosis with a small, safe experiment
+
+To find the cause of an issue, begin with a baseline period when things were healthy. Best place to start is to capture p50 and p95 latency, error rate, and - if relevant - data freshness over that time.
+
+For pipelines, you can also create baselines per stage (ingest, transform, load) so a change in one phase is visible even if the end-to-end number looks flat.
+
+
+Performance metrics explainations:
+
+- If latency rises and consumer lag grows while CPU is low, the constraint is probably upstream I/O or the source system, not compute.
+- If lag grows and CPU/GC time saturate, compute is your bottleneck.
+- If throughput is steady but queue wait increases, the queue is under-provisioned or a downstream limit is throttling you
+
+Keep Little’s Law in mind (items in system ≈ arrival rate × time in system): when arrival stays the same but time increases, the queue length must grow - so look for the step that slowed. Align time axes on your dashboard so these relationships are easy to see at a glance
+
+<br>
+
+### Identify the type of bottleneck
+
+ - Upstream : Upstream bottlenecks show up as idle consumers with growing wait times (slow source! network, or storage).
+ - Compute : Compute, or midstream, bottlenecks show saturated CPU, long GC, skewed partitions, or expensive joins that inflate stage time
+ - Downstream : Downstream bottlenecks appear when writes stall - warehouse concurrency is maxed, object store errors spike, or a rate limit kicks in.
+
+For <b>batch</b>, focus on stage-level runtime and queue delay before the deadline (e.g., “fresh by 09:00”). For <b>streaming</b>, watch end-to-end latency and consumer lag together; short spikes in lag that self-heal may be harmless, but sustained lag plus rising service time points to a real limit.
+
+#### Prove it with a small change
+
+- Doubling consumers without reducing lag suggests the bottleneck isn’t compute.
+- Reducing a heavy shuffle or adding a missing index that cuts p95 stage time is strong evidence of a compute constraint.
+- Raising warehouse concurrency that clears queue wait confirms a downstream limit.
+
+  
