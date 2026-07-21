@@ -19,6 +19,9 @@
 
 <br>
 
+<br>
+
+
 Answers: 
 
 - A: •	Lawfulness, Fairness, and Transparency
@@ -28,3 +31,12 @@ Answers:
 - E: •	Integrity and Confidentiality (Security)
 - F: •	Purpose Limitation
 - G: •	Accountability
+
+
+## Activity 2 : Addressing Legal Challenges in Data engineering 
+
+<br>
+
+<img width="745" height="1017" alt="image" src="https://github.com/user-attachments/assets/864e2ca1-3455-4e11-96d0-92e4515b0e68" />
+
+
