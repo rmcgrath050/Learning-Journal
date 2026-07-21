@@ -79,7 +79,7 @@ Retailers secure customer data using encryption for transactions, access control
 <br>
 <br>
 
-<img width="1074" height="682" alt="image" src="https://github.com/user-attachments/assets/b5f64d2e-58d2-4edb-a58e-65d7c20de11a" />
+<img width="1274" height="782" alt="image" src="https://github.com/user-attachments/assets/b5f64d2e-58d2-4edb-a58e-65d7c20de11a" />
 
 <br>
 <br>
@@ -98,6 +98,56 @@ Retailers secure customer data using encryption for transactions, access control
 - Used end-to-end encryption for all customer data in the mobile banking app.
 - Applied pseudonymisation techniques for analytics, replacing identifiable customer information with anonymous IDs.
 
+#### Challenges
+- Ensuring secure access to data for multiple stakeholders, including customers, bank staff, and auditors.
+- Managing large volumes of sensitive data like loan applications and transaction histories.
+
+#### Solutions
+- Integrated <b>role-based access control (RBAC)</b> to limit data exposure based on job responsibilities.
+- Used end-to-end encryption for all customer data in the mobile banking app.
+- Applied pseudonymisation techniques for analytics, replacing identifiable customer information with <b>anonymous IDs</b>
+
+#### Outcomes
+- The bank saw a 40% reduction in data breaches over two years and received positive feedback during GDPR compliance audits.
+- Customers reported increased confidence in using the platform due to clear privacy measures.
+
+### Technique 1: Data minimisation
+
+- Data minimisation ensures that systems only collect and process the data necessary for their purpose.
+- Reduce the risk of breaches and maintain compliance with laws like GDPR.
+
+### Technique 2: Privacy enhancing technologies (PETs)
+
+- Privacy-enhancing technologies like encryption, differential privacy, and pseudonymisation protect sensitive data while maintaining its utility.
+- The techniques for implementing privacy-by-design: a focus on Privacy enhancing techniques (PETs)
+- Encryption converts sensitive data into an unreadable format unless accessed by authorised users.
+- Differential privacy ensures that aggregated data remains anonymous, even during analytics.
 
 
+### Technique 3: Role-Based Access Control (RBAC)
 
+- By assigning roles with predefined permissions, organisations can restrict access to sensitive data. eg using saviant for limtied time on senstive data fields
+
+## L6. Tools and frameworks for privacy-by-design
+
+<br>
+<img width="1250" height="810" alt="image" src="https://github.com/user-attachments/assets/3aeedd5a-65e5-423d-a5ba-af391e6871c7" />
+
+#### Data encryption 
+
+<br>
+- Encryption ensures that even if data is intercepted, it remains inaccessible without the correct decryption key
+- Popular tools include OpenSSL, which provides robust encryption protocols, and Azure Key Vault, which simplifies encryption key management
+
+#### Privacy management software
+
+Privacy management platforms help organisations automate compliance, track consent, and assess privacy risks.
+<br>
+<img width="1344" height="870" alt="image" src="https://github.com/user-attachments/assets/69869173-1cbb-4d5c-a39a-1608bc233c6e" />
+<br>
+- Tools like OneTrust and TrustArc allow organisations to manage GDPR compliance by automating consent tracking, privacy assessments, and policy enforcement.
+- A logistics company uses OneTrust to send automated consent forms to customers and track responses for compliance purposes.
+
+#### NSIT Privacy Frameworks
+
+This framework outlines key functions, including identifying privacy risks, implementing controls, and monitoring outcomes.
