@@ -151,3 +151,27 @@ Privacy management platforms help organisations automate compliance, track conse
 #### NSIT Privacy Frameworks
 
 This framework outlines key functions, including identifying privacy risks, implementing controls, and monitoring outcomes.
+
+
+A global logistics company adopted a suite of privacy tools and frameworks to protect sensitive customer data and comply with GDPR regulations.So, how did they navigate this complex challenge?
+
+
+- Implemented Azure Key Vault for encryption of delivery data.
+- Deployed OneTrust to automate consent tracking and manage privacy assessments.
+- Adopted the NIST Privacy Framework to create a standardised approach to privacy risk management.
+
+## L7 : Conclusion
+
+- Principles of Data Protection Laws: GDPR and DPA ensure that personal data is processed lawfully, fairly, and transparently.
+
+- Legal Obligations: Data engineers must design secure systems, maintain accurate documentation, and communicate effectively with stakeholders.
+
+- Consequences of Non-Compliance: Non-compliance with data protection laws can lead to financial penalties, reputational damage, and operational disruptions.
+
+- Privacy-by-Design Principles: Explore the proactive approach of privacy-by-design, focusing on embedding privacy into systems from the initial design phase.
+
+- Privacy-by-Design Principles: Embedding privacy into systems from the initial design phase helps protect sensitive data and manage risks proactively.
+
+- Techniques for Embedding Privacy: Practical methods include data minimization, privacy-enhancing technologies, and role-based access control.
+
+- Tools and Frameworks: Tools like Azure Key Vault and OneTrust, and frameworks like the NIST Privacy Framework, support privacy-by-design and ensure compliance
