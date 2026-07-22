@@ -227,3 +227,16 @@ Real-time health checks buy you minutes when things go wrong. Heartbeats can ass
 - Then discuss what helped and what made it harder (e.g., missing deploy annotation, noisy alert, undocumented failover).
 - Make it blameless by treating actions as outcomes of system conditions - staffing, tools, processes - not personal failings.
 
+<br>
+
+- Prevent  : (reduce likelihood): e.g., add an index; fix a skewed join; add schema validation pre-ingest
+- Contain : (reduce blast radius): e.g., automatic rollback on burn-rate breach; isolate load pool; circuit breaker on downstream.
+- Detect : (reduce time to notice): e.g., deploy annotations; a freshness heartbeat; better alert routing.
+
+
+-  Measure what users actually feel-tail latency and data freshness-and manage reliability through clear SLOs and error budgets.
+- Make the dashboard a single story at a glance (outcomes → explanations → resources) and link Grafana outcomes to Kibana explanations with preserved context.
+- Compare today to a baseline and read paired signals to hypothesise the constraint-then prove it with one small, reversible change.
+- Declare early, assign roles, and run a restore-first rhythm with short, factual updates that keep everyone aligned.
+- Use checklist-style playbooks and SLO/burn-rate paging, backed by simple heartbeats and freshness checks that lead straight to action.
+- Run blameless reviews that produce specific prevent/contain/detect actions, and set SLAs as realistic subsets of your demonstrated SLO performance.
