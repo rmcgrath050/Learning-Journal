@@ -156,4 +156,74 @@ For <b>batch</b>, focus on stage-level runtime and queue delay before the deadli
 - Reducing a heavy shuffle or adding a missing index that cuts p95 stage time is strong evidence of a compute constraint.
 - Raising warehouse concurrency that clears queue wait confirms a downstream limit.
 
-  
+## L4. Incident Response Essentials
+
+- define what an incident is, assign clear roles, restore service first, and communicate in a way that lowers stress for everyone involved.
+- Define incidents in plain language and grade severity by impact and urgency.
+- Run the first 15 minutes with clear roles - Incident Commander, Comms Lead, Scribe, Resolvers - and a restore-first approach.
+- Use simple, consistent communication and documentation so decisions, actions, and next steps are always visible
+
+
+An incident is any unplanned event that degrades service or data quality for users or downstream teams. By declaring early, you can downgrade the severity later. It’s best to keep a short, unambiguous scale tied to impact and urgency. 
+
+- Minute 0–2: declare, set severity, assign roles, create the channel/ticket.
+- Minute 2–7: verify impact on SLIs, choose the fastest safe mitigation (rollback, toggle feature, scale fallback).
+- Minute 7–15: confirm recovery, schedule a deeper diagnosis if impact remains, and set the next update time.
+
+#### Example
+
+Number 1: 
+- Pattern: “p95 ingest latency ↑ from 6m to 18m (+12m) and still rising.”
+- Batch example: “Freshness breached: dashboard is 35m late (target: by 09:00).”
+- Streaming example: “Event-to-serve p95 is 3.2s (baseline 900ms).”
+<br>
+
+Number 2: 
+- Pinpoint the scope so the right people look in the right place. Include service/pipeline, environment, region, and (if known) the stage/component
+
+<br>
+Number 3: 
+- Give a timestamp and any correlated change (deploy, feature flag, config). This anchors the timeline and speeds correlation.
+
+<br>
+You also learned a simple, repeatable way to communicate - one channel, predictable updates, and links to evidence - so everyone sees the same picture and moves in the same direction.
+
+## L6 : Lesson 5 - Playbooks, Alerting & Real-Time Monitoring
+
+When production misbehaves, you need steps you can actually run and alerts that wake people only for problems that matter. This lesson shows how to write playbooks that work under pressure, design SLO-aware alerts that reduce noise, and watch real-time health so you catch trouble early.
+
+A playbook is a short, scenario-specific checklist that anyone on-call can run to restore service safely under pressure. It turns a known failure mode (e.g., “Kafka consumer lag spike”) into a single, executable path: how to confirm it’s really happening, what to try first, when to stop, how to roll back, and how to verify that users are healthy again.
+
+A good playbook contains:
+- trigger:
+- prechecks
+- first safe action
+- decision points
+- Rollback and exit
+- verification
+- context
+
+  #### Playbook example
+
+
+- Start with a trigger (“Kafka consumer lag > 50k for 10 min”), then pre-checks to confirm you’re solving the right failure (“is producer healthy?”, “network OK?”, “lag by partition?”).
+- List first actions that are reversible - scaling consumers, pausing competing loads, or rolling back a change.
+- Mark decision points (“if lag falls for 5 min, continue; if not, escalate to…”) and finish with rollback/exit and verification (“lag < 5k for 10 min; p95 back under SLO”).
+- Keep one page per failure mode, store it in version control beside the service, and drill it occasionally so muscle memory forms. If a newcomer can’t run it end-to-end, it isn’t finished.
+
+
+<img width="1300" height="604" alt="image" src="https://github.com/user-attachments/assets/b9981176-2603-417e-909f-eb6136ef0a6e" />
+
+<br>
+
+Real-time health checks buy you minutes when things go wrong. Heartbeats can assert liveness from the data’s point of view (a tiny record each minute that must appear at the sink). You can also track freshness as “now minus newest good event time,” not ingestion time, so late data shows up as a real risk. (I did consider dbt freshness but didnt want alerts for late data appearing as unrpedicable load via FCA)
+
+## L6. Lesson 6 - Post-Incident Learning, RCA & SLAs
+
+- Hold the review soon - while context is fresh - but not in the heat of response.
+- Keep it short and consistent.
+- Start with the timeline: a clear sequence of facts pulled from dashboards, alerts, and the incident channel.
+- Follow with impact in user terms (SLO minutes burned, missed deadlines, customer tickets).
+- Then discuss what helped and what made it harder (e.g., missing deploy annotation, noisy alert, undocumented failover).
+- Make it blameless by treating actions as outcomes of system conditions - staffing, tools, processes - not personal failings.
+
