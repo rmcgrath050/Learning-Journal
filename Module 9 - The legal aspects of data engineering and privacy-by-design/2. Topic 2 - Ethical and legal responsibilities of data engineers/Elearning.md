@@ -125,4 +125,22 @@ Over-anonymisation could lead to incomplete data, while under-anonymisation risk
 
 ## L6. Selecting tools and technologies for data anonymisation
 
+Differential privacy is appropriate for census data, where the goal is to publish useful statistics while preventing re-identification.
+Data masking is appropriate for database testing, where developers need realistic data without exposing real people's personal information.
 
+<br>
+Common tools for data anonymisation include the following:
+- ARX : Provides robust anonymisation and re-identification risk analysis.
+- Synthea : Generates synthetic healthcare datasets for research.
+- Microsoft Presidio : Identifies and masks personally identifiable information (PII).
+
+<br>
+<img width="1612" height="784" alt="image" src="https://github.com/user-attachments/assets/b986edfa-0a12-4d4b-80f8-8eb5a2f1c4ca" />
+
+## L7. Summary
+
+- Ethical considerations are crucial in data engineering to ensure fairness, transparency, and accountability.
+- Balancing innovation with ethical responsibilities requires careful navigation of trade-offs.
+- Anonymisation techniques like differential privacy, synthetic data, and data masking protect privacy while maintaining data utility.
+- Legal frameworks such as GDPR and HIPAA mandate strict anonymisation practices to prevent re-identification.
+- Selecting the right anonymisation tools involves evaluating their scalability, compliance capabilities, and utility preservation.
