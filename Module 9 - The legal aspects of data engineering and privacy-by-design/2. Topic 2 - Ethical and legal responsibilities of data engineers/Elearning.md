@@ -84,10 +84,45 @@ outcomes:
 - The anonymised data enabled the fraud detection model to achieve 95% accuracy without exposing sensitive customer details.
 - The bank remained compliant with GDPR and industry-specific regulations while enhancing its fraud detection capabilities.
 
-
-
 1. Data Masking - Hides identifiable information by replacing it with fictional or scrambled data while retaining the structure and format.
 2. Differential privacy - Adds statistical noise to datasets, preventing the identification of individual records while preserving aggregate trends, Think of a privacy "filter" that obscures details while keeping the big picture intact.
 3. Synthetic data - This technique obscures sensitive data, such as names or account numbers, to prevent unauthorised access.
 
 ## L5. Legal and ethical implications of data anonymisation
+
+<b>Legal Compliance:</b>
+- Applied differential privacy to add statistical noise, preventing re-identification.
+- Masked direct identifiers like names and addresses.
+
+<br>
+
+<b>Ethical Integrity:</b>
+- Consulted ethics boards and patient advocacy groups to ensure responsible anonymisation practices.
+- Analysed datasets to avoid exposing vulnerable subgroups (e.g., rare conditions).
+
+<br>
+
+<b>Outcomes:</b>
+- Achieved GDPR compliance, avoiding potential fines.
+- Retained 95% of the data’s analytical utility for the trial.
+- Enhanced public trust by transparently sharing anonymisation policies.
+
+##### Navigating legal and ethical dimensions of data anonymisation
+
+his section explores the legal and ethical considerations of data anonymisation, highlighting the challenges and strategies for achieving this balance.
+
+
+##### Legal Considerations
+
+Laws such as GDPR and HIPAA mandate that data must be anonymised to an irreversible extent to prevent unauthorised identification of individuals. These laws require organisations to adopt techniques like k-anonymity, pseudonymisation, or differential privacy to protect personal data (GDPR Report, 2021).
+
+#### Ethical Considerations
+Ethical anonymisation is grounded in respect for individual privacy and autonomy. It involves obtaining informed consent and ensuring that the anonymised data cannot cause harm if misused 
+
+#### Challenges Legal vrs Ethical
+While strict anonymisation safeguards privacy, it can also limit data utility, posing challenges for organisations.
+Over-anonymisation could lead to incomplete data, while under-anonymisation risks privacy breaches. 
+
+## L6. Selecting tools and technologies for data anonymisation
+
+
