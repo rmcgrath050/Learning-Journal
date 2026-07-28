@@ -20,7 +20,7 @@ We dont anonymise data but we do restrict access using agent roles. Tools can be
 - Microsoft Presidio
 
 
-#### Activity 1 : 
+## Activity 1 : 
 
 1 . The ethical principle are : Transparency , Privacy , consent , Accountabilty, fairness and Data minimisation
 1. What ethical principles (e.g., transparency, privacy, accountability) are relevant in this scenario?
@@ -75,7 +75,7 @@ Data minimisation
 
 
 
-#### Activity 2:
+## Activity 2:
 
 Questions to Guide Your Discussion 
 1. What are the benefits of implementing this innovative system for the company, customers, and the environment? 
@@ -83,14 +83,14 @@ Questions to Guide Your Discussion
 3. How could the company balance innovation with ethical responsibilities? Debate Guidelines 
 
 
-1. Benefits of implementing this innovative system
+#### Benefits of implementing this innovative system
 - Contribute to Company - improved operational efficiency: AI analyses real-time traffic and vehicle data to optimise delivery routes, reducing travel time.
 - Customer - faster delivery time and greater reliability
 - Environment - Reduced fuel consumption and less fuel used therefore reducing greenhouse gas emissions. Sustainability benefits both the company and society by reducing environmental impact.
 
 
 
-2.Emphasise the importance of employee privacy, transparency, and creating a positive work culture. Discuss the potential risks of excessive data collection and its misuse.
+#### Emphasise the importance of employee privacy, transparency, and creating a positive work culture. Discuss the potential risks of excessive data collection and its misuse.
 
 Continuous monitoring may invade privacy.
 - Lack of transparency can reduce trust.
@@ -100,7 +100,7 @@ Continuous monitoring may invade privacy.
 
 <br> 
 
-3. How could the company balance innovation with ethical responsibilities? 
+### How could the company balance innovation with ethical responsibilities? 
 - Using Data Fairly - only use driver data for coaching and training purposes not disciplinary or employment decisions, only using data for development not punishment 
 - Human oversight , managers can review recommendations before taking action
 - Transparency - what data is collected, why, how it benefits drivers/ business and who can access it
