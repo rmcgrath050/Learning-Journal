@@ -20,4 +20,49 @@ We dont anonymise data but we do restrict access using agent roles. Tools can be
 - Microsoft Presidio
 
 
-  
+#### Activity 1 : 
+
+1 . The ethical principle are : Transparency , Privacy , consent , Accountabilty, fairness and Data minimisation
+
+1. What ethical principles (e.g., transparency, privacy, accountability) are relevant in this scenario?
+
+Transparency
+- Customers should have been aware what's being collected, how it's being used and who it's being shared with
+<br>
+Privacy
+- Private activities like holiday planning were used in advertising, raising privacy concerns
+- Company expanded into collecting third-party personal data without informing users or obtaining consent.
+<br>
+Accountability
+- Regular audits should be conducted to identify privacy risks
+<br>
+Fairness
+- Third party data may introduce bais that affect product recommendations
+- <br>
+Data minimisation
+- Gathering excessive information, such as detailed location history or unrelated social media activity, violates the principle of collecting only what is needed
+
+<br>
+<b>2. How should the company address concerns about the use of third-party data?</b>
+- Increase transparency
+- Obtain consent
+- Limit data collection
+- Clearly informing customers about all sources of data used.
+- Updating privacy notices to explain how personal and third-party data is processed.
+= Obtaining explicit consent before using third-party data for personalisation.
+- Giving customers the ability to opt in or opt out of personalised advertising.
+- Conducting a Data Protection Impact Assessment (DPIA) to identify privacy risks.
+- Working with legal, compliance and data governance teams to ensure GDPR requirements are met.
+- Responding publicly to customer concerns and demonstrating a commitment to ethical data practices.
+
+<br>
+
+<b>3. What actions would align with ethical best practices in data engineering?</b>
+- Build Privacy by Design into systems from the start.
+- Collect only the data needed (data minimisation).
+- Obtain clear consent and be transparent about data use.
+- Protect personal data with strong security and access controls.
+- Regularly audit data processing and AI systems for compliance and fairness.
+- Ensure data use complies with GDPR and ethical standards.
+
+
