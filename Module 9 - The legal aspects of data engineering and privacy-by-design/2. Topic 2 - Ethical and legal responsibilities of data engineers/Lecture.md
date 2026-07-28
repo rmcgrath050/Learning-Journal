@@ -23,26 +23,34 @@ We dont anonymise data but we do restrict access using agent roles. Tools can be
 #### Activity 1 : 
 
 1 . The ethical principle are : Transparency , Privacy , consent , Accountabilty, fairness and Data minimisation
-
 1. What ethical principles (e.g., transparency, privacy, accountability) are relevant in this scenario?
+
+<br>
 
 Transparency
 - Customers should have been aware what's being collected, how it's being used and who it's being shared with
 <br>
+
 Privacy
 - Private activities like holiday planning were used in advertising, raising privacy concerns
 - Company expanded into collecting third-party personal data without informing users or obtaining consent.
 <br>
+
 Accountability
 - Regular audits should be conducted to identify privacy risks
 <br>
+
 Fairness
 - Third party data may introduce bais that affect product recommendations
-- <br>
+<br>
+
 Data minimisation
 - Gathering excessive information, such as detailed location history or unrelated social media activity, violates the principle of collecting only what is needed
+<br> 
 
 <br>
+
+
 <b>2. How should the company address concerns about the use of third-party data?</b>
 - Increase transparency
 - Obtain consent
