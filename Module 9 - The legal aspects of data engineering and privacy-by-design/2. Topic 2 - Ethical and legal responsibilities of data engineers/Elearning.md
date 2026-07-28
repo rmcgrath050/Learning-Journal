@@ -68,4 +68,26 @@ Resolution: Restricted the technology's use to specific high-risk areas and impl
 - Data privacy violations - Updated policies and implemented transparency tools.
 - Surveillance Concerns - Restricted use and established oversight committees.
 
- 
+ <br>
+
+ ## L4. Anonymising data while preserving utility
+
+By applying anonymisation techniques like data masking or differential privacy, the council can analyse the data to make informed decisions without exposing sensitive details about individuals.
+
+how to achieve this?
+- Data masking: Account numbers and customer names were replaced with unique identifiers.
+- Differential privacy: Noise was added to transaction amounts, ensuring that individual transactions could not be linked to customers.
+- Synthetic data: Artificial datasets were generated to simulate high-value transactions for model stress testing.
+
+<br>
+outcomes: 
+- The anonymised data enabled the fraud detection model to achieve 95% accuracy without exposing sensitive customer details.
+- The bank remained compliant with GDPR and industry-specific regulations while enhancing its fraud detection capabilities.
+
+
+
+1. Data Masking - Hides identifiable information by replacing it with fictional or scrambled data while retaining the structure and format.
+2. Differential privacy - Adds statistical noise to datasets, preventing the identification of individual records while preserving aggregate trends, Think of a privacy "filter" that obscures details while keeping the big picture intact.
+3. Synthetic data - This technique obscures sensitive data, such as names or account numbers, to prevent unauthorised access.
+
+## L5. Legal and ethical implications of data anonymisation
