@@ -74,3 +74,35 @@ Data minimisation
 - Ensure data use complies with GDPR and ethical standards.
 
 
+
+#### Activity 2:
+
+Questions to Guide Your Discussion 
+1. What are the benefits of implementing this innovative system for the company, customers, and the environment? 
+2. What ethical concerns arise from the collection and use of detailed driver behaviour data? 
+3. How could the company balance innovation with ethical responsibilities? Debate Guidelines 
+
+
+1. Benefits of implementing this innovative system
+- Contribute to Company - improved operational efficiency: AI analyses real-time traffic and vehicle data to optimise delivery routes, reducing travel time.
+- Customer - faster delivery time and greater reliability
+- Environment - Reduced fuel consumption and less fuel used therefore reducing greenhouse gas emissions. Sustainability benefits both the company and society by reducing environmental impact.
+
+
+
+2.Emphasise the importance of employee privacy, transparency, and creating a positive work culture. Discuss the potential risks of excessive data collection and its misuse.
+
+Continuous monitoring may invade privacy.
+- Lack of transparency can reduce trust.
+- Data could be misused for disciplinary action or redundancies.
+- Excessive surveillance may create a stressful work environment.
+- Employees deserve control and clarity over how their personal data is used.
+
+<br> 
+
+3. How could the company balance innovation with ethical responsibilities? 
+- Using Data Fairly - only use driver data for coaching and training purposes not disciplinary or employment decisions, only using data for development not punishment 
+- Human oversight , managers can review recommendations before taking action
+- Transparency - what data is collected, why, how it benefits drivers/ business and who can access it
+- Limit Data Collection - collect only what is needed for improving safetly and operational efficiency
+- Establish Governance control - comply with GDPR
