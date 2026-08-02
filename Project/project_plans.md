@@ -35,6 +35,18 @@ planned work will enable you to show:
 • practical data engineering skills across the project lifecycle.
 • professional behaviours in a real organisational setting.
 
+### My notes
+
+Project title: Modernising a Legacy Excel Reporting Process Through Automated Data Pipelines in Google Cloud Platform
+
+The business problem is we receive third party dataset which helps us analyse last branches in town which has usually been acehievd thoguh excel marcos by report owners. This report however has started to load into the GCP FDP and reporting owners are now wanting to create a automated report from this. 
+
+
+
+
+
+
+
 
 You may do this through a short narrative paragraph or by briefly referencing specific
 KSB codes within your description.
