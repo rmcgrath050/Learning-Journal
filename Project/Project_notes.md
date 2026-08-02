@@ -77,4 +77,6 @@ Triggers Airflow DAG
 ### Design 
 - Currently FDP is updated by upstream data from ODP - surely no update happens until the fresh load of ODP? Therefore could use DBT freshness?
 
-- 
+### notes to use for prospal 
+
+
