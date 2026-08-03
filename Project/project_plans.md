@@ -66,24 +66,27 @@ Success will be measured by:
 - For data processing/ transformation using SQL, DBT (Data Build Tool) to develop models with business logic and Python for scripting/automation 
 - Apache airflow via Cloud composer to create/schedule DAGS that run the data pipeline
 - Cloud Composer manages the orchestration environment, enabling reliable scheduling, monitoring and execution of workflows.
-- Terraform to manage and provision cloud infrastucre using iaC
+- Terraform to manage and provision cloud infrastuture using iaC
 - Github for version control, code reviews and collaboration
 - Jenkins and Harness for CI/CD automating rh build, testing and deployment of the data pipeline 
 - Jira/ mims for managing user stories, tracking progress and providing test evidence
+
+
+
 
 #### Scope of work
 
 The project will include:
 
 Discovery
-- Understand the existing Excel macro process.
-- Review reporting requirements with report owners.
+- Understand the existing Excel macro process
+- Review reporting requirements with report owners
 - Analyse source datasets
 
 Design
-- Design the target data model.
-- Design transformation logic.
-- Define data quality checks.
+- Design the target data model
+- Design transformation logic
+- Define data quality checks
 
 Development
 - Build automated data pipeline in GCP
@@ -110,7 +113,41 @@ Deliverables
 - User handover documentation
 
 
+#### Stakeholders
+- Report owners who will define reporting requirements and validate outputs, engagement via regular meeting and team chats 
+- Data engineering team , to ensure standardisation is being meet, offer technical guidance and code reviews, and engagement via daily stand ups 
+- Platform teams who own the ODP , to engage with them to access the data and understand the ODP and raise any data issues 
+- The business users who will be using the report and feedback during testing
+
+
+#### Risks, Assumptions and Constraints
+
+Risks
+- Changes to the third party data structure
+- Differences between Excel calculations and SQL logic
+- Data quality issues within source files
+- Delays in stakeholder availability for testing
+
+Assumptions
+- Required data remains available within GCP 
+- Existing business logic is fully understood
+- Required access to GCP environments is provided
+
+Constraints
+- Project timescales.
+- Compliance with organisational data governance standards.
+- Dependency on upstream data availability.
+- must integrate with the organisation's existing GCP environment and follow established technical standards and deployment processes
+- Access permissions, development is dependent on access to GCP environments, repositories and datasets
+
+
+
 ******************************************
+
+Reporting and Validation
+* BigQuery reporting datasets.
+* Comparison of outputs against the legacy Excel report to ensure consistency and accuracy.
+
 
 
 Summarise the data and technologies you expect to use (for example, data sources, storage, processing, and any analytics or reporting).
