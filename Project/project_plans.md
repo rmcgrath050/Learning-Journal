@@ -62,8 +62,55 @@ Success will be measured by:
 
 #### Data and technologies being used: 
 - DataSources include third party branch metrics dataset via CACI fed into an ODP and the existing Excel report to use for validation.
-- 
+- Using BigQuery to test SQL result and use it to store the transformed data
+- For data processing/ transformation using SQL, DBT (Data Build Tool) to develop models with business logic and Python for scripting/automation 
+- Apache airflow via Cloud composer to create/schedule DAGS that run the data pipeline
+- Cloud Composer manages the orchestration environment, enabling reliable scheduling, monitoring and execution of workflows.
+- Terraform to manage and provision cloud infrastucre using iaC
+- Github for version control, code reviews and collaboration
+- Jenkins and Harness for CI/CD automating rh build, testing and deployment of the data pipeline 
+- Jira/ mims for managing user stories, tracking progress and providing test evidence
 
+#### Scope of work
+
+The project will include:
+
+Discovery
+- Understand the existing Excel macro process.
+- Review reporting requirements with report owners.
+- Analyse source datasets
+
+Design
+- Design the target data model.
+- Design transformation logic.
+- Define data quality checks.
+
+Development
+- Build automated data pipeline in GCP
+- Develop SQL transformations
+- Configure scheduling and automation
+- Implement validation checks
+
+
+Testing
+- Compare outputs against the legacy Excel report.
+- Conduct User Acceptance Testing (UAT).
+
+
+Deployment
+- Deploy pipeline into production.
+- Support transition to business users.
+- Produce documentation and handover materials.
+
+Deliverables
+- Automated GCP data pipeline
+- SQL transformation script
+- Reporting ready dataset
+- Data validation and technical documentation
+- User handover documentation
+
+
+******************************************
 
 
 Summarise the data and technologies you expect to use (for example, data sources, storage, processing, and any analytics or reporting).
