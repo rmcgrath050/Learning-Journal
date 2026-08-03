@@ -17,14 +17,11 @@ written in clear, professional language that would be understandable to both
 technical and non-technical stakeholders.
 Within your proposal, you must:
 
-• Describe the business context, including the problem or opportunity your
-project will address.
-• Set out the project objectives, expected business benefits and how success
-will be measured.
-• Summarise the data and technologies you expect to use (for example, data
-sources, storage, processing, and any analytics or reporting).
-• Outline the scope of work, including key activities you will undertake and the
-main deliverables you intend to produce.
+<i>
+• Describe the business context, including the problem or opportunity your project will address.
+• Set out the project objectives, expected business benefits and how success will be measured.
+• Summarise the data and technologies you expect to use (for example, data sources, storage, processing, and any analytics or reporting).
+• Outline the scope of work, including key activities you will undertake and the main deliverables you intend to produce.
 • Identify key stakeholders and how you will engage with them throughout the
 project.
 • Highlight any known risks, assumptions or constraints that may affect delivery.
@@ -34,18 +31,43 @@ planned work will enable you to show:
 • application of core data engineering knowledge.
 • practical data engineering skills across the project lifecycle.
 • professional behaviours in a real organisational setting.
+</i>
+
 
 ### My notes
 
 Project title: Modernising a Legacy Excel Reporting Process Through Automated Data Pipelines in Google Cloud Platform
 
-The business problem is we receive third party dataset which helps us analyse last branches in town which has usually been acehievd thoguh excel marcos by report owners. This report however has started to load into the GCP FDP and reporting owners are now wanting to create a automated report from this. 
+The business problem is we receive third party dataset which helps us analyse last branches in town which has usually been achieved though excel marcos by report owners. This report however has started to load into the GCP FDP and reporting owners are now wanting to create a automated report from this. The project will reduce manual effort, improve data quality and enable report owners to access up to date information without relying on complex Excel macros.
+
+#### The project objectives include:
+- Design and build an automated pipeline within GCP
+- Replace the existing macro process with a cloud based solution
+- Reduce manual processing time for report owners
+- Improve data quality though automated validation
+- Ensure a solution that is scalable and maintainable for future enhancements
+
+<br>
+Expected Business Benefits includes: 
+- Reduced manual effort.
+- Faster report production.
+- Improved consistency and accuracy.
+- Better governance through centralised cloud based data processing.
+
+Success will be measured by:
+- Elimination or significant reduction of manual Excel processing.
+- Accurate matching of outputs between the new cloud report and the existing report.
+- Positive feedback from reporting stakeholders.
+- Successful deployment into the production environment.
+
+#### Data and technologies being used: 
+- DataSources include third party branch metrics dataset via CACI fed into an ODP and the existing Excel report to use for validation.
+- 
 
 
 
-
-
-
+Summarise the data and technologies you expect to use (for example, data sources, storage, processing, and any analytics or reporting).
+- 
 
 
 You may do this through a short narrative paragraph or by briefly referencing specific
