@@ -145,7 +145,8 @@ percentage of datasets assigned ownership, data quality scores).
 
 
 <img width="1478" height="614" alt="image" src="https://github.com/user-attachments/assets/00b0f7bd-f1da-42b0-8848-392237f1f174" />
-
+<br>
+<br>
 
 ### Activity 4
 
@@ -177,4 +178,10 @@ percentage of datasets assigned ownership, data quality scores).
 
 <img width="1124" height="450" alt="image" src="https://github.com/user-attachments/assets/25d4ac1a-eb49-4b7c-8b53-076c0d24d435" />
 <br> 
+<br>
+<img width="1426" height="686" alt="image" src="https://github.com/user-attachments/assets/59c0124f-a189-4d79-866b-44f0b9fcdfe7" />
+<br> 
+
+### Activity 5
+
 
