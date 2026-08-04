@@ -20,11 +20,13 @@
 #### The key roles in data governance
 
 This section delves into the three primary roles in data governance: Data Owners, Data Stewards, and Data Custodians. By understanding the unique contributions of each role, organisations can ensure that their data governance framework is robust, compliant, and aligned with business objectives.
-
+<br>
 
 <img width="1976" height="966" alt="image" src="https://github.com/user-attachments/assets/5044e5fc-50f8-4a7f-97ea-a925a702220a" />
 
 <br>
+<br>
+
 
 <b>Data Owners</b> 
 <br>
