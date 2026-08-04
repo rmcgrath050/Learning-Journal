@@ -63,3 +63,34 @@ RolePurpose
 - Training and Awareness Coordinator	Develops employee training programmes on data governance, security, privacy, and regulatory compliance to reduce human error.
 
 
+2. How can each role contribute to resolving the identified challenges?
+Issue 1 : Unauthorised Access Incidents : critical Roles : 1. Data Owners  2. IT security Manager . 3 CDO
+Issue 2, CDO if compliance requirements are unclear
+Issue 3: Data quality problems, Critical Roles: Data Stewards, Data Owners, CDO
+
+
+### Activity 2
+
+1. How effective are the current policies in addressing data governance challenges?
+Good foundational basis however the data access control policy annual reviews are too infrequent and lack of role based access increase risk of unauthorised access 
+Current policies  are setting themselves up for breaches as policy 1 is open to employees having access to data they don't really need, policy 2 is going to lead to over-retained records that breach GDPR, policy 3 is at risk of having data issues not being rectified in a timely manner
+
+<br> 
+
+2. What improvements could be made to align these policies with compliance standards like GDPR or HIPAA?
+Data access policy: Implement role based access, apply principle of least privilege, conduct monthly reviews and maintain detailed audit logs for access acitivity, Introduce Multi-Factor Authentication (MFA) and automate access provisioning and de-provisioning.
+Data retention policy: create a data retention schedule based on legal / business requirements, automated retention, redaction and deletion 
+
+<br>  
+
+3. How would your proposed changes enhance data quality, security, or compliance in an organisation?
+- Reduced risk of unauthorised access
+- Stronger protection of sensitive information
+- Better incident detection
+- Compliance Improvements
+- Improved GDPR compliance
+- Improved HIPAA compliance
+- Stronger audit readiness
+- Reduced risk of regulatory penalties
+
+<br>
