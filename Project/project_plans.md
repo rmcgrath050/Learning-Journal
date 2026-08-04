@@ -142,6 +142,16 @@ Constraints
 
 
 
+
+###### KSBS
+
+Gather and refine reporting requirements with report owners, analyse the existing Excel process, and design an automated, scalable data pipeline in GCP using BigQuery, dbt and Cloud Composer. The solution will meet business reporting requirements while complying with organisational data governance and security standards.
+
+-----------------------------------------------
+
+
+
+
 ******************************************
 
 Reporting and Validation
