@@ -147,5 +147,34 @@ percentage of datasets assigned ownership, data quality scores).
 <img width="1478" height="614" alt="image" src="https://github.com/user-attachments/assets/00b0f7bd-f1da-42b0-8848-392237f1f174" />
 
 
+### Activity 4
 
+1. What stewardship practices exist in your organisation, and how do they align with stewardship principles?
+- Data Governance Council and within that we have CDO, Data Owner, Data Stewart, Legal, Data Architecture, Data Custodians (SME's probably fit here), IT Security
+- Data Steward practices - Monitoring data arrival and processing, Access control and approval, Maintaining metadata and processing history, Data-quality issue resolution, Database maintenance and integrity checks, Incident monitoring and escalation and data-quality validation
+- Role based access control, and mandatory employee training 
+- Legal - contracts with 3rd party companies on how data is handled - usage, retention, security
+
+2. Which principles (e.g., accountability, transparency, compliance) are best demonstrated by these practices?
+- Accountability - assigns clear responsibility to data stewards
+- Transparency - Employees are informed about how customer data is collected, used, stored, and shared, helping to promote openness and trust.
+- Availability - authorised users have reliable access to critical systems and data when needed through infrastructure monitoring, server and service alerts, disk-space checks and the investigation of failed or delayed jobs.
+- Governance - governance framework that defines policies, standards, roles, and responsibilities for managing data across the organisation
+
+
+3. Are there gaps or areas where stewardship practices could be improved?
+- Greater automation to detect errors/ duplicates 
+
+4. How do these practices enhance data governance and compliance
+- Problems are detected and escalated
+- Access is limited to authorised users
+- Responsibility for issues can be identified
+- Systems remain reliable and available
+- Evidence exists for audits and investigations (paperwork!!!)
+- Regulatory compliance: Policies and procedures help comply with the UK GDPR, Data Protection Act 2018, and regulations from the Financial Conduct Authority (FCA) and Prudential
+
+<br>
+
+<img width="1124" height="450" alt="image" src="https://github.com/user-attachments/assets/25d4ac1a-eb49-4b7c-8b53-076c0d24d435" />
+<br> 
 
