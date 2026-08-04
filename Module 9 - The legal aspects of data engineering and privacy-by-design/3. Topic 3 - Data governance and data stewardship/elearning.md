@@ -52,3 +52,51 @@ For example, in a financial institution, Data Owners define policies to ensure c
 
 Together, these roles create a cohesive framework that balances strategic oversight, operational execution, and technical support, ensuring that data governance aligns with organisational goals and regulatory requirements.
 
+
+## L2 : Analysing policies and procedures for data management
+
+Without clear policies and procedures in place, data inconsistencies, compliance breaches, and operational delays can arise.
+
+#### Developing a comprehensive data management policy framework
+- To address these challenges, the institution developed a comprehensive data management policy framework. This framework included clearly defined policies for data access, retention, and classification.
+- For example, sensitive customer data, such as account details and transaction histories, was classified as 'Confidential' and subjected to strict access controls.
+- Procedures for data retention were standardised to ensure compliance with local laws, mandating the secure deletion of obsolete records
+
+#### Implementing standardised procedures and centralised data access
+- The institution also introduced a centralised data catalogue, enabling departments to access consistent, up-to-date data.
+- Comprehensive training programs educated employees on the importance of adhering to these policies.
+- Additionally, data audits were conducted quarterly to assess compliance and identify gaps in policy implementation.
+
+##### Data access policies 
+Data access policies regulate who can access specific data and under what conditions. These policies ensure that only authorised personnel can view or manipulate sensitive data, protecting it from breaches or misuse.
+<br>
+For example, a healthcare organisation may implement <i>role-based access controls</i>, allowing doctors to view patient records while restricting administrative staff to billing information.
+
+##### Data retention and disposal policies
+These policies outline how long data should be retained and the procedures for securely deleting it when no longer needed. Retention policies help organisations comply with regulatory requirements and minimise unnecessary storage costs.
+For instance, under GDPR, personal data must not be retained longer than necessary. A retail company might delete customer purchase history after seven years unless required for legal purpose
+
+
+##### Data Classification policies
+Classification policies categorise data based on sensitivity and importance, enabling organisations to apply appropriate security measures. For example, a government agency may classify data into tiers such as "Public," "Internal Use Only," and "Confidential," with corresponding access and encryption requirements.
+
+<br>
+While policies provide the "what," procedures define the "how," detailing the steps required to implement policies effectively!!
+
+##### Procedures 
+- Data collection: Procedures for data collection ensure that data is captured accurately and ethically.
+- Data monitoring: Monitoring procedures involve tracking data usage and identifying anomalies
+- Data auditing: Regular data audits ensure adherence to policies and identify areas for improvement
+
+<br>
+<img width="1294" height="936" alt="image" src="https://github.com/user-attachments/assets/72862f98-3545-467f-91f1-1e59ddb0afcc" />
+<br>
+
+example:
+A policy might mandate that sensitive customer data is encrypted, while the procedure outlines the specific encryption protocols to be used and the steps for implementation.
+<br>
+
+## L3: Synthesising data governance frameworks
+
+
+
