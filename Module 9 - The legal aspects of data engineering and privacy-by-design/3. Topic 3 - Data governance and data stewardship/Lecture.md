@@ -94,3 +94,58 @@ Data retention policy: create a data retention schedule based on legal / busines
 - Reduced risk of regulatory penalties
 
 <br>
+
+<img width="1184" height="764" alt="image" src="https://github.com/user-attachments/assets/83bd788f-f6a7-47c2-ad72-cd89e856d299" />
+
+<br>
+
+### Activity 3
+
+(Designing a framework)
+<br>
+
+Develop a Governance Framework that includes the following:
+1. Roles and Responsibilities:
+a. Identify the key roles (e.g., Chief Data Officer, Data Steward,
+Compliance Officer) and define their responsibilities.
+
+Chief Data Officer (CDO):Provides strategic leadership for data governance, develops governance policies, monitors compliance, and aligns data practices with business objectives.
+Data stewards to maintain data quality and monitor data accuracy, completeness and consistency
+Data Owner : Accountable for specific datasets, approves access requests, ensures data is used appropriately, and owns data-related risk
+Data Protection Officer (DPO): Ensures GDPR compliance, manages privacy impact assessments, oversees breach reporting, and acts as liaison with regulators
+IT Security Manager: implements security controls such as encryption, MFA, role based access controls and also monitors security incidents 
+Compliance Officer : Monitors compliance with GDPR, HIPAA, and internal policies; coordinates audits and regulatory reporting.
+Data Governance Committee :Reviews governance performance, approves policies, resolves escalated issues, and drives continuous improvement.
+
+2. Policies and Procedures:
+a. Develop policies for data access, quality management, and compliance with GDPR and HIPAA.
+b. Outline procedures for breach reporting, regular audits, and employee training.
+
+- Data Protect sensitive data from unauthorised access.Implement Role-Based Access Control (RBAC), least-privilege access, Multi-Factor Authentication (MFA), and quarterly access reviews.
+- Data Ownership Policy Establish clear accountability for all datasets.Assign Data Owners and Data Stewards to every critical dataset; maintain ownership register; review quarterly.
+- Data Governance Committee :Reviews governance performance, approves policies, resolves escalated issues, and drives continuous improvement.
+
+
+3. Governance Metrics:
+a. Define measurable indicators to track governance success (e.g.,
+percentage of datasets assigned ownership, data quality scores).
+- Data Quality Score (% completeness, accuracy, consistency)
+- Critical Data Element Compliance (% meeting quality standards)
+- Data Ownership Coverage (% of data assets with assigned owners)
+- Data Stewardship Coverage (% of domains with assigned stewards)
+- Data Policy Compliance Rate (% adherence to governance policies)
+- Access Review Completion Rate (% of access rights reviewed on schedule)
+- Data Incident Count (privacy, security, or quality incidents)
+- Issue Resolution Time (average time to resolve data issues)
+- Metadata Completeness (% of assets documented in the data catalog)
+- Regulatory Compliance Findings (number of GDPR/HIPAA audit findings)
+- Data Retention Compliance (% compliance with retention policies)
+- User Training Completion Rate (% of staff completing governance training)
+- Percentage of datasets with assigned Data Owners Measure accountability and ownership coverage 100%
+
+
+<img width="1478" height="614" alt="image" src="https://github.com/user-attachments/assets/00b0f7bd-f1da-42b0-8848-392237f1f174" />
+
+
+
+
