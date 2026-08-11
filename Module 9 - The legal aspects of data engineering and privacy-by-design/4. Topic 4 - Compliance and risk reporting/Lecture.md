@@ -27,3 +27,6 @@ Write a risk report someone acts on - the only kind worth writing
 
 <img width="910" height="516" alt="image" src="https://github.com/user-attachments/assets/27e17f7c-c150-4429-a398-721d7ed5c796" />
 
+#### Actvity 4 mapping :
+
+<img width="1716" height="1086" alt="image" src="https://github.com/user-attachments/assets/67c39a2b-c843-4e2f-889a-5ded516a6aa2" />
