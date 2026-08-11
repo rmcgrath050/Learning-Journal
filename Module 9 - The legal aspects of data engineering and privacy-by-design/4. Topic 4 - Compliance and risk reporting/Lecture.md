@@ -58,3 +58,66 @@ Jake - Update consent forms to standard,
 5. How can Global HealthCorp rebuild patient trust and avoid further legal or reputational damage?
 
 
+### Activity 2 
+
+Develop a compliance strategy to address the following challenges:
+1. GDPR Compliance:
+a. How will you ensure customers give informed consent for data
+collection?
+- Policies of consent in place, including retention policy - customers need to confirm twice the consent to hold data, detailing how long and why this is retained, how its used etc
+- auditing to have evidence of these choices and monitoring this is in place
+- Whether it is used for personalised advertising/recommendations
+- How customers can withdraw consent
+
+Justifications: 
+- GDPR requires transparency so individuals understand how their personal data is processed.
+- Consent under GDPR must be freely given, specific, informed and unambiguous
+- GDPR requires withdrawal of consent to be as easy as giving consent.
+
+- 
+b. What steps will you take to manage and enforce data retention
+policies?
+- have internal governance frameworks set up and collibra used to manage standardisation across teams
+- Create a schedule via automation and establish a maximum retention period for each type of data
+- Establish a data inventory
+
+Justification: 
+- GDPR's storage limitation and data minimisation principles require organisations not to retain personal data longer than necessary for its purpose
+- Automation reduces the risk of employees forgetting to delete information and creates consistent enforcement across customer records
+
+3. Data Security:
+a. How will you implement encryption to protect payment information and
+meet PCI DSS requirements?
+- encryption on data transfer and data at rest though
+- ShopNow should avoid storing raw card information altogether and use tokens instead
+- Implement strong key management
+- Implement multi-factor authentication
+- Apply least-privilege access
+- Deploy SIEM and security monitoring. The SIEM can detect suspicious patterns such as repeated failed logins, unusual geographic access or large data exports.
+
+Justifications: 
+- PCI DSS requires organisations to protect payment account data using appropriate technical controls. Encryption significantly reduces the impact of unauthorised access.
+- Reducing the amount of cardholder data stored reduces the potential impact and scope of a payment data compromise and can simplify PCI DSS compliance
+- Poor key management can undermine otherwise strong encryption
+- Limiting access reduces the number of accounts that could potentially expose sensitive information.
+- Continuous monitoring helps ShopNow detect and investigate security incidents quickly.
+
+b. What additional security measures will you introduce to minimise
+breach risks?
+
+5. Global Compliance Framework:
+a. How will you align compliance practices across multiple regions while
+addressing local laws?
+
+
+
+b. What tools or technologies can help you monitor compliance
+effectively?
+
+
+
+
+Your Compliance Strategy:
+- A list of actionable steps to address the compliance risks.
+-  A justification for each step, explaining how it aligns with regulatory
+requirements
