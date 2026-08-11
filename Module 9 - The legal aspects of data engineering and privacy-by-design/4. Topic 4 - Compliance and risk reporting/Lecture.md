@@ -17,3 +17,10 @@ Write a risk report someone acts on - the only kind worth writing
 
 - GDPR tells you what u owe people
 - ISO-21001 gives you the machinery needed to deliver it
+
+
+** this diagram useful for activity 2:
+<br>
+<br>
+<img width="672" height="572" alt="image" src="https://github.com/user-attachments/assets/446caac4-27fb-4ce6-b22d-3fc659688d9e" />
+<br>
