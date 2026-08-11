@@ -12,4 +12,8 @@ Write a risk report someone acts on - the only kind worth writing
 - What you will have by the end- 
 - One finished risk report. Built from a real case study, in your own words. Good practice for your professional discussion.
 - Compliance is the proof. Risk reporting is what you write when the proof isn't there!!!!
-- 
+
+
+
+- GDPR tells you what u owe people
+- ISO-21001 gives you the machinery needed to deliver it
