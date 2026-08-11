@@ -115,9 +115,46 @@ b. What tools or technologies can help you monitor compliance
 effectively?
 
 
+#### Activity 3 
 
 
-Your Compliance Strategy:
-- A list of actionable steps to address the compliance risks.
--  A justification for each step, explaining how it aligns with regulatory
-requirements
+Scenario 1	- Consent and Data Deletion Requests
+Tool: OneTrust	
+Justification: The global retailer is struggling to process customer consent and fulfill data deletion requests under GDPR and CCPA. Customers frequently complain about delays in deleting their data and unclear communication regarding how their data is used. OneTrust is built to help with these issues for GDPR and CCPA, it has consent management and automated responses around data deletion.
+<br>
+
+Scenario 2 -Unauthorised Data Access
+Tool:	SIEM Systems e.g Splunk	
+Justification: Employees are already being flagged for not accessing but not clear if this is automatically or due to observations from other employees. This would have real-time monitoring to detect unauthorized access
+
+<br>
+
+Scenario 3 - Payment data unencrypted
+Tool: KMS	
+Failure Mode: Cardholder data stored without adequate encryption
+Justification: KMS manages encryption keys used to protect sensitive payment information. This helps address the lack of encryption and supports PCI DSS requirements for protecting stored cardholder data.
+
+
+<br>
+
+
+
+Scenario 4 - No documentation of data flows
+Tool: Collibra
+Failure Mode: The organisation cannot clearly track where data comes from, where it goes or how it is used
+Justification: Collibra provides data cataloguing and data-lineage capabilities, allowing the organisation to document and track how customer information moves between systems and third parties. This supports GDPR compliance.
+
+<br>
+Scenario 5 - Confidential IP shared outside the org
+Tool: DLP
+Failure Mode:Cofidential data shared outside the organisation 
+Justification: . DLP can monitor data being transferred through email, cloud services and endpoints and block unauthorised transfers, reducing the risk of accidental or malicious data loss.
+
+<br> 
+
+Scenario 6 - Breach undetected for weeks
+Tool: Secuirty awareness training platforms 
+Failure Mode: weak breach monitoring protocols,
+justification: prevents unauthorised access , data mishandling and educates staff
+
+
