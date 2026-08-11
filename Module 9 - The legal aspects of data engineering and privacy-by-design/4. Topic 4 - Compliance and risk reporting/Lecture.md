@@ -58,6 +58,23 @@ Jake - Update consent forms to standard,
 5. How can Global HealthCorp rebuild patient trust and avoid further legal or reputational damage?
 
 
+rajesh should deploy SIEM specifically to close the delayed-breach-notification gap. 
+HIPAA requires timely reporting, and you cannot report a breach that you have not detected - 
+
+detection latency as the root cause, not the reporting process. 
+The trade-off is alert volume- an under-tuned SIEM in a hospital would generate enough noise so people are going to ignore it. As a result, I'd tune against high-sensitivity access patterns before switiching it on full
+
+
+Two things neither group reached yet (due time constraints), but I'd still give notes on it: 
+
+Question three: aligning across regions. 
+
+Group 2 got there: baseline standards globally, local procedures for regional law. That's the trade-off most people miss, because total standardisation breaks the moment California does something different, and total local autonomy means you have no framework at all. Group 1, yyou are working with a smaller group (3) so it's ok if you need more time. 
+
+Question four - rebuilding trust. Notice it's the only non-technical question in the activity, but we can't deprioritise it;  Activity 4 is entirely about that: who you tell, what you say, and how fast.
+
+<br>
+
 ### Activity 2 
 
 Develop a compliance strategy to address the following challenges:
