@@ -100,5 +100,31 @@ A policy might mandate that sensitive customer data is encrypted, while the proc
 
 ## L3: Synthesising data governance frameworks
 
+1. define roles and responsibilities - Appoint a Chief Data Officer (CDO) to oversee data governance initiatives and establish data stewards at each hospital to ensure local compliance.
+2. Data classification - access controls, and retention policies were standardised across all facilities
+3. Implement tech - A centralised data catalogue was created (Collibra) enabling secure access and reducing duplication of patient records.
+4. Quarterly audits and dashboards tracked compliance, data quality, and operational efficiency
 
+<br>
+<img width="876" height="628" alt="image" src="https://github.com/user-attachments/assets/0e31638f-8a89-4ea5-85a3-2cb40ad72536" />
+
+<br>
+
+#### Roles and responsibilities
+- Data Owners: Responsible for the accuracy, quality, and security of specific datasets. For instance, a sales manager overseeing CRM data ensures it aligns with reporting needs.
+- Data Stewards: Enforce policies and procedures to maintain data quality and compliance at the operational level. For example, a healthcare data steward ensures that patient records are complete and compliant with HIPAA.
+- Governance Committees: Provide strategic oversight, ensuring alignment between data governance and organisational goals. These committees include representatives from IT, compliance, and business units
+
+
+#### Policies and standards
+
+Policies form the foundation of governance, establishing rules for data access, retention, and usage. Standards ensure consistency across processes and systems. An example would be a financial institution implementing policies requiring encryption for customer records and standards for naming data fields to prevent inconsistencies in reporting
+
+Processes ensure that policies are actionable and enforceable. These include procedures for data classification, auditing, and issue resolution. For example, an energy company conducts monthly audits to identify anomalies in operational data, ensuring compliance with environmental reporting standards
+
+
+#### Technologies
+
+Tools such as data catalogues, metadata management platforms, and automated compliance monitoring enable efficient implementation of governance frameworks. For example, a retail company could use Collibra’s data governance tool to manage metadata, streamline collaboration, and maintain regulatory compliance
+   
 
