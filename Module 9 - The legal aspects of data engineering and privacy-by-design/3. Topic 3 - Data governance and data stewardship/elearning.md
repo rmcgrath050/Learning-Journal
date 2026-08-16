@@ -127,4 +127,5 @@ Processes ensure that policies are actionable and enforceable. These include pro
 
 Tools such as data catalogues, metadata management platforms, and automated compliance monitoring enable efficient implementation of governance frameworks. For example, a retail company could use Collibra’s data governance tool to manage metadata, streamline collaboration, and maintain regulatory compliance
    
+--tie to KSB and questions from website once finished! 
 
