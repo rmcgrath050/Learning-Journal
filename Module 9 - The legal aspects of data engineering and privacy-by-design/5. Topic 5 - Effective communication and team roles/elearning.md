@@ -183,3 +183,38 @@ Reflective activity part 2: Evaluating approaches
 
 ## L4 Identifying risks and communicating risks to stakeholders
 
+challenges of risk communication could include
+- Poor Stakeholder Identification: IT resolved a breach without notifying the compliance team, leading to regulatory risks.
+- Inconsistent Communication: Different departments received fragmented and conflicting information.
+- Delayed Action: Decision-makers lacked a clear understanding of the breach's scope, delaying containment efforts.
+
+<br>
+to address the issues:
+- Stakeholder Mapping: The firm created a stakeholder map identifying key individuals and departments responsible for responding to risks.
+- Communication Protocols: Standardised protocols for incident reporting and cross-departmental updates were established.
+- Regular Risk Briefings: Weekly meetings were introduced to keep all stakeholders informed about potential risks and incidents.
+
+
+#### Effective risk communication strategies
+
+- Identifying stakeholders of risks begins with creating a stakeholder map. This map outlines individuals or teams responsible for various aspects of risk management, such as IT teams for technical issues, compliance officers for regulatory risks, and executives for strategic decisions.
+- Communication protocol: Effective communication protocols are crucial for ensuring that all relevant stakeholders are informed promptly.These protocols should include standardised formats for incident reports, escalation paths, and channels for regular updates.For example, using a centralised ticketing system can streamline communication and ensure accountability.
+- Tailoring communication to the audience is another essential aspect of risk communication. Technical details might be necessary for IT teams, while high-level summaries are more appropriate for executives.
+- Feedback loops : ensures communication remains a two-way process. Encouraging stakeholders to provide input and share concerns fosters collaboration and continuous improvement.
+
+<br>
+<img width="738" height="626" alt="image" src="https://github.com/user-attachments/assets/46fe6d9f-4b04-4a54-968f-9abe008a9046" />
+
+<br>
+
+##### Reflection
+
+Reflect on the risk communication strategies in your workplace. Consider the following:
+
+1. How are risks identified and communicated to stakeholders in your organisation?
+2. Are there specific protocols in place for reporting risks? If so, how effective are they?
+3. What gaps or inefficiencies have you observed in risk communication?
+4. Propose improvements, such as creating a stakeholder map, refining communication protocols, or introducing feedback loops.
+
+## L5. Understanding the roles within data teams
+
