@@ -31,6 +31,11 @@ engagement?
 
 <br>
 
+<img width="762" height="626" alt="image" src="https://github.com/user-attachments/assets/2e5c2173-ab4a-4255-9f31-5ed3ede10e03" />
+
+<br>
+<br>
+
 <b>Scenario 2: Stakeholder Alignment in a Retail Predictive Analytics Project</b>
 
 1. What strategies in the scenarios were effective, and why?
