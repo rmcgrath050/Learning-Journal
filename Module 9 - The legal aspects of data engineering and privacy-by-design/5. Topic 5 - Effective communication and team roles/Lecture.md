@@ -83,6 +83,9 @@ improved?
 -	Compliance reps perhaps weren’t on committee as unclear on when to provide input, or weekly email update did not invite any feedback.
 -	Putting training workshops close to launch date does not leave much time for managers to provide feedback as well as leaving them feeling uninformed.
 
+upgrade to distinction below:
+- scheduling training immediately before go-live means branch managers operate a customer-facing system they've barely used; so migration risk shows up as frontline service rather than failure at the project's most visible moment. Running staggering training with pre-launch demos trade a longer rollout for staff who are actually ready....and for a abnk, where customer trust is the product, that's the right trade 
+
 3. Could alternative engagement strategies have worked better for certain
 stakeholders?
 -	Stakeholder mapping could have been utilised to make sure that everyone that needed to give input was part of the committee if this did not happen. Alternatively compliance reps and other stakeholders with influence could have had a regular meeting where they had their chance to provide input.
@@ -92,6 +95,82 @@ stakeholders?
 engagement?
 
 
+#### Activity 2
+
+1. How well did the Presenter tailor their communication to each stakeholder’s needs?
+
+The Presenter generally tailored the communication well by focusing on the concerns that matter most to each stakeholder
+- Compliance officer - Tailored well, covered the GDPR and ISO standards, but didnt mention anything about the weekly audits.
+- IT specialist - No real technical info about what happens during downtime, just says has a contingency plan, but doesnt state what that is.
+- Branch Manager - Only mentions training sessions are available next week.. though they said they have already migrated 60% of customers... Though is dedicated help desk for IT issues.
+ - Exec - Covers % that they have already processed, though no mention of budget or timelines (does mention corporate bank accounts, but doesnt mention anything thats left, and timescales for those).
+
+ 2. Were the updates clear and easy to understand for both technical and nontechnical stakeholders? 
+- clear to understand, but didnt have enough information for all stakeholders.
+
+3. What could the Presenter improve to make their communication more effective? 
+- Provide a "Takeaway" pack with pretty pictures and details for individual stakeholders, would give greater detail required for each area rather than discussing on call. Or this could have been provided beforehand.
 
 
 
+
+1. How well did the Presenter tailor their communication to each stakeholder’s needs?
+
+The Presenter generally tailored the communication well by focusing on the concerns that matter most to each stakeholder
+- Compliance officer - Tailored well, covered the GDPR and ISO standards, but didnt mention anything about the weekly audits.
+- IT specialist - No real technical info about what happens during downtime, just says has a contingency plan, but doesnt state what that is.
+- Branch Manager - Only mentions training sessions are available next week.. though they said they have already migrated 60% of customers... Though is dedicated help desk for IT issues.
+ - Exec - Covers % that they have already processed, though no mention of budget or timelines (does mention corporate bank accounts, but doesnt mention anything thats left, and timescales for those).
+
+ 2. Were the updates clear and easy to understand for both technical and nontechnical stakeholders? 
+- clear to understand, but didnt have enough information for all stakeholders.
+
+3. What could the Presenter improve to make their communication more effective? 
+- Provide a "Takeaway" pack with pretty pictures and details for individual stakeholders, would give greater detail required for each area rather than discussing on call. Or this could have been provided beforehand.
+
+
+#### Activity 3 
+
+Activity 3
+Discussion Prompts
+1.	Which stakeholder relationship management strategies worked well, and why?
+ - Kickoff workshop was good as it created strong initial relationship management, aligned goals provide early feedback.
+ - Monthly emails created regular updates and kept stakeholders updated.
+- Vendor partnership meeting provided a formal feedback loop where techinical issuses could be discussed.
+2.	What gaps or weaknesses in the approaches can you identify?
+- Engagement became Front Loaded as ongoing engagement as stakeholders felt they weren’t involved creating decision latency
+ - Only two townhall comms leaving the community feeling underprepresented 
+- Limited involvement in decision making and lack of understanding from over technical newsletters risks stakeholders becoming disengaged and the project losing feedback and maybe drifting out of sync in terms of originally aligned goals. This is further acknowledged by vendors expressing frustration over lack of decision making. 
+3.	How could CityInnovate better engage stakeholders such as vendors and community representatives?
+ - Could improve relationship management by having more regular meetings with commuinity and stakeholders.
+- Instead of relying on two town halls, establish a group of community representatives who meet regularly and represent different neighbourhoods.
+4.	What alternative strategies could address the challenges faced by this project?
+- stakeholder mapping at outset of project following kick off and using that to inform newsletter communications and ongoing meetings so right information gets to right stakeholders and tailored to the right level. 
+- Stakeholders with high influence and to be involved in decision making to be involved in more regular meerings.
+ - introduce a structured stakeholder engagement plan
+ - - The cadence should be reviewed at key project milestones so that stakeholder involvement changes as their influence and interest change.
+  
+#### Feedback for activity 2 
+- Strong: you evaluated stakeholder by stakeholder, checking each answer against what that person needed. Really good catch: the audits were mentioned but never connected to GDPR, present but not aimed.
+
+Two things to consider:
+
+- Push the audit point: the fix isn't "mention audits," it's say what the audit checks and what happens when it finds something.
+Your "takeaway pack" is better than "pretty pictures" makes it sound. It's tailored pre-reading, sent ahead; lets the meeting run on decisions, not information. The Trade-off only works if they actually read it (same problem as the Activity 1 newsletters).
+
+Rewrite to distinction:
+
+- The IT Specialist asked a technical question and got a non-answer, naming a plan without its content reads as evasion. Tailoring here means giving IT the mechanism they asked for, because they're the one person who can tell if the plan is real.
+
+#### Feedback for activity 3
+
+Strong: this is your most complete answer of the session; all four questions attempted, and q2 is excellent. You named the pattern outright: engagement became front-loaded… creating decision latency; and then you did something advanced; you traced the knock-on: over-technical newsletters - disengagement - lost feedback - project drifts out of sync with the originally aligned goals. That's a causal chain, not a list. That's distinction-level thinking.
+
+Two things:
+
+Your q4 is genuinely good - stakeholder mapping to inform who gets which communication is exactly the right tool, and "right information to the right stakeholder at the right level" is the principle stated cleanly. Push it one notch: say when: mapping at kickoff, revisited each quarter, because stakeholder positions shift as a project moves.
+Your q3 neighbourhood-reps idea is original and better than the model answer's "smaller sessions." Name the mechanism: it fixes underrepresentation by removing the access barrier; reps who already attend, rather than hoping residents turn up.
+
+Rewrite to distinction:
+
+Two town halls left the community underrepresented because attendance is an access problem, not an interest one; residents can't make a single fixed evening. A standing panel of neighbourhood reps who meet regularly removes the access barrier and gives a reliable feedback route, at the cost of some directness with the wider public.
