@@ -136,5 +136,8 @@ I learned to optimise batch ingestion and justify design trade-offs.”
 <img width="448" height="362" alt="image" src="https://github.com/user-attachments/assets/6f951581-07be-4ef2-8a05-e903d85f235a" />
 
 <br>
+<br>
+
+<img width="586" height="300" alt="image" src="https://github.com/user-attachments/assets/421aabc7-c9c0-4181-ae7b-c1ef41316bee" />
 
 
