@@ -105,3 +105,26 @@ balance performance and cost (K18)”
 ### Feeback received
 - Parts pulled out and matched to KSBS
 
+<br>
+
+<img width="667" height="107" alt="image" src="https://github.com/user-attachments/assets/1807ccab-5513-49d7-ab42-0e50a3a56699" />
+
+<br>
+
+
+
+
+- 1. Extract A (weak) “I built the pipeline and it worked. It was successful and I learned a lot.” 
+    -  Weak because its mostly description and not evaluation. Too vague and no detail of what the pipeline was and what benefits it provide. 
+    - No measure of how success was measured, lack of any strong verbs in order to describe what was achieved
+    - No evidence of what was learned as a result.
+
+2. Extract B (strong) “I designed a pipeline that ingested 2.4M daily transaction records into a SQL data store at a 99.8% success rate, 
+meeting the SLA for near-real-time reporting. I evaluated a streaming option but discounted it on cost. From this 
+I learned to optimise batch ingestion and justify design trade-offs.” 
+    - Clearly says what the person did, designed, ingested and later optimised
+    - Evidence proves the solution performed sucsessfully by using percentages of measurement regarding success
+    - Shows an alternative was considered and explains the trade-ff behind the decision
+- Strong verbs used such as optimise and ingested for how the data was handled 
+
+
