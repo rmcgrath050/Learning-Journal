@@ -117,7 +117,9 @@ balance performance and cost (K18)”
 - Extract A (weak) “I built the pipeline and it worked. It was successful and I learned a lot.” 
     -  Weak because its mostly description and not evaluation. Too vague and no detail of what the pipeline was and what benefits it provide. 
     - No measure of how success was measured, lack of any strong verbs in order to describe what was achieved
-    - No evidence of what was learned as a result.
+    - No evidence of what was learned as a result
+    - No reflection
+    - No decision making
 
 
 
@@ -128,5 +130,11 @@ I learned to optimise batch ingestion and justify design trade-offs.”
     - Evidence proves the solution performed sucsessfully by using percentages of measurement regarding success
     - Shows an alternative was considered and explains the trade-ff behind the decision
 - Strong verbs used such as optimise and ingested for how the data was handled 
+
+<br>
+
+<img width="448" height="362" alt="image" src="https://github.com/user-attachments/assets/6f951581-07be-4ef2-8a05-e903d85f235a" />
+
+<br>
 
 
