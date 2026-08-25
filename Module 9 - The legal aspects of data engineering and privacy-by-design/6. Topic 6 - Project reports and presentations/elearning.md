@@ -140,4 +140,8 @@ I learned to optimise batch ingestion and justify design trade-offs.”
 
 <img width="586" height="300" alt="image" src="https://github.com/user-attachments/assets/421aabc7-c9c0-4181-ae7b-c1ef41316bee" />
 
+<br>
+
+Formula: What did I do?  →  Why did I do it?  →  Outcome (with a number)  →  What I learned.
+
 
