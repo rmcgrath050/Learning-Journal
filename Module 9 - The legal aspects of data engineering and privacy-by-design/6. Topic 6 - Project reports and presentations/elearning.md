@@ -91,3 +91,17 @@ balance performance and cost (K18)”
 - What would you do differently if you had more time?
 - How would your pipeline cope if data volumes doubled?
 
+
+
+##### Lecture
+
+<img width="650" height="714" alt="image" src="https://github.com/user-attachments/assets/9a7f7931-6756-44ca-bf58-2c8459d7f2f9" />
+<br>
+<br>
+
+- Needs to be small enough for scope but enough for KSBS
+
+
+### Feeback received
+- Parts pulled out and matched to KSBS
+
