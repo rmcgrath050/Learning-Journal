@@ -143,5 +143,5 @@ I learned to optimise batch ingestion and justify design trade-offs.”
 <br>
 
 Formula: What did I do?  →  Why did I do it?  →  Outcome (with a number)  →  What I learned.
-
+https://catalyst.harvard.edu/writing-communication-center/visualize-science/slides/ - to help with slides! 
 
