@@ -149,8 +149,8 @@ https://catalyst.harvard.edu/writing-communication-center/visualize-science/slid
 - make sure your focusing on problem as much as possible, will show your understanding in topic!!
 
 #### Presentation slides
-Slide 1:  Siloed systems (CRM/e-commerce/SQL ) 
-Slide 2: Cloud SQL Transformation
+- Slide 1:  Siloed systems across three systems
+- Slide 2: Cloud SQL Transformation / pipeline design and normalisation
 Slide 3: 
 
 ## Use that debrief box above to choose the titles 
