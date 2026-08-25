@@ -147,4 +147,14 @@ I learned to optimise batch ingestion and justify design trade-offs.”
 Formula: What did I do?  →  Why did I do it?  →  Outcome (with a number)  →  What I learned.
 https://catalyst.harvard.edu/writing-communication-center/visualize-science/slides/ - to help with slides! 
 - make sure your focusing on problem as much as possible, will show your understanding in topic!!
-- 
+
+#### Presentation slides
+Slide 1:  Siloed systems (CRM/e-commerce/SQL ) 
+Slide 2: Cloud SQL Transformation
+Slide 3: 
+
+## Use that debrief box above to choose the titles 
+
+
+
+
