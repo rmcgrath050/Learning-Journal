@@ -93,9 +93,9 @@ balance performance and cost (K18)”
 
 
 
-##### Lecture
+# Lecture
 
-<img width="650" height="714" alt="image" src="https://github.com/user-attachments/assets/9a7f7931-6756-44ca-bf58-2c8459d7f2f9" />
+<img width="325" height="364" alt="image" src="https://github.com/user-attachments/assets/9a7f7931-6756-44ca-bf58-2c8459d7f2f9" />
 <br>
 <br>
 
