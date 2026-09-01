@@ -54,5 +54,51 @@ Objectives:
 <img width="858" height="742" alt="image" src="https://github.com/user-attachments/assets/6838bdf9-ea13-4f8e-bb0c-63f5b029e97b" />
 
 
-  
-- 
+<br>
+
+
+Bottlenecks can appear at any stage in the pipeline:
+- Data Ingestion: API rate limits or slow file parsing.
+- Transformation: Poorly optimised joins, sorting, or aggregations.
+- Storage: Slow reads/writes to the database.
+- Output: Heavy dashboards or inefficient visualisation queries.
+
+
+Use profiling tools or logging (e.g., Spark UI, SQL query plans, resource monitors) to trace delays. Focus your investigation on the slowest part of the pipeline - fixing that can lead to big performance gains.
+EG. In one customer pipeline, 80% of processing time was spent enriching customer records via complex joins. A simple indexing strategy reduced processing time by half.
+
+<br>
+
+### Tunning for Performance:
+- Parallelisation : Break tasks into smaller pieces that run in parallel
+- Caching: Save repeated computations, especially for static reference data. - check does GCP have this?
+- Query optimisation : Use indexes, avoid full-table scans, simplify joins.
+- Vertical scaling: Give more CPU/memory to key components
+- Horizontal scaling: Add more nodes or workers
+
+
+#### Keep Monitoring
+Example: A real-time recommendation engine monitored latency and throughput over time, adjusting scaling rules automatically when user spikes occurred during peak traffic.
+Use continuous monitoring tools (e.g., Prometheus, Grafana, CloudWatch) to set alerts and track trends over time.
+
+- Throughput - Volume of data handled over time
+- Latency - Processing delays in the pipeline
+- Error rate - Points of failue under load
+- CPU Usage - System strain or inefficiencies
+
+
+## L3: Lesson 3: Deployment Strategies for Data Pipelines
+
+Deployments can be risky. A new feature or change to a data pipeline might seem small, but a single misstep could result in broken dashboards, delayed reports, or even data loss. 
+
+- Blue / Green deployment :  When the green environment is ready, traffic is simply switched over. If something goes wrong, teams can easily switch back to blue
+
+(Maybe this is what the develop branch is about in Jenkins??! )
+- In the initial setup, both Blue and Green environments are complete and independent. Each includes application servers, services, and a database. Blue Environment is the live, user-facing version. Green Environment mirrors the blue environment and is ready to be updated for the next release.
+
+<br>
+This staging model allows internal teams to verify:
+- Functionality
+- Performance
+- Integration with shared resources
+
