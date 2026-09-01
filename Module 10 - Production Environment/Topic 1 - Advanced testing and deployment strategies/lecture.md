@@ -26,4 +26,8 @@ Key terms / Verbs :
 - ansible terraform - IKEA flat-pack instructions for your whole server room.....the same build everytime
 
 <br>
+<img width="466" height="311" alt="image" src="https://github.com/user-attachments/assets/384ccd92-2096-4f60-b8c1-457851ad750d" />
+
+<br>
+
 
