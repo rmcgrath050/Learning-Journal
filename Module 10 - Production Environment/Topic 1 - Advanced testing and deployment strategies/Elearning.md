@@ -102,3 +102,58 @@ This staging model allows internal teams to verify:
 - Performance
 - Integration with shared resources
 
+<br> 
+
+- Rollback is faster and safer in the short term.
+- Roll-forward is useful when rollback isn’t possible (e.g. irreversible database changes)
+
+
+### Deployment automation tools
+ - Github actions
+ - SSH
+
+## Lesson 4: Automating Deployments and Managing Risk
+
+- Docker: Package pipeline components in isolated environments to run consistently anywhere
+- Infrastructure as code: Version-control your environments, not just your code
+- CI/CD Orchestration : Trigger tests, builds, and deployments automatically on code events.
+
+<i> Case Study: A team managing data pipelines for daily retail pricing used Docker containers to version their transformation logic, and GitHub Actions to deploy to a Kubernetes cluster on merge </i> 
+
+##### Safeguards and quality gates:
+- schema validation: insures structure of incoming/ transformed data has not changed
+- Test coverage checks : require 90% coverage for all new pipeline functions
+- Performance thresholds: processing must remain under 10 mins or below 80% memory usage
+  
+##### Monitoring and alerting :
+- pipeline health dashboards (job fails, success, runtimes. delays)
+- data quality metrics (null values , dups, row counts, freshness)
+- System metrics : CPU/memory usage . disk I/O , queue dept
+
+<i>Tooling Suggestion: Combine Prometheus or CloudWatch with Grafana dashboards and Slack alerts for live notifications. </i>
+<br>
+
+#### Operational Risk:
+
+Risk isn’t just technical - it’s operational. Effective teams prepare for failure with structure! 
+- Blameless post analysis:  learn from failures update process!
+- Stakeholder coordination
+- Scheduled releases: Avoid deploying during high risk business hours
+- Deployment playbook - clear steps for deploying verifying and rolling back
+
+
+By combing tools such as docker and github actions with quality gate alerting and team protcols, deployments become fast repeatable and safe! 
+
+
+## Summary 
+- UAT Testing ensures pipeline has useful actionable outputs and align with business workflows
+- Stress / load testing helps identify how system behaves under pressure
+- Deployment strategies such as blue green / canary rollouts reduce risk by isolating releases and allowing safe rollback
+- Automation tools such as GitHub Actions, Ansible, and CI/CD pipelines make deployments faster, more consistent, and less error-prone
+- Quality gates and monitoring enforce standards and alert teams to problems before they impact users - key for production-grade systems.
+- Operational risk management (clear communication, fallback planning, and structured releases) ensures data engineers work in sync with the broader business
+
+
+
+
+
