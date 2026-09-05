@@ -51,4 +51,18 @@ MLOps resolves this by
 
 ## L2: Automating the machine learning lifecycle
 
+ typical CI/CD process for ML might start with a new dataset becoming available. This change triggers an automated pipeline: the model is retrained using the updated data, evaluated against performance benchmarks, and - if successful - packaged and deployed into staging or production environments. If the model doesn’t meet required performance thresholds, the deployment can be halted, or the previous model can remain in place. This feedback loop allows for frequent, safe updates and eliminates the bottlenecks of manual review.
+<br>
+A level of reproducibility is essential for auditing, debugging, and improving models over time. It ensures that when a model is promoted to production, teams can trust where it came from and how it behaves! 
+
+#### What is a model registry?
+
+A model registry acts as a central hub where machine learning models are versioned, stored, and managed. It brings structure and control to model lifecycle management by clearly documenting which versions of a model are approved for production, which are under review, and which have been deprecated. Imagine a model registry as a digital warehouse. Each model stored inside has a label describing how it was trained, what data it used, and whether it's ready for deployment. When something goes wrong in production, engineers can quickly check the registry, identify the active version, and - if needed - roll back to a previous version that’s known to be stable.
+
+
+### Tools that support automation 
+Kubeflow is built for teams already using Kubernetes. It allows for scalable, production-grade machine learning workflows and supports complex orchestration of tasks like distributed training, hyperparameter tuning, and multi-step pipelines. It’s more infrastructure-heavy but offers excellent flexibility for organisations operating in cloud-native environments.
+Goal is to streamline the development-to-deployment process in machine learning - (Perhaps for project mention this an improvement moving forward?) 
+
+Without experiment tracking or a model registry, teams lose visibility into how a model was created - making it hard to debug or revert changes confidently! 
 
