@@ -16,3 +16,15 @@ Prescriptive analytics goes another step further by recommending what should be 
 So, while my day-to-day batch reporting is primarily descriptive, I understand how descriptive reporting can provide the data and insight that supports predictive and prescriptive decision-making further up the analytical process."
 
 
+10,000 files processed
+
+↓ Descriptive
+"10,000 files were processed yesterday, with 98% successfully completed."
+↓
+Predictive
+"Based on historical volumes, approximately 12,000 files are expected tomorrow."
+↓
+Prescriptive
+"Based on the expected volume and current processing capacity, an additional processing window should be scheduled."
+
+
