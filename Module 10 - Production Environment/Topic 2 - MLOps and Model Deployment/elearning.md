@@ -19,5 +19,36 @@ it includes:
 This makes ML systems more fragile and unpredictable than traditional software
 <br>
 
+it is a collection of practices and components which include:
+- Model Tracking: logging every model version, training dataset, configuration and performance metrics 
+- Model Registry: central system for storing/managing model artifacts - often link to git and data sources 
+- CI/ CD Pipelines: automation for training, testing and deploying models 
+- Monitoring and Observability : accuracy, latency and data drift
+- Collaboration and Handover
+
+ without MLOps organisations often encounter:
+ - unrealiable models that break in production
+ - inconsistent environments between dev/ prod
+ - No rollback plan for models
+ - Lack of auditability
+
+<br>
+
+MLOps resolves this by 
+- enforcing reproducibility : same model , same data, same results
+- enablement of continuous improvement: automate retraning and redployment
+- ensures compliance and governance : tracks decisions and configuration
+
+<br>
+<img width="873" height="498" alt="image" src="https://github.com/user-attachments/assets/50e39b0d-2a41-4356-a3eb-713bd8a2a00e" />
+
+##### MLOPs Perks:
+-Every part and step is tracked
+- Blueprints are versioned
+- Quality control catches issues early
+- Products are delivered reliably, every time
+
+
+## L2: Automating the machine learning lifecycle
 
 
