@@ -14,7 +14,16 @@ I applied progressive deployment techniques when migrating the reporting tasks t
 I established a baseline of the number of tasks sending files to the existing LPI CDN location and used this as a validation metric when configuring the new server. I then compared the results after the change to ensure that the expected tasks continued to run and that the correct files were being generated and transferred. Investigating discrepancies/issues via comparing list sent from LPI and there was 2 reports not accounted for - two turned out to be old reports that have been made redundant (raised to manager and this got added as a later cleanup task for team )
 
 
-## Assessment KSBS
+## Professional Discussion KSBS
+
+
+#### S19 Identify and escalate risks with suggested mitigation/resolutions as appropriate.
+
+During the LPI server migration, the LPI engineer initially proposed testing against their Production environment. I reviewed the proposed setup and identified that, because of the domain and access requirements, this would mean our Production server would effectively be involved in the testing. I considered this an unnecessary operational risk because we were testing a new configuration that hadn't yet been fully validated. I raised this concern with the relevant stakeholders and pushed back on using Production for the initial testing. I proposed that a Pre-Production environment should be made available instead. This provided a controlled environment where we could validate the new LPI location and file transfers before making changes to the Production tasks. Once the testing was successful, we could then proceed with the Production migration with much lower risk. 
+
+The risk was that an incorrectly configured task or file destination could affect live reporting/file transfers, and because the new configuration had not been validated, troubleshooting it directly in Production could cause disruption. Also harder to debug on production due to more operational tasks and therefore would also create an incident involving more operational support. 
+
+
 
 
 
