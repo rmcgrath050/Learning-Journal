@@ -133,3 +133,5 @@ For example, if a customer churn model is retrained with incomplete transaction 
 - Using A/B testing to compare new and old models before committing to full deployment
 - Documenting every model’s purpose, assumptions, and known limitations for future teams
 - Building governance processes to ensure compliance with evolving regulations
+
+In regulated industries like finance or healthcare, governance isn’t optional. Audit trails, explainability, and reproducibility must be built into the lifecycle from the start.
