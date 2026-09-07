@@ -66,3 +66,70 @@ Goal is to streamline the development-to-deployment process in machine learning 
 
 Without experiment tracking or a model registry, teams lose visibility into how a model was created - making it hard to debug or revert changes confidently! 
 
+## L3: Deploying machine learning models
+
+Before a model can be deployed, it must be prepared to run outside its original development environment. This process, called packaging, makes sure the model can operate reliably on different machines and platforms.
+
+For more complex systems, it often involves placing the model inside a container - for example, with Docker - along with all its dependencies. Benefits of containerisation include:
+
+- Consistency between development, testing, and production environments
+- Portability across cloud providers and local servers
+- Isolation from other system processes, reducing conflicts
+
+#### Different deployment strategies
+
+- Embedded deployment – the model is shipped within an application, ideal for offline or mobile environments.
+- Model-as-a-Service – the model is hosted remotely and accessed through an API, allowing frequent updates without changing the        application itself.
+- Blue-green deployments – two identical environments are maintained; one is live, one is idle. New models are deployed to the idle     environment and swapped in only when validated.
+- Canary releases – a new model is given to a small percentage of users first, so its performance can be monitored before a wider       rollout
+
+The infrastructure you choose directly affects a model’s performance, scalability, and cost. Small-scale applications might work well on a single server or virtual machine. For high-traffic scenarios, orchestration systems like Kubernetes allow for scaling up resources automatically, balancing workloads, and providing resilience if something fails. Cloud providers also offer managed services such as AWS SageMaker, Azure Machine Learning, and Google Vertex AI, which take care of much of the operational complexity - ideal for teams who want to focus on models rather than infrastructure management. Could maybe use this for project using kubernetes!
+
+A good deployment process includes the ability to roll back to previous versions, retrain models when performance drops, and monitor their behaviour continuously. Treat deployment as a living process, not a single event.
+
+## L4 Monitoring and maintaining models in production
+
+When models first go into production, they’re optimised for a specific dataset and context. But production environments are dynamic. The inputs, user base, and business objectives may evolve. Without a monitoring plan, these changes can degrade the model’s predictions - sometimes subtly, sometimes drastically. Model monitoring ensures that you can detect issues early and take corrective action before they impact business outcomes. It turns deployment from a “fire and forget” process into a cycle of observation, evaluation, and improvement.
+
+
+- Model performance - tracking accuracy, precision, recall, or other relevant KPIs over time.
+- Data drift - identifying when the characteristics of incoming data deviate from the training data.
+- Prediction distribution - watching for changes in the spread or frequency of certain predictions that might indicate a bias or imbalance.
+- Latency and throughput - ensuring the model is serving predictions within required timeframes
+
+Data drift is one of the most common causes of performance degradation. It occurs when the statistical properties of input data change over time. There are different types:
+- Covariate drift - when the distribution of input features changes.
+- Prior probability drift - when the relative frequency of labels changes.
+- Concept drift - when the relationship between inputs and outputs changes.
+
+Detection methods might include comparing statistical summaries of current data with the training data or using secondary models trained to recognise distribution changes. The goal is to trigger an alert when drift is significant enough to require retraining.
+
+### Responding to a model degrade:
+- Retraining - updating the model with new data to reflect the current environment.
+- Rollback - reverting to a previous, more reliable model version from the model registry.
+- Parameter tuning - making targeted adjustments without a full retrain
+
+## L5. Managing and evolving deployed models
+
+Once a model is running in production, the job is not simply to keep it alive; it’s to ensure it stays relevant, accurate, and aligned with business goals. Over time, the world changes - data evolves, user behaviour shifts, regulations are updated, and new business priorities emerge
+
+<br>
+Models are trained on historical data, but the real world doesn’t stand still. Over time, data drift and concept drift can erode performance. In some cases, retraining may be needed weekly or even daily; in others, updates may be less frequent but still essential. The right schedule depends on the business context, the volatility of your data, and the cost of retraining. Continuous training ensures that models:
+
+- Stay aligned with current data patterns
+- Adapt to new customer behaviour or market trends
+- Maintain performance on key business metrics
+
+High-quality retraining data is the foundation for accurate models. If the new data is noisy, biased, or inconsistent, retraining can make performance worse, not better. Best practices include:
+- Validating input data for completeness and accuracy before retraining
+- Using feature engineering pipelines that are consistent across training and production
+- Checking for changes in schema or data definitions that could break the model
+
+For example, if a customer churn model is retrained with incomplete transaction data due to an upstream system outage, it may learn the wrong patterns and degrade prediction accuracy.
+
+### Best Practices for Model deployment 
+***remember this for your DBT model!
+- Embedding monitoring, retraining, and versioning into standard operating procedures
+- Using A/B testing to compare new and old models before committing to full deployment
+- Documenting every model’s purpose, assumptions, and known limitations for future teams
+- Building governance processes to ensure compliance with evolving regulations
