@@ -27,4 +27,6 @@ Predictive
 Prescriptive
 "Based on the expected volume and current processing capacity, an additional processing window should be scheduled."
 
+“I designed a pipeline that ingests 500k daily transaction records into a SQL data store with a 20% reduction rate in duplicates. I will discuss how duplicate transactions and inconsistent formats were handled via SQL/ Python transformation layers. This met the SLA for near-real-time reporting. I evaluated a reporting  but discounted it due to unnecessary cost. From this I learned how to optimise batch ingestion and justify design trade-offs.”
+
 
