@@ -9,3 +9,8 @@ level 0, 1 , 2
 - level 2- automates HOW the pipeline is deployed
 
 - knight captial - look up case study 
+
+- Data drift - data drifting from expected 
+- Concept drift - outdated data
+- Example Insta cart March 2020 93% found rate metric
+- 
