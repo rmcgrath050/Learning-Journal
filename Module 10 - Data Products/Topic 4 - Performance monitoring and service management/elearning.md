@@ -9,10 +9,13 @@
 
 Start with the four “golden signals”: latency, traffic/throughput, errors, and saturation. For data engineering, add freshness (how old the most recent good data is), completeness (how much you received versus expected), schema health (drift or validation failures), and cost per successful outcome (for example, £ per million rows landed). Each signal should answer a user-facing question such as, “Will the dashboard have today’s data by 9am?” rather than a purely technical one like, “Is CPU above 70%?”
 
+<br>
 <img width="1820" height="1252" alt="image" src="https://github.com/user-attachments/assets/b123d390-796c-4e05-91a2-6574be2bea7f" />
 
 <br>
-##### SLIs, SLOs, SLAs - and the error budget that keeps you honest
+<br>
+
+### SLIs, SLOs, SLAs - and the error budget that keeps you honest
 
 - Service Level Agreements (SLAs) is the agreement you make with your clients or users. You can think of it as the external promise with consequences
 - Service Level Objectives (SLOs) are the objectives your team must hit to meet that agreement. They’re your internal target(s) (“p95 < 10 minutes, 99% of days”).
@@ -43,4 +46,48 @@ Connect metrics from your cloud monitor or Prometheus, and keep labels simple an
 eg ask rich about these type of metrics? 
 When it breaches the SLO threshold or burns error budget faster than your chosen window (e.g., >2% in 1h).
 - https://signoz.io/blog/kibana-vs-grafana/
-- 
+
+
+## L3: Lesson 3 - Analysing Performance Trends & Identifying Bottlenecks
+
+- Establish what “normal” looks like: To find the cause of an issue, begin with a baseline period when things were healthy. Best place to start is to capture p50 and p95 latency, error rate, and - if relevant - data freshness over that time
+
+
+•• explain this further
+- If latency rises and consumer lag grows while CPU is low, the constraint is probably upstream I/O or the source system, not compute
+- If lag grows and CPU/GC time saturate, compute is your bottleneck
+- If throughput is steady but queue wait increases, the queue is under-provisioned or a downstream limit is throttling you
+
+
+#### Types of bottleneck 
+
+<br>
+<img width="960" height="662" alt="image" src="https://github.com/user-attachments/assets/07ccfa17-a388-44c4-9ac2-dcf600857f1b" />
+
+For batch, focus on stage-level runtime and queue delay before the deadline (e.g., “fresh by 09:00”). For streaming, watch end-to-end latency and consumer lag together; short spikes in lag that self-heal may be harmless, but sustained lag plus rising service time points to a real limit.
+
+#### Test with small change
+
+- Doubling consumers without reducing lag suggests the bottleneck isn’t compute.
+- Reducing a heavy shuffle or adding a missing index that cuts p95 stage time is strong evidence of a compute constraint.
+- Raising warehouse concurrency that clears queue wait confirms a downstream limit
+
+
+Keep experiments safe (feature flags, reversible config, or canary workloads), and record the before/after with annotations so the learning is preserved for the next person on call
+
+## L4: Incident Response Essentials
+
+<br>
+<img width="802" height="760" alt="image" src="https://github.com/user-attachments/assets/455fb817-4d39-4c59-9fbd-d9199500eed8" />
+
+An incident is any unplanned event that degrades service or data quality for users or downstream teams. By declaring early, you can downgrade the severity later. It’s best to keep a short, unambiguous scale tied to impact and urgency. For example:
+
+<br>
+<img width="866" height="746" alt="image" src="https://github.com/user-attachments/assets/c45dde8d-55da-4a02-b531-ba59c71ce110" />
+
+<br>
+<br>
+<img width="812" height="646" alt="image" src="https://github.com/user-attachments/assets/cb749617-84a3-4a0f-8267-b6484d130a38" />
+<br>
+<br>
+<img width="1618" height="622" alt="image" src="https://github.com/user-attachments/assets/ece16071-d31e-410b-adfa-0b9e4c06b745" />
