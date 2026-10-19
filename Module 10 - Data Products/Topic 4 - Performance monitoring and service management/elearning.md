@@ -35,5 +35,12 @@ Batch favours runtime distribution, queue wait, and freshness at deadlines (e.g.
 
 ## L2 : Dashboards & Visualisation Tools
 
+Think of your system as a play. Metrics are the applause meter - numbers over time that tell you if the audience is happy (latency, error rate, freshness, lag). Logs are the script - what was said and where it went wrong (messages, exceptions, validation failures). Traces are the stage map - who moved where and which scene dragged (spans across services). When all three share the same identifiers and time window, you can follow the story cleanly from symptom to cause.
 
+<br>
+Connect metrics from your cloud monitor or Prometheus, and keep labels simple and stable - service, environment, region. High-detail identifiers (such as user IDs) belong in logs and traces, not in time-series labels, or your panels will become slow and noisy. Add variables for service and environment and use them in all panel queries and titles
+
+eg ask rich about these type of metrics? 
+When it breaches the SLO threshold or burns error budget faster than your chosen window (e.g., >2% in 1h).
+- https://signoz.io/blog/kibana-vs-grafana/
 - 
