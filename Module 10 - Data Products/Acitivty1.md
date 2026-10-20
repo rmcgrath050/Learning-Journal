@@ -1,3 +1,6 @@
+
+#### Task 1
+
 Financial Risk Reduction
 
 Business objective: Minimise credit risk in loan approvals and reduce the loan default rate by automating customer risk profiling during onboarding.
@@ -10,7 +13,22 @@ product features to support:
 * dashboard showing credit risk analysts a whole picture of key risk elements such as history of missed payments, defaults, DTI (debt to income) ratio and any recommended actions during the review
 * Income and Employment Verification – Analyse employment status, income level, and income stability to assess a customer’s ability to repay the loan.
 
+#### Task 2
+
 Step 1: Understand the matrix
 You need to plot each feature on a matrix using two questions:
 * Business Impact: How much will this feature help reduce loan defaults and improve lending decisions?  
 * Implementation Feasibility: How easy and realistic is it to build the feature with the time, budget, and data available?
+
+
+1. Which design choice had the most impact on scalability?
+The most impactful design choice was using a modular and automated data pipeline. This allows the system to process increasing amounts of customer data without redesigning the entire system. New features, such as AI-powered risk scoring, can also be added as the fintech startup grows
+
+3. What resilience strategy was most important for your pipeline?
+The most important strategy was error handling and automatic retries. If a data source becomes temporarily unavailable or a processing step fails, the pipeline can retry the operation instead of stopping completely. Data validation and monitoring also help identify errors and maintain data quality
+
+5. How did this review influence your design thinking?
+The review helped me understand the importance of balancing scalability, reliability, cost and implementation time. I realised that a good design should not only meet current business needs but also support future growth. I would prioritise essential features first, ensure the pipeline handles failures effectively, and design the system so that new features can be added easily
+
+
+#### Activity 3
