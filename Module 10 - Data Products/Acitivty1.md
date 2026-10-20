@@ -57,3 +57,22 @@ Scalability Features Included
 
 #### Activity 3
 
+
+
+<img width="1896" height="980" alt="image" src="https://github.com/user-attachments/assets/5556f53a-cc48-4340-a23c-fc70f7601bc3" />
+
+<br>
+<br>
+
+Potential compliance risks
+- Unauthorised disclosure: Personal data, such as names, addresses, emails or customer IDs, may be exposed through insecure databases, files or pipeline logs.
+- Insufficient encryption: Data may be stored or transmitted without appropriate encryption, increasing the risk of interception.
+- Excessive data collection: Pipelines may collect more personal data than necessary for the intended business purpose, conflicting with the UK GDPR data minimisation principle.
+- Third party processing risks: Cloud providers or external services may process personal data without appropriate contractual safeguards
+
+How to handle the risks and what stage of pipeline? 
+- Use TLS for data transfers between sources, ingestion services, processing engines and storage.
+- Enable encryption at rest for databases, data lakes, temporary storage and backups.
+- Store encryption keys in a managed key management service and restrict who can administer or use them.
+- nonymisation or pseudonymisation of PII data
+
