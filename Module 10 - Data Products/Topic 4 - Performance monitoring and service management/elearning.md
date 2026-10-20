@@ -91,3 +91,14 @@ An incident is any unplanned event that degrades service or data quality for use
 <br>
 <br>
 <img width="1618" height="622" alt="image" src="https://github.com/user-attachments/assets/ece16071-d31e-410b-adfa-0b9e4c06b745" />
+
+<br>
+
+Which behaviours reduce stress and shorten incidents?
+- Using a single incident channel/ticket as the source of truth
+- Time-boxing experiments and making explicit “stop/continue” calls
+- Linking updates to evidence (dashboards, logs, playbooks)
+
+## L5 : Lesson 5 - Playbooks, Alerting & Real-Time Monitoring
+
+
