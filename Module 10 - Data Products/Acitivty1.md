@@ -31,4 +31,29 @@ The most important strategy was error handling and automatic retries. If a data 
 The review helped me understand the importance of balancing scalability, reliability, cost and implementation time. I realised that a good design should not only meet current business needs but also support future growth. I would prioritise essential features first, ensure the pipeline handles failures effectively, and design the system so that new features can be added easily
 
 
+Template 1: Architecture Design Canvas
+Instructions: Use this template to sketch your scalable data pipeline. You may recreate
+this layout on a whiteboard or use a digital canvas.
+Pipeline Layers
+1. Data Ingestion Layer
+a. Sources (e.g., APIs, databases, sensors):
+b. Batch or streaming:
+2. Processing Layer
+a. ETL tools / frameworks:
+b. Is distributed processing applied? (Yes/No):
+c. Real-time or scheduled jobs:
+3. Storage Layer
+a. Type (e.g., data lake, warehouse, NoSQL):
+b. Partitioning or indexing strategies:
+4. Delivery Layer
+a. Access method (e.g., dashboards, APIs):
+b. Frequency of updates:
+Scalability Features Included
+ Load balancing
+ Caching
+ Horizontal scaling
+ Distributed processing
+
+
 #### Activity 3
+
