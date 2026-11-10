@@ -48,6 +48,8 @@ The recommended structure of a simple PIR report is as follows:
 6. Lessons Learned
 7. Recommendations for Future Projects
 
+<br>
+<img width="1556" height="1036" alt="image" src="https://github.com/user-attachments/assets/c09abb4a-1564-4962-9e77-97abd8c0eaa3" />
 
 
 
