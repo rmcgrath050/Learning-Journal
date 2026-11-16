@@ -52,4 +52,16 @@ The recommended structure of a simple PIR report is as follows:
 <img width="1556" height="1036" alt="image" src="https://github.com/user-attachments/assets/c09abb4a-1564-4962-9e77-97abd8c0eaa3" />
 
 
+## L3: Why analysing performance and business impact matters
+
+<br>
+<img width="1844" height="788" alt="image" src="https://github.com/user-attachments/assets/be0fb516-741e-4ac4-846d-eeb08c0cdefb" />
+
+<br>
+** Could mention for my project about FCA and historial reporting present if required 
+** grab user satifiscation feedback! 
+** time dropped by creating the report reduced to 50% - maybe ask Tom how long this report would have taken roguhly. eg Time taken to generate customer reports dropped by 50%.
+
+
+## L4: Managing innovation and staying ahead
 
