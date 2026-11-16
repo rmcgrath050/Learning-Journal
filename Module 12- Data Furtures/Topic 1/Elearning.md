@@ -83,4 +83,32 @@ A data engineering team is tasked with improving data pipeline efficiency. Inste
 - Share lessons learned — successful or no
 
 
+## L5: Planning and managing innovation projects
+
+innovation projects have:
+- higher uncertainty and risk
+- Change direction based on discoveries
+- Require rapid testing, feedback, and iteration
+
+** project - could mention due to resource constraints (time and money) had to move on to another use case for GDW exit 
+
+
+<img width="1712" height="1174" alt="image" src="https://github.com/user-attachments/assets/342f4fca-bb66-4c5b-85db-5b7c45b90e67" />
+
+<br>
+
+## L6: Exploring future trends and technological advancements
+
+<br>
+
+places to explore include:
+- Gartner's "Hype Cycle for Emerging Technologies"
+- Read Wired, MIT Technology Review, TechCrunch
+- DataTalksClub, r/dataengineering, Stack Overflow
+- AWS re:Invent, Data Innovation Summit
+- Thought leaders like Zhamak Dehghani (Data Mesh)
+
+
+<img width="1754" height="1216" alt="image" src="https://github.com/user-attachments/assets/f883ce5d-cb7c-40d7-86e6-270200b9d9c9" />
+
 
