@@ -65,3 +65,22 @@ The recommended structure of a simple PIR report is as follows:
 
 ## L4: Managing innovation and staying ahead
 
+Barriers to innovation include:
+- Fear of failure: Team members hesitate to suggest new ideas
+- Rigid processes: Bureaucracy prevents experimentation
+- Short-term focus: Only immediate deliverables are valued
+- Lack of investment
+- Training, tools, and time for innovation are missing
+- Leadership resistance
+- Senior management discourages risk-taking
+
+<br>
+<img width="1750" height="1210" alt="image" src="https://github.com/user-attachments/assets/7915b16c-a159-4a49-a17d-de5638aef571" />
+
+A data engineering team is tasked with improving data pipeline efficiency. Instead of sticking only to known solutions, management encourages the team to:
+- Trial a new orchestration tool (like Apache Airflow)
+- Run a "hackathon" to brainstorm improvements
+- Share lessons learned — successful or no
+
+
+
