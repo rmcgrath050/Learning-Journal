@@ -15,5 +15,7 @@
  - Ruff is a phyton library that gives u an idea of code complexity measurement! 
 
 
-#### Fixing
+### Fixing
+
+<img width="1968" height="1018" alt="image" src="https://github.com/user-attachments/assets/45df0237-9f94-4000-808f-9b1a990f8c8c" />
 
