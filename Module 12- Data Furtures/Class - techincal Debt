@@ -1,1 +1,6 @@
+## Technical debt
 
+- Infrastucture and Architecture debt - can link to GCP migratio
+- replaces aging hardware - on prem move to GCP GKE, elimates debt of slow old or failing physical machines
+- lift and shift vrs harder long term rearchitecture 
+- debt can be measured in numeric or descriptive metrics
