@@ -4,3 +4,4 @@
 - python libraries 
 - reference your own work! 
 - if in doubt reference - particuarlly with quotes!
+- el al (others) in the main doc itself put this in! 
