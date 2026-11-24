@@ -19,3 +19,12 @@
 
 <img width="1968" height="1018" alt="image" src="https://github.com/user-attachments/assets/45df0237-9f94-4000-808f-9b1a990f8c8c" />
 
+<br>
+
+### Software principles
+
+<img width="2008" height="1014" alt="image" src="https://github.com/user-attachments/assets/369e3db3-749b-43dd-bdb2-14449e96a3a8" />
+
+
+- tools for monitoring : github action, Prometheus,  grafana
+- 
