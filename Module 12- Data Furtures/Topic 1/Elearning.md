@@ -111,4 +111,23 @@ places to explore include:
 
 <img width="1754" height="1216" alt="image" src="https://github.com/user-attachments/assets/f883ce5d-cb7c-40d7-86e6-270200b9d9c9" />
 
+<br>
+
+<img width="1670" height="816" alt="image" src="https://github.com/user-attachments/assets/3907ae1f-7806-428f-96b0-b31fd369182c" />
+
+
+Explore legal, privacy, and ethical developments as well as technologies!! - Important for me ** Project lookups
+
+## L7: Summary
+
+- Success must be measured — Use performance, cost, user, quality, and business impact metrics to evaluate technology outcomes.
+- Post-implementation reviews (PIRs) are essential for learning from experience and improving future projects.
+- Innovation requires structure — Agile, design thinking, and lean startup methods help manage uncertainty and drive progress.
+- Common innovation challenges include fear of failure, resource constraints, and resistance to change—each with proven strategies to overcome.
+- Exploring future trends is a professional skill—use reports, communities, and expert insights to stay ahead.
+- Not all trends are equal — Evaluate emerging technologies critically to avoid hype and focus on what truly matters to your role.
+- A culture of innovation depends on leadership, psychological safety, and investment in learning
+
+
+
 
